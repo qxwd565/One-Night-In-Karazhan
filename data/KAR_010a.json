@@ -1,1 +1,21 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_010a","dbfId":39692,"name":"새끼용","type":"MINION","cardClass":"PALADIN","rarity":null,"collectible":false,"cost":1,"text":"","attack":1,"health":1,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS8-076_D.psd:89b988bd97a22af478ab6fbb41aa20c0","set":"KARA","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":5},{"id":200,"name":"종족","value":24},{"id":202,"name":"카드 유형","value":4},{"id":2355,"name":"WHELP","value":1}],"races":["DRAGON"],"race":"용족","classes":[],"art":"art/KAR_010a.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-076_D.psd:89b988bd97a22af478ab6fbb41aa20c0","goldenMaterial":"KAR_010a_PremiumCard.mat:8d1f9088ab53ad1459759637d901280a","goldenAnimation":""}}
+{
+  "2016-08-26": {
+    "id": "KAR_010a",
+    "dbfId": 39692,
+    "name": "새끼용",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "classes": [],
+    "rarity": null,
+    "collectible": false,
+    "cost": 1,
+    "text": "",
+    "attack": 1,
+    "health": 1,
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "mechanics": []
+  }
+}

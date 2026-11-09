@@ -1,1 +1,17 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_094a","dbfId":39821,"name":"날카로운 포크","type":"WEAPON","cardClass":"ROGUE","rarity":null,"collectible":false,"cost":3,"text":"","attack":3,"health":2,"durability":2,"armor":0,"flavor":"","spellSchool":"","portrait":"HS8-099_W.psd:fec2af28ed2001b49b250effbdc95b84","set":"KARA","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":7},{"id":202,"name":"카드 유형","value":7}],"races":[],"race":"","classes":[],"art":"art/KAR_094a.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-099_W.psd:fec2af28ed2001b49b250effbdc95b84","goldenMaterial":"KAR_094a_PremiumCard.mat:0ef4a34d51f261c4ca7db6e7681adb1f","goldenAnimation":""}}
+{
+  "2016-08-12": {
+    "id": "KAR_094a",
+    "dbfId": 39821,
+    "name": "날카로운 포크",
+    "type": "WEAPON",
+    "cardClass": "ROGUE",
+    "classes": [],
+    "rarity": null,
+    "collectible": false,
+    "cost": 3,
+    "text": "",
+    "attack": 3,
+    "durability": 2,
+    "mechanics": []
+  }
+}

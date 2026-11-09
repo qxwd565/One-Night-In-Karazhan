@@ -1,1 +1,23 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_021","dbfId":39190,"name":"사악한 마녀","type":"MINION","cardClass":"SHAMAN","rarity":"COMMON","collectible":true,"cost":3,"text":"내가 주문을 시전할 때마다 무작위 기본 토템을 소환합니다.","attack":3,"health":4,"durability":0,"armor":0,"flavor":"피해를 4 주면 처치할 수 있습니다. 머리 위에 집채를 떨어뜨리는 것도 한 방법입니다.","spellSchool":"","portrait":"HS8-100_M.psd:e8bc968b7d3938c4ca15838a58addcd9","set":"KARA","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":8},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/KAR_021.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-100_M.psd:e8bc968b7d3938c4ca15838a58addcd9","goldenMaterial":"KAR_021_PremiumCard.mat:067ac965816e605449df72a578d448f2","goldenAnimation":""}}
+{
+  "2016-08-19": {
+    "id": "KAR_021",
+    "dbfId": 39190,
+    "name": "사악한 마녀",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "classes": [],
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "내가 주문을 시전할 때마다 무작위 기본 토템을 하나 소환합니다.",
+    "attack": 3,
+    "health": 4,
+    "mechanics": []
+  },
+  "2018-10-03": {
+    "text": "내가 주문을 시전할 때마다 무작위 기본 토템을 소환합니다."
+  },
+  "2023-08-23": {
+    "cost": 3
+  }
+}

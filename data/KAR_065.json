@@ -1,1 +1,30 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_065","dbfId":39696,"name":"박물관 감시자","type":"MINION","cardClass":"DRUID","rarity":"COMMON","collectible":true,"cost":5,"text":"<b>전투의 함성:</b> 아군 야수를 선택합니다. 그 야수를 복사하여 소환합니다.","attack":5,"health":4,"durability":0,"armor":0,"flavor":"제발 허락해 주세요! 제가 <i>매일</i>마다 우리도 청소해주고 밥도 잘 줄게요!","spellSchool":"","portrait":"HS8-084_M.psd:84678e0011c622248a07f86bc5533997","set":"KARA","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":5},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/KAR_065.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-084_M.psd:84678e0011c622248a07f86bc5533997","goldenMaterial":"KAR_065_PremiumCard.mat:f6b600d92b388704fa22d68f43f36a2b","goldenAnimation":""}}
+{
+  "2016-08-26": {
+    "id": "KAR_065",
+    "dbfId": 39696,
+    "name": "박물관 감시자",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "classes": [],
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>전투의 함성:</b> 아군 야수 1마리를 선택합니다. 그 야수를 복사하여 소환합니다.",
+    "attack": 5,
+    "health": 5,
+    "mechanics": [
+      "BATTLECRY"
+    ]
+  },
+  "2018-10-03": {
+    "text": "<b>전투의 함성:</b> 아군 야수를 선택합니다. 그 야수를 복사하여 소환합니다."
+  },
+  "2021-03-26": {
+    "cost": 5,
+    "attack": 4,
+    "health": 4
+  },
+  "2023-08-23": {
+    "attack": 5
+  }
+}

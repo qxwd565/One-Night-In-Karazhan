@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_710m","dbfId":39308,"name":"살아 움직이는 방패","type":"MINION","cardClass":"NEUTRAL","rarity":null,"collectible":false,"cost":2,"text":"<b>도발</b>","attack":0,"health":5,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS8-031_D.psd:8eec06669159e50458d67408c85d72c0","set":"KARA","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":48,"name":"마나 비용","value":2},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4}],"races":[],"race":"","classes":[],"art":"art/KAR_710m.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-031_D.psd:8eec06669159e50458d67408c85d72c0","goldenMaterial":"KAR_710m_PremiumCard.mat:2d2c1f4c613947346bb113da9405e907","goldenAnimation":""}}
+{
+  "2016-08-12": {
+    "id": "KAR_710m",
+    "dbfId": 39308,
+    "name": "살아 움직이는 방패",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "rarity": null,
+    "collectible": false,
+    "cost": 2,
+    "text": "<b>도발</b>",
+    "attack": 0,
+    "health": 5,
+    "mechanics": [
+      "TAUNT"
+    ]
+  }
+}

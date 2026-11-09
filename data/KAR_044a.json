@@ -1,1 +1,17 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_044a","dbfId":39232,"name":"급사","type":"MINION","cardClass":"NEUTRAL","rarity":null,"collectible":false,"cost":1,"text":"","attack":1,"health":1,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS8-121_M.psd:1ed0e3c99fc69b746bb0ce837be31d84","set":"KARA","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":12},{"id":201,"name":"진영","value":3},{"id":202,"name":"카드 유형","value":4},{"id":251,"name":"게임 태그 251","value":7}],"races":[],"race":"","classes":[],"art":"art/KAR_044a.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-121_M.psd:1ed0e3c99fc69b746bb0ce837be31d84","goldenMaterial":"KAR_044a_PremiumCard.mat:541ee1a346242de448cca250b35e43fc","goldenAnimation":""}}
+{
+  "2016-08-12": {
+    "id": "KAR_044a",
+    "dbfId": 39232,
+    "name": "급사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "rarity": null,
+    "collectible": false,
+    "cost": 1,
+    "text": "",
+    "attack": 1,
+    "health": 1,
+    "mechanics": []
+  }
+}

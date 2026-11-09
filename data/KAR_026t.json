@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_026t","dbfId":40501,"name":"폰","type":"MINION","cardClass":"WARRIOR","rarity":null,"collectible":false,"cost":1,"text":"<b>도발</b>","attack":1,"health":1,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS8-056A_M.psd:37b1fd0dc45723b4fbd020f5ccfd2a45","set":"KARA","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":10},{"id":202,"name":"카드 유형","value":4}],"races":[],"race":"","classes":[],"art":"art/KAR_026t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-056A_M.psd:37b1fd0dc45723b4fbd020f5ccfd2a45","goldenMaterial":"KAR_A10_02_PremiumCard.mat:51694779eb3f85448ba578fa76a10ac1","goldenAnimation":""}}
+{
+  "2016-08-12": {
+    "id": "KAR_026t",
+    "dbfId": 40501,
+    "name": "폰",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "classes": [],
+    "rarity": null,
+    "collectible": false,
+    "cost": 1,
+    "text": "<b>도발</b>",
+    "attack": 1,
+    "health": 1,
+    "mechanics": [
+      "TAUNT"
+    ]
+  }
+}

@@ -1,0 +1,727 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "policy": "First18 launch-day entities are verified. Later39 wing dates are known usability upper bounds, not proof that earlier generation was impossible. Estimated pre-date lookup retains compatibility fallback; no global strict gating.",
+  "cards": {
+    "KAR_004": {
+      "date": "2016-08-26",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "박물관",
+      "originalIdEvidence": "KAR_004",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_004a": {
+      "date": "2016-08-26",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "박물관",
+      "originalIdEvidence": "KAR_004",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_005": {
+      "date": "2016-08-19",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "오페라",
+      "originalIdEvidence": "KAR_005",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_005a": {
+      "date": "2016-08-19",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "오페라",
+      "originalIdEvidence": "KAR_005",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_006": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_006",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_009": {
+      "date": "2016-08-26",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "박물관",
+      "originalIdEvidence": "KAR_009",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_010": {
+      "date": "2016-08-26",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "박물관",
+      "originalIdEvidence": "KAR_010",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_010a": {
+      "date": "2016-08-26",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "박물관",
+      "originalIdEvidence": "KAR_010",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_011": {
+      "date": "2016-08-19",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "오페라",
+      "originalIdEvidence": "KAR_011",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_013": {
+      "date": "2016-08-26",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "박물관",
+      "originalIdEvidence": "KAR_013",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_021": {
+      "date": "2016-08-19",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "오페라",
+      "originalIdEvidence": "KAR_021",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_025": {
+      "date": "2016-08-19",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "오페라",
+      "originalIdEvidence": "KAR_025",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_025a": {
+      "date": "2016-08-19",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "오페라",
+      "originalIdEvidence": "KAR_025",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_025b": {
+      "date": "2016-08-19",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "오페라",
+      "originalIdEvidence": "KAR_025",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_025c": {
+      "date": "2016-08-19",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "오페라",
+      "originalIdEvidence": "KAR_025",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_026": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_026",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_026t": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_026",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_028": {
+      "date": "2016-08-26",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "박물관",
+      "originalIdEvidence": "KAR_028",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_029": {
+      "date": "2016-08-26",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "박물관",
+      "originalIdEvidence": "KAR_029",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_030": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_030a",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_030a": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_030a",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_033": {
+      "date": "2016-09-02",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "첨탑",
+      "originalIdEvidence": "KAR_033",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs"
+      ]
+    },
+    "KAR_035": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_035",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_036": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_036",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_037": {
+      "date": "2016-08-26",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "박물관",
+      "originalIdEvidence": "KAR_037",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_041": {
+      "date": "2016-08-19",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "오페라",
+      "originalIdEvidence": "KAR_041",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_044": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_044",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_044a": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_044",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_057": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_057",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_061": {
+      "date": "2016-08-26",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "박물관",
+      "originalIdEvidence": "KAR_061",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_062": {
+      "date": "2016-09-02",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "첨탑",
+      "originalIdEvidence": "KAR_062",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs"
+      ]
+    },
+    "KAR_063": {
+      "date": "2016-09-02",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "첨탑",
+      "originalIdEvidence": "KAR_063",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs"
+      ]
+    },
+    "KAR_065": {
+      "date": "2016-08-26",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "박물관",
+      "originalIdEvidence": "KAR_065",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_069": {
+      "date": "2016-08-19",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "오페라",
+      "originalIdEvidence": "KAR_069",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_070": {
+      "date": "2016-09-02",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "첨탑",
+      "originalIdEvidence": "KAR_070",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs"
+      ]
+    },
+    "KAR_073": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_073",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_075": {
+      "date": "2016-09-02",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "첨탑",
+      "originalIdEvidence": "KAR_075",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs"
+      ]
+    },
+    "KAR_076": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "프롤로그",
+      "originalIdEvidence": "KAR_076",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 프롤로그에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_077": {
+      "date": "2016-08-19",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "오페라",
+      "originalIdEvidence": "KAR_077",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_089": {
+      "date": "2016-09-02",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "첨탑",
+      "originalIdEvidence": "KAR_089",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs"
+      ]
+    },
+    "KAR_091": {
+      "date": "2016-09-02",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "첨탑",
+      "originalIdEvidence": "KAR_091",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs"
+      ]
+    },
+    "KAR_092": {
+      "date": "2016-09-02",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "첨탑",
+      "originalIdEvidence": "KAR_092",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs"
+      ]
+    },
+    "KAR_094": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_094",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_094a": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_094",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_095": {
+      "date": "2016-08-26",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "박물관",
+      "originalIdEvidence": "KAR_095",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_096": {
+      "date": "2016-09-02",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "첨탑",
+      "originalIdEvidence": "KAR_096",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs"
+      ]
+    },
+    "KAR_097": {
+      "date": "2016-09-02",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "첨탑",
+      "originalIdEvidence": "KAR_097",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs"
+      ]
+    },
+    "KAR_097t": {
+      "date": "2016-09-02",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "첨탑",
+      "originalIdEvidence": "KAR_097",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs"
+      ]
+    },
+    "KAR_114": {
+      "date": "2016-08-19",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "오페라",
+      "originalIdEvidence": "KAR_114",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_204": {
+      "date": "2016-08-19",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "오페라",
+      "originalIdEvidence": "KAR_204",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_205": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_205",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_300": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "프롤로그",
+      "originalIdEvidence": "KAR_300",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 프롤로그에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_702": {
+      "date": "2016-08-26",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "박물관",
+      "originalIdEvidence": "KAR_702",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_710": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_710",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_710m": {
+      "date": "2016-08-12",
+      "status": "verified",
+      "meaning": "First ordinary-match availability on Korean launch day.",
+      "wing": "객실",
+      "originalIdEvidence": "KAR_710",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+        "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+        "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+      ]
+    },
+    "KAR_711": {
+      "date": "2016-08-19",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "오페라",
+      "originalIdEvidence": "KAR_711",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+      ]
+    },
+    "KAR_712": {
+      "date": "2016-09-02",
+      "status": "estimated",
+      "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+      "wing": "첨탑",
+      "originalIdEvidence": "KAR_712",
+      "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+      "dateSources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs"
+      ]
+    }
+  }
+}

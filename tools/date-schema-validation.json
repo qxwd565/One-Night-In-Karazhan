@@ -1,0 +1,18 @@
+{
+  "result": "pass",
+  "cards": 57,
+  "preciseGlobalDateCases": 4047,
+  "dates": 71,
+  "sparseEvents": 80,
+  "originalSourceDocuments": 57,
+  "qualifiedBaselines": 57,
+  "unresolvedEffectiveDateObservations": 0,
+  "qualifiedNoncollectibleRarity": 12,
+  "currentTypes": {
+    "SPELL": 9,
+    "MINION": 44,
+    "WEAPON": 4
+  },
+  "archivedBuilds": 234,
+  "archivedCardObservations": 13338
+}

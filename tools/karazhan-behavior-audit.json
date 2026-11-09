@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "scope": "Scoped functional engine changes with unchanged printed specs. Evidence records, not executable canonical fields. General-rule applicability and live-rollout uncertainty remain explicit.",
+  "events": [
+    {
+      "id": "KAR_712",
+      "dbfId": 39313,
+      "nameKo": "보랏빛 환영술사",
+      "nameEn": "Violet Illusionist",
+      "effectiveKoreanDay": "2017-04-05",
+      "patch": "8.0",
+      "description": "Immune heroes can play health-cost cards even when that cost is above current health. Applies to Violet Illusionist immunity through the general rule.",
+      "sourceIds": [
+        "p80"
+      ],
+      "classification": "functional_rule_or_bugfix_separate_from_card_specs",
+      "confidence": "high general rule; exact card application inferred from its original immunity text",
+      "limits": "No first-match raw game log or replay was inspected."
+    },
+    {
+      "id": "KAR_070",
+      "dbfId": 39700,
+      "nameKo": "에테리얼 행상인",
+      "nameEn": "Ethereal Peddler",
+      "effectiveKoreanDay": "2018-04-11",
+      "patch": "11.0",
+      "description": "Ethereal Peddler cost reduction no longer persists through cards replaced by Lilian Voss or Golden Kobold.",
+      "sourceIds": [
+        "p110"
+      ],
+      "classification": "functional_rule_or_bugfix_separate_from_card_specs",
+      "confidence": "high",
+      "limits": "No first-match raw game log or replay was inspected."
+    },
+    {
+      "id": "KAR_114",
+      "dbfId": 39941,
+      "nameKo": "반즈",
+      "nameEn": "Barnes",
+      "effectiveKoreanDay": "2018-08-03",
+      "patch": "12.0",
+      "description": "Deck-to-battlefield copied minions retain enchantments. Applies to Barnes copies under the general copying-rules update.",
+      "sourceIds": [
+        "copy_rules",
+        "p120"
+      ],
+      "classification": "functional_rule_or_bugfix_separate_from_card_specs",
+      "confidence": "high general rule; Barnes-specific effect corroborated by card history, no engine script inspected",
+      "limits": "No first-match raw game log or replay was inspected."
+    },
+    {
+      "id": "KAR_114",
+      "dbfId": 39941,
+      "nameKo": "반즈",
+      "nameEn": "Barnes",
+      "effectiveKoreanDay": "2019-08-02",
+      "patch": "15.0",
+      "description": "With Crystal Core active, Barnes now summons its specified 1/1 copy rather than a 4/4. Official patch explicitly uses Barnes as the example.",
+      "sourceIds": [
+        "p150"
+      ],
+      "classification": "functional_rule_or_bugfix_separate_from_card_specs",
+      "confidence": "high",
+      "limits": "No first-match raw game log or replay was inspected."
+    },
+    {
+      "id": "KAR_204",
+      "dbfId": 39374,
+      "nameKo": "칠흑색 비숍",
+      "nameEn": "Onyx Bishop",
+      "effectiveKoreanDay": "2019-08-02",
+      "patch": "15.0",
+      "description": "Onyx Bishop resurrects the minion to its own right, instead of at the far right end of the board.",
+      "sourceIds": [
+        "p150"
+      ],
+      "classification": "functional_rule_or_bugfix_separate_from_card_specs",
+      "confidence": "high",
+      "limits": "No first-match raw game log or replay was inspected."
+    },
+    {
+      "id": "KAR_712",
+      "dbfId": 39313,
+      "nameKo": "보랏빛 환영술사",
+      "nameEn": "Violet Illusionist",
+      "effectiveKoreanDay": "2023-04-05",
+      "patch": "26.0",
+      "description": "Health or Armor costs no longer count as damage; immunity does not prevent payment. Applies to Violet Illusionist through the general immunity rule.",
+      "sourceIds": [
+        "p260"
+      ],
+      "classification": "functional_rule_or_bugfix_separate_from_card_specs",
+      "confidence": "high general rule; exact card application inferred from its original immunity text",
+      "limits": "No first-match raw game log or replay was inspected."
+    },
+    {
+      "id": "KAR_041",
+      "dbfId": 39465,
+      "nameKo": "해자 잠복꾼",
+      "nameEn": "Moat Lurker",
+      "effectiveKoreanDay": "2023-07-29",
+      "patch": "27.0.1",
+      "description": "Fixed occasional re-summoning of the targeted minion on the wrong side of the board.",
+      "sourceIds": [
+        "moat_hotfix",
+        "moat_raw"
+      ],
+      "classification": "functional_rule_or_bugfix_separate_from_card_specs",
+      "confidence": "high official-announcement KST day; rollout completion not timestamped",
+      "limits": "First staff post says rolling out now. Creation 2023-07-28T 17:00:20.721Z=July 29 02:00:20 KST; edit 2023-07-28T 22:02:21.276Z=July 29 07:02:21 KST. This is active-rollout announcement day, not proof every server completed at that exact time."
+    }
+  ],
+  "sources": {
+    "p80": {
+      "url": "https://news.blizzard.com/ko-kr/article/20678265/4-5",
+      "relevantQuote": "하스스톤 업데이트 – 4월 5일",
+      "supports": "8.0 effective Korean day April 5. Also explicitly fixes immune heroes being unable to play health-cost cards above current health.",
+      "imagesInspected": false
+    },
+    "p110": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/21694420/update-11-0-april-10-enter-the-witchwood/",
+      "relevantQuote": "",
+      "supports": "Korean 11.0 patch day April 11; explicit Ethereal Peddler discount no longer persists through replaced cards.",
+      "imagesInspected": false
+    },
+    "p120": {
+      "url": "https://news.blizzard.com/ko-kr/article/21964710/12-0-8-3",
+      "relevantQuote": "",
+      "supports": "Korean 12.0 effective day and link to copying rules explainer.",
+      "imagesInspected": false
+    },
+    "copy_rules": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/21965466",
+      "relevantQuote": "",
+      "supports": "Deck-to-play copies retain enchantments under 12.0; announcement precedes live patch. Also keeps Kindly Grandmother and Big Bad Wolf as Beasts, and Curator as Mech.",
+      "imagesInspected": false
+    },
+    "p150": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/23076826",
+      "relevantQuote": "[[칠흑색 비숍]]이 전장 최우측이 아닌 자신의 우측에 하수인을 부활시킵니다.",
+      "supports": "Title August 2 gives 15.0 Korean day. Also explicitly changes Barnes copies under Crystal Core from 4/4 to 1/1.",
+      "imagesInspected": false
+    },
+    "p260": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/23934449/26-0-patch-notes",
+      "relevantQuote": "플레이어가 면역 상태이거나 천상의 보호막이 부여되어 있어도 생명력을 비용으로 내야 합니다.",
+      "supports": "26.0 Korean day April 5; adjusted Core cards change with patch, roster rotation April 12. Explicit health-cost versus immunity general rule.",
+      "imagesInspected": false
+    },
+    "moat_hotfix": {
+      "url": "https://us.forums.blizzard.com/en/hearthstone/t/2701-patch-notes/110763",
+      "relevantQuote": "a server-side hotfix rolling out now",
+      "supports": "27.0.1 explicitly fixes Moat Lurker re-summoning the targeted minion on wrong board side. The text announces active rollout, not a future plan.",
+      "imagesInspected": false
+    },
+    "moat_raw": {
+      "url": "https://us.forums.blizzard.com/en/hearthstone/t/2701-patch-notes/110763.json",
+      "relevantQuote": "",
+      "supports": "Raw metadata inspected: staff first post created 2023-07-28T 17:00:20.721Z, updated 2023-07-28T 22:02:21.276Z. Both convert to July 29 KST. No server completion telemetry.",
+      "imagesInspected": false
+    }
+  },
+  "unresolved": [
+    {
+      "id": "KAR_021",
+      "observation": "Potential basic-Totem generation pool changes in20.0 and29.0 were considered. Hero-power wording alone does not prove the exact original generator pool, so no new pool event is asserted."
+    },
+    {
+      "id": "KAR_041",
+      "observation": "A reported earlier2016 copy/deathrattle hotfix needs a contemporary exact-date source before inclusion; not resolved here."
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "KAR_204",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2016-08-19",
+    "status": "estimated",
+    "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+    "wing": "오페라",
+    "originalIdEvidence": "KAR_204",
+    "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+    "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+    "dateSources": [
+      "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+    ]
+  },
+  "availabilityScope": "Korean ordinary constructed-match use, including generated exact original entities. Preload, reveal and PvE do not count. Later-wing earliest-generation dates remain qualified.",
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "All57 original identities, initial numbers, Korean archive text and card types checked in launch archive. Noncollectible rarity, earlier-than-wing generation and unverified wording effective dates remain explicitly qualified.",
+  "sourceCommit": "537ecd58630a527af3dc2c8aef4badecd9d33972",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "KAR_204",
+      "dbfId": 39374,
+      "name": "칠흑색 비숍",
+      "type": "MINION",
+      "cardClass": "PRIEST",
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 4,
+      "text": "<b>전투의 함성:</b> 이번 게임에서 죽은 무작위 아군 하수인을 소환합니다.",
+      "attack": 3,
+      "health": 4,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "B4는 들르기엔 괜찮은 곳이지만 살 만한 곳은 못됩니다.",
+      "spellSchool": "",
+      "portrait": "HS8-095_M.psd:36d7c6f401d955149a1f5bd7f9bc0391",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/KAR_204.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS8-095_M.psd:36d7c6f401d955149a1f5bd7f9bc0391",
+      "goldenMaterial": "KAR_204_PremiumCard.mat:b3ef267624bcd1c4aaac8f72728890f0",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "KAR_204",
+    "dbfId": 39374,
+    "name": "칠흑색 비숍",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성:</b> 이번 게임에서 죽은 무작위 아군 하수인을 소환합니다.",
+    "attack": 3,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "B4는 들르기엔 괜찮은 곳이지만 살 만한 곳은 못됩니다.",
+    "spellSchool": "",
+    "portrait": "HS8-095_M.psd:36d7c6f401d955149a1f5bd7f9bc0391",
+    "set": "KARA",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/KAR_204.png"
+  },
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "historicalEvidence": [
+    {
+      "date": "2016-08-19",
+      "build": "6.0.0.13921",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "fields": [
+        "attack",
+        "cardClass",
+        "classes",
+        "collectible",
+        "cost",
+        "dbfId",
+        "health",
+        "id",
+        "mechanics",
+        "name",
+        "rarity",
+        "text",
+        "type"
+      ],
+      "availabilityStatus": "estimated"
+    },
+    {
+      "date": "2018-04-11",
+      "build": "11.0.0.23966",
+      "source": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "dateSource": [
+        "https://hearthstone.blizzard.com/ko-kr/news/21694420/update-11-0-april-10-enter-the-witchwood/"
+      ],
+      "fields": [
+        "text"
+      ],
+      "kind": "keyword_wording",
+      "dateConfidence": "high"
+    },
+    {
+      "date": "2018-10-03",
+      "build": "26757",
+      "source": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "dateSource": [
+        "https://hearthstone.blizzard.com/ko-kr/news/22546493"
+      ],
+      "fields": [
+        "text"
+      ],
+      "kind": "wording",
+      "dateConfidence": "high"
+    },
+    {
+      "date": "2023-08-23",
+      "build": "27.2.0.183876",
+      "source": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "dateSource": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23987537"
+      ],
+      "fields": [
+        "cost",
+        "text"
+      ],
+      "kind": "balance_cohort",
+      "dateConfidence": "high"
+    }
+  ],
+  "undatedEvidence": [],
+  "keywordAbilityEvidence": {
+    "source": "tools/karazhan-ability-policy.json"
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "BATTLECRY"
+    ]
+  },
+  "behaviorEvidence": "tools/karazhan-behavior-audit.json",
+  "sourceHistory": "tools/original-date-first-history.json"
+}

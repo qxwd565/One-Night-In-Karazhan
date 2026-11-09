@@ -1,0 +1,203 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "KAR_025",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2016-08-19",
+    "status": "estimated",
+    "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+    "wing": "오페라",
+    "originalIdEvidence": "KAR_025",
+    "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+    "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+    "dateSources": [
+      "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs"
+    ]
+  },
+  "availabilityScope": "Korean ordinary constructed-match use, including generated exact original entities. Preload, reveal and PvE do not count. Later-wing earliest-generation dates remain qualified.",
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "All57 original identities, initial numbers, Korean archive text and card types checked in launch archive. Noncollectible rarity, earlier-than-wing generation and unverified wording effective dates remain explicitly qualified.",
+  "sourceCommit": "537ecd58630a527af3dc2c8aef4badecd9d33972",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "KAR_025",
+      "dbfId": 39197,
+      "name": "카라 카잠!",
+      "type": "SPELL",
+      "cardClass": "WARLOCK",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 5,
+      "text": "[x]1/1 양초, 2/2 빗자루,\n3/3 찻주전자를\n소환합니다.",
+      "attack": 0,
+      "health": 0,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "카드가에게 식사 준비를 하라고 시키면 이렇게 된답니다.",
+      "spellSchool": "",
+      "portrait": "HS8-104_S.psd:2affefd6db80af44f8058746f7dc2258",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/KAR_025.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS8-104_S.psd:2affefd6db80af44f8058746f7dc2258",
+      "goldenMaterial": "KAR_025_PremiumCard.mat:5c1c721d370ceb84f81055f0f86f2dbb",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "KAR_025",
+    "dbfId": 39197,
+    "name": "카라 카잠!",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 5,
+    "text": "[x]1/1 양초, 2/2 빗자루,\n3/3 찻주전자를\n소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "카드가에게 식사 준비를 하라고 시키면 이렇게 된답니다.",
+    "spellSchool": "",
+    "portrait": "HS8-104_S.psd:2affefd6db80af44f8058746f7dc2258",
+    "set": "KARA",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/KAR_025.png"
+  },
+  "canonicalFields": [
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "attack",
+    "durability",
+    "flavor",
+    "health",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "historicalEvidence": [
+    {
+      "date": "2016-08-19",
+      "build": "6.0.0.13921",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "fields": [
+        "cardClass",
+        "classes",
+        "collectible",
+        "cost",
+        "dbfId",
+        "id",
+        "mechanics",
+        "name",
+        "rarity",
+        "text",
+        "type"
+      ],
+      "availabilityStatus": "estimated"
+    },
+    {
+      "date": "2018-10-03",
+      "build": "26757",
+      "source": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "dateSource": [
+        "https://hearthstone.blizzard.com/ko-kr/news/22546493"
+      ],
+      "fields": [
+        "text"
+      ],
+      "kind": "wording",
+      "dateConfidence": "high"
+    }
+  ],
+  "undatedEvidence": [],
+  "keywordAbilityEvidence": {
+    "source": "tools/karazhan-ability-policy.json"
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": []
+  },
+  "behaviorEvidence": "tools/karazhan-behavior-audit.json",
+  "sourceHistory": "tools/original-date-first-history.json"
+}

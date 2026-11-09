@@ -1,1 +1,26 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_036","dbfId":39215,"name":"비전 변형물","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":1,"text":"내가 주문을 시전한 후에, 이 하수인이 생명력을 +1 얻습니다.","attack":2,"health":1,"durability":0,"armor":0,"flavor":"마나 지룡과 함께 마력을 나눠먹습니다.","spellSchool":"","portrait":"HS8-112_M.psd:311d36dd617bab540ab0ccbea76dc8ad","set":"KARA","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":18},{"id":201,"name":"진영","value":3},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":251,"name":"게임 태그 251","value":6},{"id":321,"name":"수집 가능","value":1}],"races":["ELEMENTAL"],"race":"정령","classes":[],"art":"art/KAR_036.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-112_M.psd:311d36dd617bab540ab0ccbea76dc8ad","goldenMaterial":"KAR_036_PremiumCard.mat:f22a403db1b71ab45a2f32be660cd437","goldenAnimation":""}}
+{
+  "2016-08-12": {
+    "id": "KAR_036",
+    "dbfId": 39215,
+    "name": "비전 변형물",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "내가 주문을 시전할 때마다 이 하수인이 생명력을 +1 얻습니다.",
+    "attack": 2,
+    "health": 1,
+    "mechanics": []
+  },
+  "2017-04-05": {
+    "races": [
+      "ELEMENTAL"
+    ],
+    "race": "정령"
+  },
+  "2021-03-26": {
+    "text": "내가 주문을 시전한 후에, 이 하수인이 생명력을 +1 얻습니다."
+  }
+}

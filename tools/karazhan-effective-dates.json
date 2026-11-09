@@ -1,0 +1,198 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "policy": "Effective Korean patch days for already-usable exact original cards. Archive differences provide fields, official Korean patch timing independently supplies dates. Client preload is not adventure launch. Unknown dates are not invented.",
+  "builds": {
+    "15181": {
+      "date": "2016-10-21",
+      "patch": "6.2.0.15181",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20328179"
+      ],
+      "kind": "bug_fix",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "18336": {
+      "date": "2017-04-05",
+      "patch": "8.0.0.18336",
+      "sources": [
+        "https://news.blizzard.com/ko-kr/article/20678265/4-5"
+      ],
+      "kind": "card_change",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "20022": {
+      "date": "2017-07-11",
+      "patch": "8.4.0.20022",
+      "sources": [
+        "https://news.blizzard.com/ko-kr/article/20904301/2017-7-11"
+      ],
+      "kind": "card_change",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "20457": {
+      "date": "2017-08-09",
+      "patch": "9.0.0.20457",
+      "sources": [
+        "https://news.blizzard.com/ko-kr/article/20944006/2017-8-9"
+      ],
+      "kind": "wording_and_functionality",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "23966": {
+      "date": "2018-04-11",
+      "patch": "11.0.0.23966",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/21694420/update-11-0-april-10-enter-the-witchwood/"
+      ],
+      "kind": "keyword_wording",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "77662": {
+      "date": "2021-03-26",
+      "patch": "20.0.0.77662",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23642550"
+      ],
+      "kind": "card_change",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "170824": {
+      "date": "2023-04-05",
+      "patch": "26.0.0.170824",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23934449/26-0-patch-notes"
+      ],
+      "kind": "card_change",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "183876": {
+      "date": "2023-08-23",
+      "patch": "27.2.0.183876",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23987537"
+      ],
+      "kind": "balance_cohort",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "217964": {
+      "date": "2025-03-19",
+      "patch": "32.0.0.217964",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/24187196/32-0"
+      ],
+      "kind": "card_change",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "22611": {
+      "date": "2017-12-07",
+      "patch": "10.0.0.22611",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/21274279/12-7"
+      ],
+      "kind": "wording",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "26757": {
+      "date": "2018-10-03",
+      "patch": "12.2.0.26757",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/22546493"
+      ],
+      "kind": "wording",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "58213": {
+      "date": "2020-09-09",
+      "patch": "18.2.0.58213",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23509390"
+      ],
+      "kind": "wording",
+      "dateConfidence": "medium-high; official event dates support patch day, direct actual first-live telemetry not inspected",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "254477": {
+      "date": "2026-10-14",
+      "patch": "37.0.0.254477",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/24301454/37-0-patch-notes"
+      ],
+      "kind": "wording",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "17720": {
+      "date": "2017-03-01",
+      "patch": "7.1.0.17720",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20562933"
+      ],
+      "kind": "archive-change",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "29933": {
+      "date": "2019-04-05",
+      "patch": "14.0.0.29933",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/22938499"
+      ],
+      "kind": "archive-change",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "231191": {
+      "date": "2025-11-14",
+      "patch": "34.0.2.231191",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/24247520/34-0-2",
+        "https://m.inven.co.kr/board/hs/3508/23803?vtype=mobile"
+      ],
+      "kind": "archive-change",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "237510": {
+      "date": "2026-03-11",
+      "patch": "35.0.0.237510",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/24267727"
+      ],
+      "kind": "archive-change",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "32708": {
+      "date": "2019-08-02",
+      "patch": "15.0.0.32708",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23076826"
+      ],
+      "kind": "wording",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "33402": {
+      "date": "2019-08-27",
+      "patch": "15.0.4.33402",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23097375/8-27"
+      ],
+      "kind": "balance",
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    }
+  }
+}

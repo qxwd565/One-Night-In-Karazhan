@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_094","dbfId":39822,"name":"치명적인 포크","type":"MINION","cardClass":"ROGUE","rarity":"COMMON","collectible":true,"cost":3,"text":"<b>죽음의 메아리:</b> 3/2 무기를 내 손으로 가져옵니다.","attack":3,"health":2,"durability":0,"armor":0,"flavor":"올바른 순서를 원한다면 치명적인 포크를 메인 코스용 포크보다 먼저 두되 샐러드 포크보다는 나중에 둬야 합니다.","spellSchool":"","portrait":"HS8-098_M.psd:010b638b1e382be4aadd846afe2052ba","set":"KARA","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":7},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":217,"name":"죽음의 메아리","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1452,"name":"수집품 관련 카드 데이터베이스 ID","value":39821}],"races":[],"race":"","classes":[],"art":"art/KAR_094.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-098_M.psd:010b638b1e382be4aadd846afe2052ba","goldenMaterial":"KAR_094_PremiumCard.mat:35b0b08cb5996694d92c3265f9098f77","goldenAnimation":""}}
+{
+  "2016-08-12": {
+    "id": "KAR_094",
+    "dbfId": 39822,
+    "name": "치명적인 포크",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "classes": [],
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>죽음의 메아리:</b> 3/2 무기를 내 손으로 가져옵니다.",
+    "attack": 3,
+    "health": 2,
+    "mechanics": [
+      "DEATHRATTLE"
+    ]
+  }
+}

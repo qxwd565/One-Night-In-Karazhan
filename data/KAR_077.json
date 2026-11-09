@@ -1,1 +1,24 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_077","dbfId":39716,"name":"실버문 차원문","type":"SPELL","cardClass":"PALADIN","rarity":"COMMON","collectible":true,"cost":3,"text":"하수인에게 +2/+2를 부여합니다. 비용이 2인 무작위 하수인을 소환합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"밀하우스 마나스톰이 왜 실버문에 있을까요?","spellSchool":"HOLY","portrait":"HS8-091_S.psd:b9b31547a932c4a47b3dc3136df53385","set":"KARA","nativeTags":[{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":5},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":5}],"races":[],"race":"","classes":[],"art":"art/KAR_077.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-091_S.psd:b9b31547a932c4a47b3dc3136df53385","goldenMaterial":"KAR_077_PremiumCard.mat:5a32ec12a94537a40a68455a8bfd59c0","goldenAnimation":""}}
+{
+  "2016-08-19": {
+    "id": "KAR_077",
+    "dbfId": 39716,
+    "name": "실버문 차원문",
+    "type": "SPELL",
+    "cardClass": "PALADIN",
+    "classes": [],
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "하수인 하나에게 +2/+2를 부여합니다. 비용이 2인 무작위 하수인을 하나 소환합니다.",
+    "mechanics": []
+  },
+  "2018-10-03": {
+    "text": "하수인에게 +2/+2를 부여합니다. 비용이 2인 무작위 하수인을 소환합니다."
+  },
+  "2021-03-26": {
+    "spellSchool": "HOLY"
+  },
+  "2023-08-23": {
+    "cost": 3
+  }
+}

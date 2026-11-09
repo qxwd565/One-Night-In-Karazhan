@@ -1,1 +1,27 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_089","dbfId":39740,"name":"말체자르의 임프","type":"MINION","cardClass":"WARLOCK","rarity":"COMMON","collectible":true,"cost":2,"text":"내가 카드를 버릴 때마다 카드를 뽑습니다.","attack":1,"health":3,"durability":0,"armor":0,"flavor":"말체자르에게는 도비라는 임프 심부름꾼이 있었습니다. 하지만 아주 비극적인 사고가 있었죠.","spellSchool":"","portrait":"HS8-007_D.psd:5399749eb71aedd4da2adc53f4300a8a","set":"KARA","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":9},{"id":200,"name":"종족","value":15},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1965,"name":"IMP","value":1}],"races":["DEMON"],"race":"악마","classes":[],"art":"art/KAR_089.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-007_D.psd:5399749eb71aedd4da2adc53f4300a8a","goldenMaterial":"KAR_089_PremiumCard.mat:7691dccb88d15f94da51ac41e460cc13","goldenAnimation":""}}
+{
+  "2016-09-02": {
+    "id": "KAR_089",
+    "dbfId": 39740,
+    "name": "말체자르의 임프",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "classes": [],
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "내가 카드를 버릴 때마다 카드를 1장 뽑습니다.",
+    "attack": 1,
+    "health": 3,
+    "races": [
+      "DEMON"
+    ],
+    "race": "악마",
+    "mechanics": []
+  },
+  "2018-10-03": {
+    "text": "내가 카드를 버릴 때마다 카드를 뽑습니다."
+  },
+  "2025-11-14": {
+    "cost": 2
+  }
+}

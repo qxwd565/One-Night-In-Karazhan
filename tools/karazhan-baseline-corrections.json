@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "comparison": "Known launch-era gameplay fields versus the immutable legacy aggregate initial snapshots. Omitted nonapplicable exporter stats are excluded from this count.",
+  "cards": {
+    "KAR_021": {
+      "cost": {
+        "previousBaseline": 3,
+        "verifiedLaunch": 4
+      }
+    }
+  }
+}

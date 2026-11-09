@@ -1,1 +1,21 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_075","dbfId":39714,"name":"달숲 차원문","type":"SPELL","cardClass":"DRUID","rarity":"RARE","collectible":true,"cost":6,"text":"생명력을 #6 회복시킵니다. 비용이 6인 무작위 하수인을 소환합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"달숲에서 열리는 파티는 정말 특별하답니다. 이따금씩 곰이 출몰하거든요.","spellSchool":"NATURE","portrait":"HS8-083_S.psd:6721597bd0421bc46b92310e77c63c65","set":"KARA","nativeTags":[{"id":48,"name":"마나 비용","value":6},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":4}],"races":[],"race":"","classes":[],"art":"art/KAR_075.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-083_S.psd:6721597bd0421bc46b92310e77c63c65","goldenMaterial":"KAR_075_PremiumCard.mat:68198fe80d58c2b4b97922462b1153f7","goldenAnimation":""}}
+{
+  "2016-09-02": {
+    "id": "KAR_075",
+    "dbfId": 39714,
+    "name": "달숲 차원문",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "classes": [],
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 6,
+    "text": "생명력을 6 회복시킵니다. 비용이 6인 무작위 하수인을 하나 소환합니다.",
+    "mechanics": []
+  },
+  "2018-10-03": {
+    "text": "생명력을 6 회복시킵니다. 비용이 6인 무작위 하수인을 소환합니다."
+  },
+  "2021-03-26": {
+    "spellSchool": "NATURE"
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "KAR_097t",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2016-09-02",
+    "status": "estimated",
+    "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+    "wing": "첨탑",
+    "originalIdEvidence": "KAR_097",
+    "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+    "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+    "dateSources": [
+      "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs"
+    ]
+  },
+  "availabilityScope": "Korean ordinary constructed-match use, including generated exact original entities. Preload, reveal and PvE do not count. Later-wing earliest-generation dates remain qualified.",
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "All57 original identities, initial numbers, Korean archive text and card types checked in launch archive. Noncollectible rarity, earlier-than-wing generation and unverified wording effective dates remain explicitly qualified.",
+  "sourceCommit": "537ecd58630a527af3dc2c8aef4badecd9d33972",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "KAR_097t",
+      "dbfId": 40360,
+      "name": "아티쉬",
+      "type": "WEAPON",
+      "cardClass": "NEUTRAL",
+      "rarity": null,
+      "collectible": false,
+      "cost": 3,
+      "text": "[x]내가 주문을 시전한 후에,\n같은 비용의 무작위\n하수인을 소환하고\n내구도를 1 잃습니다.",
+      "attack": 1,
+      "health": 3,
+      "durability": 3,
+      "armor": 0,
+      "flavor": "",
+      "spellSchool": "",
+      "portrait": "HS8-157_W.psd:647fa5741abcbca42b4d454999583deb",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/KAR_097t.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS8-157_W.psd:647fa5741abcbca42b4d454999583deb",
+      "goldenMaterial": "KAR_097t_PremiumCard.mat:79d87b512b512ba46995f76d765e7342",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "KAR_097t",
+    "dbfId": 40360,
+    "name": "아티쉬",
+    "type": "WEAPON",
+    "cardClass": "NEUTRAL",
+    "rarity": null,
+    "collectible": false,
+    "cost": 3,
+    "text": "[x]내가 주문을 시전한 후에,\n같은 비용의 무작위\n하수인을 소환하고\n내구도를 1 잃습니다.",
+    "attack": 1,
+    "health": 3,
+    "durability": 3,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS8-157_W.psd:647fa5741abcbca42b4d454999583deb",
+    "set": "KARA",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/KAR_097t.png"
+  },
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "durability",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "flavor",
+    "health",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "historicalEvidence": [
+    {
+      "date": "2016-09-02",
+      "build": "6.0.0.13921",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "fields": [
+        "attack",
+        "cardClass",
+        "classes",
+        "collectible",
+        "cost",
+        "dbfId",
+        "durability",
+        "id",
+        "mechanics",
+        "name",
+        "rarity",
+        "text",
+        "type"
+      ],
+      "availabilityStatus": "estimated"
+    },
+    {
+      "date": "2018-10-03",
+      "build": "26757",
+      "source": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "dateSource": [
+        "https://hearthstone.blizzard.com/ko-kr/news/22546493"
+      ],
+      "fields": [
+        "text"
+      ],
+      "kind": "wording",
+      "dateConfidence": "high"
+    },
+    {
+      "date": "2020-09-09",
+      "build": "58213",
+      "source": "https://github.com/HearthSim/hsdata/blob/eda4d1fccf073b30a65a966fa0ce8f9b78a56de1/CardDefs.xml",
+      "dateSource": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23509390"
+      ],
+      "fields": [
+        "text"
+      ],
+      "kind": "wording",
+      "dateConfidence": "medium-high; official event dates support patch day, direct actual first-live telemetry not inspected"
+    }
+  ],
+  "undatedEvidence": [],
+  "keywordAbilityEvidence": {
+    "source": "tools/karazhan-ability-policy.json"
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": []
+  },
+  "behaviorEvidence": "tools/karazhan-behavior-audit.json",
+  "sourceHistory": "tools/original-date-first-history.json",
+  "fieldUncertainty": {
+    "rarity": {
+      "status": "unresolved-historical-display",
+      "retainedValue": null,
+      "meaning": "Pinned exporter value retained. Raw archive rarity tags and absence remain observations, not proof of dated visible rarity change."
+    }
+  }
+}

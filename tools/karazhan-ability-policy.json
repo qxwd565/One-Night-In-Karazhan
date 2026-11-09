@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "scope": "Intrinsic owned keyword abilities, separately from text references and implementation tags.",
+  "rules": [
+    "Release owned Tag entries establish abilities; ReferencedTag alone never confers ownership. AURA/TRIGGER_VISUAL are implementation flags, not standalone abilities.",
+    "KAR_057 and KAR_062 actively Discover in their own release text, before later dedicated tags.",
+    "KAR_004 owns SECRET, not the STEALTH of its summoned KAR_004a. KAR_006 modifies Secrets but is not a Secret.",
+    "KAR_026 summons Taunt minions, KAR_710 summons a Taunt minion, KAR_037 conditionally gains Taunt. None owns unconditional TAUNT on the source card.",
+    "KAR_063 checks Spell Damage but does not provide SPELLPOWER. KAR_712 grants immunity to its hero, not itself.",
+    "KAR_096 gains the formal START_OF_GAME keyword in11.0; unchanged engine effect is distinct from printed keyword addition.",
+    "Action descriptions such as silencing a target and general effect text are not enumerated as persistent owned keyword abilities. Raw source tags and full text remain available."
+  ]
+}

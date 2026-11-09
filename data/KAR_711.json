@@ -1,1 +1,17 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_711","dbfId":39426,"name":"비전 거인","type":"MINION","cardClass":"NEUTRAL","rarity":"EPIC","collectible":true,"cost":12,"text":"이번 게임에서 내가 시전한 주문 하나당 비용이 (1)씩 감소합니다.","attack":8,"health":8,"durability":0,"armor":0,"flavor":"카라잔의 지맥에 끌려 여기까지 왔다고 합니다. 사실은 모로스의 요리 솜씨에 반한 것이지만요.","spellSchool":"","portrait":"HS8-119_M.psd:c09ae8a13dc3276499e497ec2d328fcd","set":"KARA","nativeTags":[{"id":45,"name":"생명력","value":8},{"id":47,"name":"공격력","value":8},{"id":48,"name":"마나 비용","value":12},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/KAR_711.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-119_M.psd:c09ae8a13dc3276499e497ec2d328fcd","goldenMaterial":"KAR_711_PremiumCard.mat:d2025677422572d419a648dc2a977040","goldenAnimation":""}}
+{
+  "2016-08-19": {
+    "id": "KAR_711",
+    "dbfId": 39426,
+    "name": "비전 거인",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "classes": [],
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 12,
+    "text": "이번 게임에서 내가 시전한 주문 하나당 비용이 (1)씩 감소합니다.",
+    "attack": 8,
+    "health": 8,
+    "mechanics": []
+  }
+}

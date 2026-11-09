@@ -1,1 +1,23 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_004a","dbfId":39173,"name":"모자 쓴 고양이","type":"MINION","cardClass":"HUNTER","rarity":null,"collectible":false,"cost":3,"text":"<b>은신</b>","attack":4,"health":2,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS8-088_M.psd:f543fddde1e663d4196446f23e2e5b62","set":"KARA","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":3},{"id":191,"name":"은신","value":1},{"id":199,"name":"직업","value":3},{"id":200,"name":"종족","value":20},{"id":201,"name":"진영","value":1},{"id":202,"name":"카드 유형","value":4},{"id":251,"name":"게임 태그 251","value":6},{"id":268,"name":"게임 태그 268","value":2},{"id":1584,"name":"게임 태그 1584","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/KAR_004a.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-088_M.psd:f543fddde1e663d4196446f23e2e5b62","goldenMaterial":"KAR_004a_PremiumCard.mat:4b1e4ebcc23d65744814159ebbe30831","goldenAnimation":""}}
+{
+  "2016-08-26": {
+    "id": "KAR_004a",
+    "dbfId": 39173,
+    "name": "모자 쓴 고양이",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "classes": [],
+    "rarity": null,
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>은신</b>",
+    "attack": 4,
+    "health": 2,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "mechanics": [
+      "STEALTH"
+    ]
+  }
+}

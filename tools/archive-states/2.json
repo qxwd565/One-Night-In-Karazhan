@@ -1,0 +1,244 @@
+{
+  "21ff61b4c9a2718622ba": {
+    "Tag": {
+      "45": "3",
+      "47": "2",
+      "48": "2",
+      "183": "23",
+      "199": "12",
+      "202": "4",
+      "203": "1",
+      "218": "1",
+      "321": "1",
+      "415": "1",
+      "1342": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39554,
+    "name": "황천의 원령 역사가",
+    "rawText": "[x]<b>전투의 함성:</b>\n내 손에 용족이 있으면,\n용족을 <b>발견</b>합니다.",
+    "enText": "<b>Battlecry:</b> If you're holding a Dragon, <b>Discover</b>\na Dragon."
+  },
+  "234add6cf77bbb5b3986": {
+    "Tag": {
+      "45": "3",
+      "47": "4",
+      "48": "3",
+      "183": "23",
+      "199": "12",
+      "202": "4",
+      "203": "1",
+      "321": "1",
+      "362": "1"
+    },
+    "ReferencedTag": {
+      "240": "1"
+    },
+    "dbfId": 39313,
+    "name": "보랏빛 환영술사",
+    "rawText": "내 턴 동안 내 영웅이\n<b>면역</b> 상태가 됩니다.",
+    "enText": "During your turn, your hero is <b>Immune</b>."
+  },
+  "2446ab8dc7d0af207bdb": {
+    "Tag": {
+      "45": "4",
+      "47": "3",
+      "48": "3",
+      "183": "23",
+      "199": "9",
+      "202": "4",
+      "203": "3",
+      "321": "1",
+      "335": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39380,
+    "name": "식기 골렘",
+    "rawText": "이 하수인을 버리면,\n이 하수인을 소환합니다.",
+    "enText": "If you discard this minion, summon it."
+  },
+  "24e6b6ae21ecf32a3582": {
+    "Tag": {
+      "45": "1",
+      "47": "1",
+      "48": "1",
+      "183": "23",
+      "199": "7",
+      "200": "23",
+      "201": "3",
+      "202": "4",
+      "203": "1",
+      "218": "1",
+      "251": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39698,
+    "name": "칼잡이 강도",
+    "rawText": "[x]<b>전투의 함성:</b> 다른 직업의\n무작위 카드를\n내 손으로 가져옵니다.",
+    "enText": "<b>Battlecry:</b> Add a random card from another class to_your hand."
+  },
+  "2747e1f02130b668345b": {
+    "Tag": {
+      "32": "1",
+      "45": "3",
+      "47": "1",
+      "48": "3",
+      "114": "1",
+      "183": "23",
+      "199": "12",
+      "202": "7"
+    },
+    "ReferencedTag": {},
+    "dbfId": 40360,
+    "name": "아티쉬",
+    "rawText": "[x]내가 주문을 시전한 후에,\n같은 비용의 무작위\n하수인을 소환하고\n내구도를 1 잃습니다.",
+    "enText": "[x]After you cast a spell,\nsummon a random\nminion of that Cost.\nLose 1 Durability."
+  },
+  "27515f230881df8a28d5": {
+    "Tag": {
+      "48": "3",
+      "183": "23",
+      "199": "10",
+      "202": "5",
+      "203": "3",
+      "321": "1"
+    },
+    "ReferencedTag": {
+      "190": "1"
+    },
+    "dbfId": 39495,
+    "name": "왕을 지켜라!",
+    "rawText": "[x]적 하수인 하나당 <b>도발</b>\n 능력이 있는 1/1 폰을\n하나씩 소환합니다.",
+    "enText": "For each enemy minion, summon a 1/1 Pawn with <b>Taunt</b>."
+  },
+  "28c56c13cfb3646a633b": {
+    "Tag": {
+      "48": "4",
+      "183": "23",
+      "199": "5",
+      "202": "5",
+      "203": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39716,
+    "name": "실버문 차원문",
+    "rawText": "하수인 하나에게 +2/+2를 부여합니다. 비용이 2인 무작위 하수인을 하나 소환합니다.",
+    "enText": "Give a minion +2/+2. Summon a random\n2-Cost minion."
+  },
+  "2b17d0e4fed990e48aa1": {
+    "Tag": {
+      "45": "4",
+      "47": "4",
+      "48": "6",
+      "183": "23",
+      "199": "5",
+      "202": "4",
+      "203": "3",
+      "218": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {
+      "415": "1"
+    },
+    "dbfId": 39439,
+    "name": "상아색 나이트",
+    "rawText": "<b>전투의 함성:</b> 주문을 하나 <b>발견</b>합니다. 그 카드의 비용만큼 내 영웅의 생명력을 회복시킵니다.",
+    "enText": "[x]<b>Battlecry:</b> <b>Discover</b> a spell.\nRestore Health to your hero\nequal to its Cost."
+  },
+  "2bb23850e7d71f26bd56": {
+    "Tag": {
+      "48": "2",
+      "183": "23",
+      "199": "3",
+      "202": "5",
+      "203": "3",
+      "219": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {
+      "191": "1"
+    },
+    "dbfId": 39160,
+    "name": "고양이 마술",
+    "rawText": "<b>비밀:</b> 상대편이 주문을 시전한 후에, <b>은신</b> 능력이 있는 4/2 표범을 소환합니다.",
+    "enText": "<b>Secret:</b> After your opponent casts a spell, summon a 4/2 Panther with <b>Stealth</b>."
+  },
+  "2bddec0df47f2d3fa740": {
+    "Tag": {
+      "45": "2",
+      "47": "3",
+      "48": "4",
+      "183": "23",
+      "199": "12",
+      "202": "4",
+      "203": "1",
+      "218": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {
+      "190": "1"
+    },
+    "dbfId": 39491,
+    "name": "비전장인",
+    "rawText": "[x]<b>전투의 함성:</b>\n0/5 <b>도발</b> 하수인을\n하나 소환합니다.",
+    "enText": "<b>Battlecry:</b> Summon a 0/5 minion with <b>Taunt</b>."
+  },
+  "2ca864127a83558d71d6": {
+    "Tag": {
+      "45": "4",
+      "47": "3",
+      "48": "4",
+      "114": "1",
+      "183": "23",
+      "199": "12",
+      "202": "4",
+      "203": "5",
+      "218": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39941,
+    "name": "반즈",
+    "rawText": "<b>전투의 함성:</b> 내 덱에서 무작위 하수인 하나를 복사하여\n1/1 하수인으로 소환합니다.",
+    "enText": "<b>Battlecry:</b> Summon a 1/1 copy of a random minion in your deck."
+  },
+  "2cdf5631a2d1c381f1c3": {
+    "Tag": {
+      "48": "2",
+      "183": "23",
+      "199": "3",
+      "202": "5",
+      "203": "3",
+      "219": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {
+      "191": "1"
+    },
+    "dbfId": 39160,
+    "name": "고양이 마술",
+    "rawText": "<b>비밀:</b> 상대편이 주문을 시전한 후에, <b>은신</b> 능력이 있는 4/2 표범을 1마리 소환합니다.",
+    "enText": "<b>Secret:</b> After your opponent casts a spell, summon a 4/2 Panther with <b>Stealth</b>."
+  },
+  "2d8fedd5ad9fe40a0603": {
+    "Tag": {
+      "47": "1",
+      "48": "2",
+      "183": "23",
+      "187": "3",
+      "199": "8",
+      "202": "7",
+      "203": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {
+      "192": "1"
+    },
+    "dbfId": 39694,
+    "name": "영혼 발톱",
+    "rawText": "내 <b>주문 공격력</b>이 증가한 상태면 공격력을\n+2 얻습니다.",
+    "enText": "[x]Has +2 Attack while you\nhave <b>Spell Damage</b>."
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "KAR_205",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2016-08-12",
+    "status": "verified",
+    "meaning": "First ordinary-match availability on Korean launch day.",
+    "wing": "객실",
+    "originalIdEvidence": "KAR_205",
+    "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+    "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+    "dateSources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+      "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+      "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+    ]
+  },
+  "availabilityScope": "Korean ordinary constructed-match use, including generated exact original entities. Preload, reveal and PvE do not count. Later-wing earliest-generation dates remain qualified.",
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "All57 original identities, initial numbers, Korean archive text and card types checked in launch archive. Noncollectible rarity, earlier-than-wing generation and unverified wording effective dates remain explicitly qualified.",
+  "sourceCommit": "537ecd58630a527af3dc2c8aef4badecd9d33972",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "KAR_205",
+      "dbfId": 39380,
+      "name": "식기 골렘",
+      "type": "MINION",
+      "cardClass": "WARLOCK",
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 3,
+      "text": "이 하수인을 버리면,\n이 하수인을 소환합니다.",
+      "attack": 3,
+      "health": 4,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "스위스 국방부의 연구소에서 비밀리에 만들어졌습니다.",
+      "spellSchool": "",
+      "portrait": "HS8-103_M.psd:850fb72d321d526429da693fc00689ff",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 335,
+          "name": "게임 태그 335",
+          "value": 1
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/KAR_205.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS8-103_M.psd:850fb72d321d526429da693fc00689ff",
+      "goldenMaterial": "KAR_205_PremiumCard.mat:7478021d2c2b5744c9a5e43e868117b7",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "KAR_205",
+    "dbfId": 39380,
+    "name": "식기 골렘",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "이 하수인을 버리면,\n이 하수인을 소환합니다.",
+    "attack": 3,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "스위스 국방부의 연구소에서 비밀리에 만들어졌습니다.",
+    "spellSchool": "",
+    "portrait": "HS8-103_M.psd:850fb72d321d526429da693fc00689ff",
+    "set": "KARA",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 335,
+        "name": "게임 태그 335",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/KAR_205.png"
+  },
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "historicalEvidence": [
+    {
+      "date": "2016-08-12",
+      "build": "6.0.0.13921",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "fields": [
+        "attack",
+        "cardClass",
+        "classes",
+        "collectible",
+        "cost",
+        "dbfId",
+        "health",
+        "id",
+        "mechanics",
+        "name",
+        "rarity",
+        "text",
+        "type"
+      ],
+      "availabilityStatus": "verified"
+    },
+    {
+      "date": "2023-08-23",
+      "build": "27.2.0.183876",
+      "source": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "dateSource": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23987537"
+      ],
+      "fields": [
+        "health"
+      ],
+      "kind": "balance_cohort",
+      "dateConfidence": "high"
+    }
+  ],
+  "undatedEvidence": [],
+  "keywordAbilityEvidence": {
+    "source": "tools/karazhan-ability-policy.json"
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": []
+  },
+  "behaviorEvidence": "tools/karazhan-behavior-audit.json",
+  "sourceHistory": "tools/original-date-first-history.json"
+}

@@ -1,0 +1,954 @@
+{
+  "schema": 1,
+  "sourceCommit": "537ecd58630a527af3dc2c8aef4badecd9d33972",
+  "summary": {
+    "releaseStatus": 57,
+    "releasedAt": 57,
+    "text": 24
+  },
+  "policy": "Only individually enumerated display-text normalization and explicit release-confidence additions. No current numeric, identity, class, tribe, school, asset or membership changes.",
+  "changes": {
+    "KAR_004": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-26",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_004a": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-26",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_005": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-19",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_005a": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-19",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_006": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "내 <b>비밀</b>의 비용이\n(0)이 됩니다.",
+        "after": "내 <b>비밀</b>의 비용이<br></br>(0)이 됩니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_009": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-26",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "[x]<b>전투의 함성:</b>\n무작위 마법사 주문을\n내 손으로 가져옵니다.",
+        "after": "<b>전투의 함성:</b><br></br>무작위 마법사 주문을<br></br>내 손으로 가져옵니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_010": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-26",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_010a": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-26",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_011": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-19",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_013": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-26",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "아군 하수인을 <b>침묵</b>시킵니다.\n카드를 뽑습니다.",
+        "after": "아군 하수인을 <b>침묵</b>시킵니다.<br></br>카드를 뽑습니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_021": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-19",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_025": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-19",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "[x]1/1 양초, 2/2 빗자루,\n3/3 찻주전자를\n소환합니다.",
+        "after": "1/1 양초, 2/2 빗자루,<br></br>3/3 찻주전자를<br></br>소환합니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_025a": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-19",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_025b": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-19",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_025c": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-19",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_026": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "[x]적 하수인 하나당 <b>도발</b>\n능력이 있는 1/1 폰을\n하나씩 소환합니다.",
+        "after": "적 하수인 하나당 <b>도발</b><br></br>능력이 있는 1/1 폰을<br></br>하나씩 소환합니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_026t": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_028": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-26",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "한 턴에 여러번\n공격할 수 있습니다. 영웅을 공격할 수 없습니다.",
+        "after": "한 턴에 여러번<br></br>공격할 수 있습니다. 영웅을 공격할 수 없습니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_029": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-26",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "<b>죽음의 메아리:</b>\n카드를 뽑습니다.",
+        "after": "<b>죽음의 메아리:</b><br></br>카드를 뽑습니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_030": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_030a": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_033": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-09-02",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_035": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "[x]내가 주문을 시전할 때마다\n내 영웅의 생명력을\n#3 회복시킵니다.",
+        "after": "내가 주문을 시전할 때마다<br></br>내 영웅의 생명력을<br></br>3 회복시킵니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_036": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_037": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-26",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "<b>전투의 함성:</b>\n내 전장에 <b>비밀</b>이\n있으면, +1/+1과\n<b>도발</b>을 얻습니다.",
+        "after": "<b>전투의 함성:</b><br></br>내 전장에 <b>비밀</b>이<br></br>있으면, +1/+1과<br></br><b>도발</b>을 얻습니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_041": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-19",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "[x]<b>전투의 함성:</b>\n하수인을 처치합니다.\n<b>죽음의_메아리:</b> 그 하수인을\n다시 소환합니다.",
+        "after": "<b>전투의 함성:</b><br></br>하수인을 처치합니다.<br></br><b>죽음의_메아리:</b> 그 하수인을<br></br>다시 소환합니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_044": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_044a": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_057": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "<b>전투의 함성:</b>\n주문을 <b>발견</b>합니다. 그 카드의 비용만큼 내 영웅의 생명력을 회복시킵니다.",
+        "after": "<b>전투의 함성:</b><br></br>주문을 <b>발견</b>합니다. 그 카드의 비용만큼 내 영웅의 생명력을 회복시킵니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_061": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-26",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "<b>도발</b>, <b>전투의 함성</b>:\n야수, 용족, 멀록을 뽑습니다.",
+        "after": "<b>도발</b>, <b>전투의 함성</b>:<br></br>야수, 용족, 멀록을 뽑습니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_062": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-09-02",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "[x]<b>전투의 함성:</b>\n내 손에 용족이 있으면,\n용족을 <b>발견</b>합니다.",
+        "after": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>용족을 <b>발견</b>합니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_063": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-09-02",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "내 <b>주문 공격력</b>이 증가한 상태면 공격력을\n+2 얻습니다.",
+        "after": "내 <b>주문 공격력</b>이 증가한 상태면 공격력을<br></br>+2 얻습니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_065": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-26",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_069": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-19",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "[x]<b>전투의 함성</b>: 다른 직업의\n무작위 카드를\n내 손으로 가져옵니다.",
+        "after": "<b>전투의 함성</b>: 다른 직업의<br></br>무작위 카드를<br></br>내 손으로 가져옵니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_070": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-09-02",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "[x]<b>전투의 함성:</b> 내 손에 다른\n직업의 카드가 있으면,\n그 카드들의 비용을 (2)\n감소시킵니다.",
+        "after": "<b>전투의 함성:</b> 내 손에 다른<br></br>직업의 카드가 있으면,<br></br>그 카드들의 비용을 (2)<br></br>감소시킵니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_073": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "모든 적 하수인에게 피해를 $1 줍니다.\n비용이 1인 무작위 하수인을 소환합니다.",
+        "after": "모든 적 하수인에게 피해를 1 줍니다.<br></br>비용이 1인 무작위 하수인을 소환합니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_075": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-09-02",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "생명력을 #6 회복시킵니다. 비용이 6인 무작위 하수인을 소환합니다.",
+        "after": "생명력을 6 회복시킵니다. 비용이 6인 무작위 하수인을 소환합니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_076": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "피해를 $6 줍니다.\n비용이 6인 무작위\n하수인을 소환합니다.",
+        "after": "피해를 6 줍니다.<br></br>비용이 6인 무작위<br></br>하수인을 소환합니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_077": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-19",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_089": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-09-02",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_091": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-09-02",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "[x]방어도를 +4 얻습니다.\n비용이 4인 무작위\n하수인을 소환합니다.",
+        "after": "방어도를 +4 얻습니다.<br></br>비용이 4인 무작위<br></br>하수인을 소환합니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_092": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-09-02",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "[x]<b>전투의 함성:</b>\n내 전장에 <b>비밀</b>이 있으면,\n피해를 3 줍니다.",
+        "after": "<b>전투의 함성:</b><br></br>내 전장에 <b>비밀</b>이 있으면,<br></br>피해를 3 줍니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_094": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_094a": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_095": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-26",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_096": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-09-02",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_097": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-09-02",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_097t": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-09-02",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "[x]내가 주문을 시전한 후에,\n같은 비용의 무작위\n하수인을 소환하고\n내구도를 1 잃습니다.",
+        "after": "내가 주문을 시전한 후에,<br></br>같은 비용의 무작위<br></br>하수인을 소환하고<br></br>내구도를 1 잃습니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_114": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-19",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_204": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-19",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_205": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "이 하수인을 버리면,\n이 하수인을 소환합니다.",
+        "after": "이 하수인을 버리면,<br></br>이 하수인을 소환합니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    },
+    "KAR_300": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_702": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-26",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_710": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_710m": {
+      "releaseStatus": {
+        "before": null,
+        "after": "verified",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-12",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_711": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-08-19",
+        "beforePresent": false,
+        "afterPresent": true
+      }
+    },
+    "KAR_712": {
+      "releaseStatus": {
+        "before": null,
+        "after": "estimated",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "releasedAt": {
+        "before": null,
+        "after": "2016-09-02",
+        "beforePresent": false,
+        "afterPresent": true
+      },
+      "text": {
+        "before": "내 턴 동안 내 영웅이\n<b>면역</b> 상태가 됩니다.",
+        "after": "내 턴 동안 내 영웅이<br></br><b>면역</b> 상태가 됩니다.",
+        "beforePresent": true,
+        "afterPresent": true
+      }
+    }
+  }
+}

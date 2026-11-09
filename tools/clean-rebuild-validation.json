@@ -1,0 +1,6 @@
+{
+  "result": "pass",
+  "cleanPinnedSourceRegenerationByteMatches": 121,
+  "missingPinnedSourceFailsExplicitly": true,
+  "sourceCommit": "537ecd58630a527af3dc2c8aef4badecd9d33972"
+}

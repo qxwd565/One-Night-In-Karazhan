@@ -1,0 +1,114 @@
+{
+  "b0ccee1eabb643c2a55b": {
+    "Tag": {
+      "45": "3",
+      "47": "2",
+      "48": "3",
+      "183": "23",
+      "199": "5",
+      "202": "4",
+      "203": "1",
+      "218": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39477,
+    "name": "파멸의 어둠 기사단원",
+    "rawText": "<b>전투의 함성:</b> 내 손에 용족이 있으면, 1/1 새끼용을 2마리 소환합니다.",
+    "enText": "<b>Battlecry:</b> If you're holding a Dragon, summon two 1/1 Whelps."
+  },
+  "b1fd351b8dd4df8fe6c6": {
+    "Tag": {
+      "32": "1",
+      "45": "4",
+      "47": "3",
+      "48": "4",
+      "183": "23",
+      "199": "8",
+      "202": "4",
+      "203": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39190,
+    "name": "사악한 마녀",
+    "rawText": "내가 주문을 시전할 때마다 무작위 기본 토템을 소환합니다.",
+    "enText": "Whenever you cast a spell, summon a random basic_Totem."
+  },
+  "b61315e7842549cba9d0": {
+    "Tag": {
+      "45": "4",
+      "47": "4",
+      "48": "6",
+      "183": "23",
+      "199": "5",
+      "202": "4",
+      "203": "3",
+      "218": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {
+      "415": "1"
+    },
+    "dbfId": 39439,
+    "name": "상아색 나이트",
+    "rawText": "<b>전투의 함성:</b>\n주문을 <b>발견</b>합니다. 그 카드의 비용만큼 내 영웅의 생명력을 회복시킵니다.",
+    "enText": "[x]<b>Battlecry:</b> <b>Discover</b> a spell.\nRestore Health to your hero\nequal to its Cost."
+  },
+  "b9631fe3f511a26f9d85": {
+    "Tag": {
+      "45": "4",
+      "47": "4",
+      "48": "6",
+      "183": "23",
+      "199": "5",
+      "202": "4",
+      "203": "3",
+      "218": "1",
+      "321": "1",
+      "415": "1",
+      "1342": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39439,
+    "name": "상아색 나이트",
+    "rawText": "<b>전투의 함성:</b>\n주문을 <b>발견</b>합니다. 그 카드의 비용만큼 내 영웅의 생명력을 회복시킵니다.",
+    "enText": "[x]<b>Battlecry:</b> <b>Discover</b> a spell.\nRestore Health to your hero\nequal to its Cost."
+  },
+  "bbcf24e087ee72ee3143": {
+    "Tag": {
+      "45": "4",
+      "47": "4",
+      "48": "5",
+      "183": "23",
+      "199": "12",
+      "201": "3",
+      "202": "4",
+      "203": "1",
+      "218": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39269,
+    "name": "박물관 마술사",
+    "rawText": "<b>전투의 함성:</b> 무작위 아군 야수, 용족, 멀록 하나에게 +2/+2를 부여합니다.",
+    "enText": "<b>Battlecry:</b> Give a random friendly Beast, Dragon, and Murloc +2/+2."
+  },
+  "bde93622aa8deea1023d": {
+    "Tag": {
+      "32": "1",
+      "47": "1",
+      "48": "3",
+      "114": "1",
+      "183": "23",
+      "187": "3",
+      "199": "12",
+      "202": "7"
+    },
+    "ReferencedTag": {},
+    "dbfId": 40360,
+    "name": "아티쉬",
+    "rawText": "내 주문이 시전된 후에, 같은 비용의 무작위 하수인을 하나 소환하고 내구도를 1 잃습니다.",
+    "enText": "[x]After you cast a spell,\nsummon a random\nminion of that Cost.\nLose 1 Durability."
+  }
+}

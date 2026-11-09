@@ -1,0 +1,241 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "KAR_076",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2016-08-12",
+    "status": "verified",
+    "meaning": "First ordinary-match availability on Korean launch day.",
+    "wing": "프롤로그",
+    "originalIdEvidence": "KAR_076",
+    "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 프롤로그에서 잠금 해제",
+    "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+    "dateSources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+      "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+      "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+    ]
+  },
+  "availabilityScope": "Korean ordinary constructed-match use, including generated exact original entities. Preload, reveal and PvE do not count. Later-wing earliest-generation dates remain qualified.",
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "All57 original identities, initial numbers, Korean archive text and card types checked in launch archive. Noncollectible rarity, earlier-than-wing generation and unverified wording effective dates remain explicitly qualified.",
+  "sourceCommit": "537ecd58630a527af3dc2c8aef4badecd9d33972",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "KAR_076",
+      "dbfId": 39715,
+      "name": "불의 땅 차원문",
+      "type": "SPELL",
+      "cardClass": "MAGE",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 7,
+      "text": "피해를 $6 줍니다.\n비용이 6인 무작위\n하수인을 소환합니다.",
+      "attack": 0,
+      "health": 0,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "불의 땅으로 오세요! 심연의 구렁보다 <i>훨씬</i> 아름다운 곳이랍니다!",
+      "spellSchool": "FIRE",
+      "portrait": "HS8-089_S.psd:fb92344501df69d489b7d86c86637c98",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 2
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/KAR_076.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS8-089_S.psd:fb92344501df69d489b7d86c86637c98",
+      "goldenMaterial": "KAR_076_PremiumCard.mat:92c9990822a63c849b4c5ba83feb2ef0",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "KAR_076",
+    "dbfId": 39715,
+    "name": "불의 땅 차원문",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 7,
+    "text": "피해를 $6 줍니다.\n비용이 6인 무작위\n하수인을 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "불의 땅으로 오세요! 심연의 구렁보다 <i>훨씬</i> 아름다운 곳이랍니다!",
+    "spellSchool": "FIRE",
+    "portrait": "HS8-089_S.psd:fb92344501df69d489b7d86c86637c98",
+    "set": "KARA",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 2
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/KAR_076.png"
+  },
+  "canonicalFields": [
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "spellSchool",
+    "text",
+    "type"
+  ],
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "attack",
+    "durability",
+    "flavor",
+    "health",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set"
+  ],
+  "historicalEvidence": [
+    {
+      "date": "2016-08-12",
+      "build": "6.0.0.13921",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "fields": [
+        "cardClass",
+        "classes",
+        "collectible",
+        "cost",
+        "dbfId",
+        "id",
+        "mechanics",
+        "name",
+        "rarity",
+        "text",
+        "type"
+      ],
+      "availabilityStatus": "verified"
+    },
+    {
+      "date": "2018-10-03",
+      "build": "26757",
+      "source": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "dateSource": [
+        "https://hearthstone.blizzard.com/ko-kr/news/22546493"
+      ],
+      "fields": [
+        "text"
+      ],
+      "kind": "wording",
+      "dateConfidence": "high"
+    },
+    {
+      "date": "2021-03-26",
+      "build": "20.0.0.77662",
+      "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "dateSource": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23642550"
+      ],
+      "fields": [
+        "spellSchool"
+      ],
+      "kind": "card_change",
+      "dateConfidence": "high"
+    },
+    {
+      "date": "2023-08-23",
+      "build": "27.2.0.183876",
+      "source": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "dateSource": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23987537"
+      ],
+      "fields": [
+        "text"
+      ],
+      "kind": "balance_cohort",
+      "dateConfidence": "high"
+    }
+  ],
+  "undatedEvidence": [],
+  "keywordAbilityEvidence": {
+    "source": "tools/karazhan-ability-policy.json"
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": []
+  },
+  "behaviorEvidence": "tools/karazhan-behavior-audit.json",
+  "sourceHistory": "tools/original-date-first-history.json"
+}

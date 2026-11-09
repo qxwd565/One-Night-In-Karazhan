@@ -1,0 +1,263 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "KAR_009",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2016-08-26",
+    "status": "estimated",
+    "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+    "wing": "박물관",
+    "originalIdEvidence": "KAR_009",
+    "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+    "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+    "dateSources": [
+      "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs"
+    ]
+  },
+  "availabilityScope": "Korean ordinary constructed-match use, including generated exact original entities. Preload, reveal and PvE do not count. Later-wing earliest-generation dates remain qualified.",
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "All57 original identities, initial numbers, Korean archive text and card types checked in launch archive. Noncollectible rarity, earlier-than-wing generation and unverified wording effective dates remain explicitly qualified.",
+  "sourceCommit": "537ecd58630a527af3dc2c8aef4badecd9d33972",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "KAR_009",
+      "dbfId": 39169,
+      "name": "나불대는 책",
+      "type": "MINION",
+      "cardClass": "MAGE",
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 1,
+      "text": "[x]<b>전투의 함성:</b>\n무작위 마법사 주문을\n내 손으로 가져옵니다.",
+      "attack": 1,
+      "health": 2,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "가장 좋아하는 책은 가시덤불 골짜기의 푸른 언덕입니다. 하루 종일 그 책에 대해 떠들더라고요.",
+      "spellSchool": "",
+      "portrait": "HS8-088_M.psd:4e2145c443f519042a998016cb5afe04",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/KAR_009.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS8-088_M.psd:4e2145c443f519042a998016cb5afe04",
+      "goldenMaterial": "KAR_009_PremiumCard.mat:aa14cf82fc5cf604f82475369127c4c9",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "KAR_009",
+    "dbfId": 39169,
+    "name": "나불대는 책",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 1,
+    "text": "[x]<b>전투의 함성:</b>\n무작위 마법사 주문을\n내 손으로 가져옵니다.",
+    "attack": 1,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "가장 좋아하는 책은 가시덤불 골짜기의 푸른 언덕입니다. 하루 종일 그 책에 대해 떠들더라고요.",
+    "spellSchool": "",
+    "portrait": "HS8-088_M.psd:4e2145c443f519042a998016cb5afe04",
+    "set": "KARA",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/KAR_009.png"
+  },
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "historicalEvidence": [
+    {
+      "date": "2016-08-26",
+      "build": "6.0.0.13921",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "fields": [
+        "attack",
+        "cardClass",
+        "classes",
+        "collectible",
+        "cost",
+        "dbfId",
+        "health",
+        "id",
+        "mechanics",
+        "name",
+        "rarity",
+        "text",
+        "type"
+      ],
+      "availabilityStatus": "estimated"
+    },
+    {
+      "date": "2017-08-09",
+      "build": "9.0.0.20457",
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "dateSource": [
+        "https://news.blizzard.com/ko-kr/article/20944006/2017-8-9"
+      ],
+      "fields": [
+        "text"
+      ],
+      "kind": "wording_and_functionality",
+      "dateConfidence": "high"
+    },
+    {
+      "date": "2018-10-03",
+      "build": "26757",
+      "source": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "dateSource": [
+        "https://hearthstone.blizzard.com/ko-kr/news/22546493"
+      ],
+      "fields": [
+        "text"
+      ],
+      "kind": "wording",
+      "dateConfidence": "high"
+    },
+    {
+      "date": "2023-04-05",
+      "build": "26.0.0.170824",
+      "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+      "dateSource": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23934449/26-0-patch-notes"
+      ],
+      "fields": [
+        "health"
+      ],
+      "kind": "card_change",
+      "dateConfidence": "high"
+    }
+  ],
+  "undatedEvidence": [],
+  "keywordAbilityEvidence": {
+    "source": "tools/karazhan-ability-policy.json"
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "BATTLECRY"
+    ]
+  },
+  "behaviorEvidence": "tools/karazhan-behavior-audit.json",
+  "sourceHistory": "tools/original-date-first-history.json"
+}

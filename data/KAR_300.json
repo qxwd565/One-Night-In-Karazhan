@@ -1,1 +1,21 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_300","dbfId":39350,"name":"마력 깃든 까마귀","type":"MINION","cardClass":"DRUID","rarity":"COMMON","collectible":true,"cost":1,"text":"","attack":2,"health":2,"durability":0,"armor":0,"flavor":"곡물을 가져와라! 내겐 곡물이 필요하다!","spellSchool":"","portrait":"HS8-001_D.psd:07ca18ab866508a47b6e76aa2fcbfa1c","set":"KARA","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":2},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/KAR_300.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-001_D.psd:07ca18ab866508a47b6e76aa2fcbfa1c","goldenMaterial":"KAR_300_PremiumCard.mat:66b6bfee97fed6f4abc57ec562e842b0","goldenAnimation":""}}
+{
+  "2016-08-12": {
+    "id": "KAR_300",
+    "dbfId": 39350,
+    "name": "마력 깃든 까마귀",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "classes": [],
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "",
+    "attack": 2,
+    "health": 2,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "mechanics": []
+  }
+}

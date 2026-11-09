@@ -1,0 +1,4058 @@
+{
+  "schemaVersion": 1,
+  "title": "한여름 밤의 카라잔 원본 카드: 한국 대전 사용일과 변경일 독립 증거 검토",
+  "scope": {
+    "repository": "qxwd565/One-Night-In-Karazhan",
+    "pinnedCommit": "537ecd58630a527af3dc2c8aef4badecd9d33972",
+    "originalIds": 57,
+    "collectibles": 45,
+    "noncollectibleTokens": 12,
+    "timezone": "Asia/Seoul",
+    "cutoffClient": "37.0.2.256589",
+    "status": "Evidence report, not a claim that every historical functional change is verified."
+  },
+  "conclusions": [
+    "Prologue and Parlor ordinary availability starts 2016-08-12 KST. Opera 2016-08-19, Menagerie 2016-08-26, Spire 2016-09-02. August 10 client preload, reveal and PvE previews are excluded.",
+    "Later-wing dates are proven ordinary-use upper bounds. No contemporaneous exact-ID ordinary-generation evidence was found that justifies moving them earlier; this is not proof that earlier generation was impossible.",
+    "KAR_021 Wicked Witchdoctor cost 4→3 on 2023-08-23 was a material missing numeric change in the earlier history.",
+    "Original IDs were checked separately from CORE_ and other reprint variants. Later Core announcements only supply patch timing where the actual original change is independently observed.",
+    "Malchezaar Imp 1→2 belongs to 34.0.2/2025-11-14, not the later 34.6 first-sampled archive. Curator wording simplification belongs to 35.0/2026-03-11, not 35.0.3.",
+    "Atiesh ELITE-tag addition is only a raw client observation here. Its displayed rarity/visual change has not been established from a contemporary image or explicit Korean patch note."
+  ],
+  "datePolicy": "Use explicit Korean effective-day wording or a Korean contemporaneous launch report. Where a UTC timestamp is used, state conversion and exactly what it timestamps. Archive timestamps never establish a live date.",
+  "sources": {
+    "preload": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+      "relevantQuote": "이 새로운 모험은 8월 12일에 시작되며",
+      "supports": "Korean August 10 preload is distinct from August 12 ordinary availability.",
+      "imagesInspected": false
+    },
+    "launch": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+      "relevantQuote": "",
+      "supports": "Prologue and Parlor launch announcement, prologue rewards Raven and Firelands Portal; global header is August 11.",
+      "imagesInspected": false
+    },
+    "launch_kr": {
+      "url": "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc",
+      "relevantQuote": "2016-08-12 10:27",
+      "supports": "Contemporaneous Korean report that prologue and first wing opened on August 12.",
+      "imagesInspected": false
+    },
+    "opera": {
+      "url": "https://m.inven.co.kr/webzine/wznews.php?idx=162428&l=134082&p=43&site=hs",
+      "relevantQuote": "2016-08-19 08:13",
+      "supports": "Contemporaneous Korean Opera opening report; opening August 19.",
+      "imagesInspected": false
+    },
+    "menagerie": {
+      "url": "https://m.inven.co.kr/webzine/wznews.php?idx=162846&l=134082&p=43&site=hs",
+      "relevantQuote": "2016-08-26 08:21",
+      "supports": "Contemporaneous Korean Menagerie opening report; opening August 26.",
+      "imagesInspected": false
+    },
+    "spire": {
+      "url": "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs",
+      "relevantQuote": "2016-09-02 08:00",
+      "supports": "Contemporaneous Spire opening report September 2. Its retrospective August 13 first-wing statement conflicts with official August 12 and is not adopted.",
+      "imagesInspected": false
+    },
+    "wings": {
+      "url": "https://liquipedia.net/hearthstone/One_Night_in_Karazhan",
+      "relevantQuote": "",
+      "supports": "Boss rewards and class-challenge assignment, checked against Korean HOW_TO_EARN in original CardDefs.",
+      "imagesInspected": false
+    },
+    "wings_guide": {
+      "url": "https://www.icy-veins.com/hearthstone/one-night-in-karazhan-guide",
+      "relevantQuote": "",
+      "supports": "Contemporary wing guides and release chronology; US days are not Korean days.",
+      "imagesInspected": false
+    },
+    "p62": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/20328179",
+      "relevantQuote": "",
+      "supports": "Korean 6.2 effective day and Ethereal Peddler clarification, not a functional change at this event.",
+      "imagesInspected": false
+    },
+    "p71": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/20562933",
+      "relevantQuote": "영혼 발톱의 비용이 1에서 2로 증가했습니다.",
+      "supports": "Title specifies March 1; global publication header February 28 is not Korean effective day.",
+      "imagesInspected": false
+    },
+    "p80": {
+      "url": "https://news.blizzard.com/ko-kr/article/20678265/4-5",
+      "relevantQuote": "하스스톤 업데이트 – 4월 5일",
+      "supports": "8.0 effective Korean day April 5. Also explicitly fixes immune heroes being unable to play health-cost cards above current health.",
+      "imagesInspected": false
+    },
+    "p84": {
+      "url": "https://news.blizzard.com/ko-kr/article/20904301/2017-7-11",
+      "relevantQuote": "하스스톤 업데이트 – 2017년 7월 11일",
+      "supports": "8.4 Korean day. Direct bare URL failed but indexed official page and text were inspected.",
+      "imagesInspected": false
+    },
+    "p90": {
+      "url": "https://news.blizzard.com/ko-kr/article/20944006/2017-8-9",
+      "relevantQuote": "하스스톤 업데이트 – 2017년 8월 9일",
+      "supports": "9.0 Korean day, distinct from Frozen Throne opening August 11.",
+      "imagesInspected": false
+    },
+    "p100": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/21274279/12-7",
+      "relevantQuote": "",
+      "supports": "10.0 patch Korean day, distinct from expansion opening December 8. No Atiesh rarity-display statement found.",
+      "imagesInspected": false
+    },
+    "p110": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/21694420/update-11-0-april-10-enter-the-witchwood/",
+      "relevantQuote": "",
+      "supports": "Korean 11.0 patch day April 11; explicit Ethereal Peddler discount no longer persists through replaced cards.",
+      "imagesInspected": false
+    },
+    "p120": {
+      "url": "https://news.blizzard.com/ko-kr/article/21964710/12-0-8-3",
+      "relevantQuote": "",
+      "supports": "Korean 12.0 effective day and link to copying rules explainer.",
+      "imagesInspected": false
+    },
+    "copy_rules": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/21965466",
+      "relevantQuote": "",
+      "supports": "Deck-to-play copies retain enchantments under 12.0; announcement precedes live patch. Also keeps Kindly Grandmother and Big Bad Wolf as Beasts, and Curator as Mech.",
+      "imagesInspected": false
+    },
+    "p122": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/22546493",
+      "relevantQuote": "업데이트 12.2 - 10월 3일 - 할로윈 축제",
+      "supports": "Korean 12.2 effective day. Card text specifics come from original-ID XML.",
+      "imagesInspected": false
+    },
+    "p140": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/22938499",
+      "relevantQuote": "하스스톤 업데이트 – 4월 5일 – 어둠의 반격",
+      "supports": "Korean 14.0 effective day, distinct from April 10 new expansion. Text specifics from original-ID XML.",
+      "imagesInspected": false
+    },
+    "p150": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/23076826",
+      "relevantQuote": "[[칠흑색 비숍]]이 전장 최우측이 아닌 자신의 우측에 하수인을 부활시킵니다.",
+      "supports": "Title August 2 gives 15.0 Korean day. Also explicitly changes Barnes copies under Crystal Core from 4/4 to 1/1.",
+      "imagesInspected": false
+    },
+    "p1504": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/23097375/8-27",
+      "relevantQuote": "[[반즈]] – 마나 비용이 4에서 5로 증가했습니다.",
+      "supports": "Title August 27 gives 15.0.4 Korean day, global publication header August 26.",
+      "imagesInspected": false
+    },
+    "p182": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/23509390",
+      "relevantQuote": "9월 9일 전장 파티 기능이 도입되면",
+      "supports": "18.2 Korean patch day September 9 corroborated by contemporary Korean patch report; wording specifics from original-ID archive.",
+      "imagesInspected": false
+    },
+    "p182_kr": {
+      "url": "https://hmseo91.tistory.com/972",
+      "relevantQuote": "",
+      "supports": "Contemporaneous Korean 18.2 report used as corroboration, not independently reread in this pass.",
+      "imagesInspected": false
+    },
+    "p200": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/23642550",
+      "relevantQuote": "적용 날짜가 표기되지 않은 변경 사항은 3월 26일 패치와 함께 적용됩니다!",
+      "supports": "Original-card 20.0 changes take effect March 26, not expansion March 31. Spell schools introduced; originals checked separately from Core versions.",
+      "imagesInspected": false
+    },
+    "p260": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/23934449/26-0-patch-notes",
+      "relevantQuote": "플레이어가 면역 상태이거나 천상의 보호막이 부여되어 있어도 생명력을 비용으로 내야 합니다.",
+      "supports": "26.0 Korean day April 5; adjusted Core cards change with patch, roster rotation April 12. Explicit health-cost versus immunity general rule.",
+      "imagesInspected": false
+    },
+    "p272": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/23987537",
+      "relevantQuote": "",
+      "supports": "27.2 Korean patch August 23 changes already-owned originals; Caverns of Time launch September 1 is not the original-card effective date. Table names all 8 affected Karazhan cards.",
+      "imagesInspected": false
+    },
+    "p320": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/24187196/32-0",
+      "relevantQuote": "아래 업데이트는 3월 19일 32.0 패치와 함께 적용됩니다.",
+      "supports": "32.0 Korean day March 19; exact original Curator and Historian changes verified in XML, not inferred solely from Core images.",
+      "imagesInspected": false
+    },
+    "p3402": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/24247520/34-0-2",
+      "relevantQuote": "",
+      "supports": "34.0.2 names Malchezaar Imp cost 1→2 and says live today. Global page headerNovember 13 requires Korean corroboration.",
+      "imagesInspected": false
+    },
+    "p3402_kr": {
+      "url": "https://m.inven.co.kr/board/hs/3508/23803?vtype=mobile",
+      "relevantQuote": "2025-11-14 02:04:40",
+      "supports": "Contemporaneous Korean 34.0.2 publication, paired with official live-today patch and original build 231191.",
+      "imagesInspected": false
+    },
+    "p350": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/24267727",
+      "relevantQuote": "3월 11일 적용되는 35.0 패치",
+      "supports": "35.0 Korean effective day March 11; exact Curator wording comes from original-ID XML 237510, not later 35.0.3.",
+      "imagesInspected": false
+    },
+    "p370": {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/24301454/37-0-patch-notes",
+      "relevantQuote": "",
+      "supports": "37.0 explicitly gives Korean October 14 patch/pre-release timing; expansionOctober 21 is separate. Exact punctuation changes from original-ID XML.",
+      "imagesInspected": false
+    },
+    "moat_hotfix": {
+      "url": "https://us.forums.blizzard.com/en/hearthstone/t/2701-patch-notes/110763",
+      "relevantQuote": "a server-side hotfix rolling out now",
+      "supports": "27.0.1 explicitly fixes Moat Lurker re-summoning the targeted minion on wrong board side. The text announces active rollout, not a future plan.",
+      "imagesInspected": false
+    },
+    "moat_raw": {
+      "url": "https://us.forums.blizzard.com/en/hearthstone/t/2701-patch-notes/110763.json",
+      "relevantQuote": "",
+      "supports": "Raw metadata inspected: staff first post created 2023-07-28T 17:00:20.721Z, updated 2023-07-28T 22:02:21.276Z. Both convert to July 29 KST. No server completion telemetry.",
+      "imagesInspected": false
+    }
+  },
+  "patchDateAnchors": {
+    "15181": {
+      "patch": "6.2",
+      "effectiveKoreanDay": "2016-10-21",
+      "sourceIds": [
+        "p62"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "17720": {
+      "patch": "7.1",
+      "effectiveKoreanDay": "2017-03-01",
+      "sourceIds": [
+        "p71"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "18336": {
+      "patch": "8.0",
+      "effectiveKoreanDay": "2017-04-05",
+      "sourceIds": [
+        "p80"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "20022": {
+      "patch": "8.4",
+      "effectiveKoreanDay": "2017-07-11",
+      "sourceIds": [
+        "p84"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "20457": {
+      "patch": "9.0",
+      "effectiveKoreanDay": "2017-08-09",
+      "sourceIds": [
+        "p90"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "22611": {
+      "patch": "10.0",
+      "effectiveKoreanDay": "2017-12-07",
+      "sourceIds": [
+        "p100"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "23966": {
+      "patch": "11.0",
+      "effectiveKoreanDay": "2018-04-11",
+      "sourceIds": [
+        "p110"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "25770": {
+      "patch": "12.0",
+      "effectiveKoreanDay": "2018-08-03",
+      "sourceIds": [
+        "p120"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "26757": {
+      "patch": "12.2",
+      "effectiveKoreanDay": "2018-10-03",
+      "sourceIds": [
+        "p122"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "29933": {
+      "patch": "14.0",
+      "effectiveKoreanDay": "2019-04-05",
+      "sourceIds": [
+        "p140"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "32708": {
+      "patch": "15.0",
+      "effectiveKoreanDay": "2019-08-02",
+      "sourceIds": [
+        "p150"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "33402": {
+      "patch": "15.0.4",
+      "effectiveKoreanDay": "2019-08-27",
+      "sourceIds": [
+        "p1504"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "58213": {
+      "patch": "18.2",
+      "effectiveKoreanDay": "2020-09-09",
+      "sourceIds": [
+        "p182"
+      ],
+      "dateConfidence": "medium-high; official event dates support patch day, direct actual first-live telemetry not inspected",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "77662": {
+      "patch": "20.0",
+      "effectiveKoreanDay": "2021-03-26",
+      "sourceIds": [
+        "p200"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "170824": {
+      "patch": "26.0",
+      "effectiveKoreanDay": "2023-04-05",
+      "sourceIds": [
+        "p260"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "183876": {
+      "patch": "27.2",
+      "effectiveKoreanDay": "2023-08-23",
+      "sourceIds": [
+        "p272"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "217964": {
+      "patch": "32.0",
+      "effectiveKoreanDay": "2025-03-19",
+      "sourceIds": [
+        "p320"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "231191": {
+      "patch": "34.0.2",
+      "effectiveKoreanDay": "2025-11-14",
+      "sourceIds": [
+        "p3402",
+        "p3402_kr"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "237510": {
+      "patch": "35.0",
+      "effectiveKoreanDay": "2026-03-11",
+      "sourceIds": [
+        "p350"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    },
+    "254477": {
+      "patch": "37.0",
+      "effectiveKoreanDay": "2026-10-14",
+      "sourceIds": [
+        "p370"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false
+    }
+  },
+  "independentlyExtractedOriginalArchives": [
+    {
+      "build": "13921",
+      "sourceUrl": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "sha256": "e41ba3137a210361ef51839c03d66eccc37cdf16c249b25f004069dfd0168d6e",
+      "exactOriginalEntities": 57
+    },
+    {
+      "build": "17720",
+      "sourceUrl": "https://github.com/HearthSim/hsdata/blob/7ee343d4dead8fa8854116cd0973ba7a48682f30/CardDefs.xml",
+      "sha256": "4803e91820130dc4f174f4c18f5b68e00bbc128e392c50227b61cf96a08303a5",
+      "exactOriginalEntities": 57
+    },
+    {
+      "build": "18336",
+      "sourceUrl": "https://github.com/HearthSim/hsdata/blob/085f915af6c4374ac2a7088862390ebea44eb6c9/CardDefs.xml",
+      "sha256": "3f9da2a5a72a3bd3e9672cdf254fe47e65d9fcca18a15d2b03901c4991fe3ec2",
+      "exactOriginalEntities": 57
+    },
+    {
+      "build": "22611",
+      "sourceUrl": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+      "sha256": "c42c99ca2216802a072eac484bd221706349e4ed278dae93d252f8a503e380a2",
+      "exactOriginalEntities": 57
+    },
+    {
+      "build": "23966",
+      "sourceUrl": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "sha256": "4353a7eb1c36c99ccfc3817eb30cccb3a7c14c810a043c82e980957864a09d94",
+      "exactOriginalEntities": 57
+    },
+    {
+      "build": "25770",
+      "sourceUrl": "https://github.com/HearthSim/hsdata/blob/48d8f8261c56e0b5109f5e363cd47c000585857f/CardDefs.xml",
+      "sha256": "a41b15ebf4a1d263e84588c1e7c99eb54cce46dd8e84e283c95a6d6da2df0c7d",
+      "exactOriginalEntities": 57
+    },
+    {
+      "build": "33402",
+      "sourceUrl": "https://github.com/HearthSim/hsdata/blob/dd224aedef671a1bad6479df2a0e9cb2ea6da3cc/CardDefs.xml",
+      "sha256": "71d952172884246deac0bed81d20421f31b6d6796d684efee87abb0cc4625afa",
+      "exactOriginalEntities": 57
+    },
+    {
+      "build": "77662",
+      "sourceUrl": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "sha256": "36879caf88f629052e57d728d1fb3649a21f7198f649ab1cdc916c72ab1b8e29",
+      "exactOriginalEntities": 57
+    },
+    {
+      "build": "170824",
+      "sourceUrl": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+      "sha256": "8a407ab48fc4f7ded3eaa72870f4330facb82a1f334bb843258c982b9193988f",
+      "exactOriginalEntities": 57
+    },
+    {
+      "build": "183876",
+      "sourceUrl": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "sha256": "d7d7dda7984db2072e153a8b022725c545be03126c4ce017842386439e85aaca",
+      "exactOriginalEntities": 57
+    },
+    {
+      "build": "217964",
+      "sourceUrl": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml",
+      "sha256": "039e4cb30c4e4a994778edcd0d6af9b60c1f0ef1571aab8d02af62568681bddf",
+      "exactOriginalEntities": 57
+    },
+    {
+      "build": "231191",
+      "sourceUrl": "https://github.com/HearthSim/hsdata/blob/1bcf802ffdd50731c53a2a06dd6e9da43caf858a/CardDefs.xml",
+      "sha256": "11bc5964a5deed4262353440601b33013847d40d4975b76c614c5d36f2732a48",
+      "exactOriginalEntities": 57
+    },
+    {
+      "build": "237510",
+      "sourceUrl": "https://github.com/HearthSim/hsdata/blob/a770d899b7ea12594f2edfc7d097f6ee0a858eb8/CardDefs.xml",
+      "sha256": "a86b5126943a91ceb1e18decca646ce533f0a06c3fec34e12dc11f45e602c3e6",
+      "exactOriginalEntities": 57
+    }
+  ],
+  "cards": [
+    {
+      "id": "KAR_004",
+      "dbfId": 39160,
+      "nameKo": "고양이 마술",
+      "nameEn": "Cat Trick",
+      "wing": "박물관",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-26",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "menagerie",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 2,
+          "cardTypeEnum": 5,
+          "classEnum": 3,
+          "rarityEnum": 3,
+          "collectible": 1
+        },
+        "textKo": "<b>비밀:</b> 상대편이 주문을 시전한 후에, <b>은신</b> 능력이 있는 4/2 표범을 1마리 소환합니다.",
+        "textEn": "<b>Secret:</b> After your opponent casts a spell, summon a 4/2 Panther with <b>Stealth</b>.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_004a",
+      "dbfId": 39173,
+      "nameKo": "모자 쓴 고양이",
+      "nameEn": "Cat in a Hat",
+      "wing": "박물관",
+      "generatorParentId": "KAR_004",
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-26",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "menagerie",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 3,
+          "attack": 4,
+          "health": 2,
+          "cardTypeEnum": 4,
+          "classEnum": 3,
+          "raceEnum": 20
+        },
+        "textKo": "<b>은신</b>",
+        "textEn": "<b>Stealth</b>",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_005",
+      "dbfId": 39481,
+      "nameKo": "인자한 할머니",
+      "nameEn": "Kindly Grandmother",
+      "wing": "오페라",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-19",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "opera",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 2,
+          "attack": 1,
+          "health": 1,
+          "cardTypeEnum": 4,
+          "classEnum": 3,
+          "rarityEnum": 1,
+          "raceEnum": 20,
+          "collectible": 1
+        },
+        "textKo": "<b>죽음의 메아리:</b> 3/2 커다란 나쁜 늑대를 1마리 소환합니다.",
+        "textEn": "<b>Deathrattle:</b> Summon a 3/2 Big Bad Wolf.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_005a",
+      "dbfId": 39161,
+      "nameKo": "커다란 나쁜 늑대",
+      "nameEn": "Big Bad Wolf",
+      "wing": "오페라",
+      "generatorParentId": "KAR_005",
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-19",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "opera",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 2,
+          "attack": 3,
+          "health": 2,
+          "cardTypeEnum": 4,
+          "classEnum": 3,
+          "raceEnum": 20
+        },
+        "textKo": null,
+        "textEn": null,
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_006",
+      "dbfId": 39492,
+      "nameKo": "망토 두른 여사냥꾼",
+      "nameEn": "Cloaked Huntress",
+      "wing": "객실",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 3,
+          "attack": 3,
+          "health": 4,
+          "cardTypeEnum": 4,
+          "classEnum": 3,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "내 <b>비밀</b>의 비용이\n(0)이 됩니다.",
+        "textEn": "Your <b>Secrets</b> cost (0).",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_009",
+      "dbfId": 39169,
+      "nameKo": "나불대는 책",
+      "nameEn": "Babbling Book",
+      "wing": "박물관",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-26",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "menagerie",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 1,
+          "attack": 1,
+          "health": 1,
+          "cardTypeEnum": 4,
+          "classEnum": 4,
+          "rarityEnum": 3,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 무작위 마법사 주문 카드 1장을 내 손으로 가져옵니다.",
+        "textEn": "<b>Battlecry:</b> Add a random Mage spell to your hand.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_010",
+      "dbfId": 39477,
+      "nameKo": "파멸의 어둠 기사단원",
+      "nameEn": "Nightbane Templar",
+      "wing": "박물관",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-26",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "menagerie",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 3,
+          "attack": 2,
+          "health": 3,
+          "cardTypeEnum": 4,
+          "classEnum": 5,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 내 손에 용족이 있으면, 1/1 새끼용을 둘 소환합니다.",
+        "textEn": "<b>Battlecry:</b> If you're holding a Dragon, summon two 1/1 Whelps.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_010a",
+      "dbfId": 39692,
+      "nameKo": "새끼용",
+      "nameEn": "Whelp",
+      "wing": "박물관",
+      "generatorParentId": "KAR_010",
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-26",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "menagerie",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 1,
+          "attack": 1,
+          "health": 1,
+          "cardTypeEnum": 4,
+          "classEnum": 5,
+          "raceEnum": 24
+        },
+        "textKo": null,
+        "textEn": null,
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_011",
+      "dbfId": 39476,
+      "nameKo": "거만한 연기자",
+      "nameEn": "Pompous Thespian",
+      "wing": "오페라",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-19",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "opera",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 2,
+          "attack": 3,
+          "health": 2,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "<b>도발</b>",
+        "textEn": "<b>Taunt</b>",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_013",
+      "dbfId": 39468,
+      "nameKo": "정화",
+      "nameEn": "Purify",
+      "wing": "박물관",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-26",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "menagerie",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 2,
+          "cardTypeEnum": 5,
+          "classEnum": 6,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "아군 하수인 하나를 <b>침묵</b>시킵니다. 카드를 1장 뽑습니다.",
+        "textEn": "<b>Silence</b> a friendly minion. Draw a card.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_021",
+      "dbfId": 39190,
+      "nameKo": "사악한 마녀",
+      "nameEn": "Wicked Witchdoctor",
+      "wing": "오페라",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-19",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "opera",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 4,
+          "attack": 3,
+          "health": 4,
+          "cardTypeEnum": 4,
+          "classEnum": 8,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "내가 주문을 시전할 때마다 무작위 기본 토템을 하나 소환합니다.",
+        "textEn": "Whenever you cast a spell, summon a random basic_Totem.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_025",
+      "dbfId": 39197,
+      "nameKo": "카라 카잠!",
+      "nameEn": "Kara Kazham!",
+      "wing": "오페라",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-19",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "opera",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 5,
+          "cardTypeEnum": 5,
+          "classEnum": 9,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "[x]1/1 양초, 2/2 빗자루,\n3/3 찻주전자를\n하나씩 소환합니다.",
+        "textEn": "Summon a 1/1 Candle, 2/2 Broom, and 3/3 Teapot.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_025a",
+      "dbfId": 39199,
+      "nameKo": "양초",
+      "nameEn": "Candle",
+      "wing": "오페라",
+      "generatorParentId": "KAR_025",
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-19",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "opera",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 1,
+          "attack": 1,
+          "health": 1,
+          "cardTypeEnum": 4,
+          "classEnum": 9
+        },
+        "textKo": null,
+        "textEn": null,
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_025b",
+      "dbfId": 39198,
+      "nameKo": "빗자루",
+      "nameEn": "Broom",
+      "wing": "오페라",
+      "generatorParentId": "KAR_025",
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-19",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "opera",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 2,
+          "attack": 2,
+          "health": 2,
+          "cardTypeEnum": 4,
+          "classEnum": 9
+        },
+        "textKo": null,
+        "textEn": null,
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_025c",
+      "dbfId": 39200,
+      "nameKo": "찻주전자",
+      "nameEn": "Teapot",
+      "wing": "오페라",
+      "generatorParentId": "KAR_025",
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-19",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "opera",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 3,
+          "attack": 3,
+          "health": 3,
+          "cardTypeEnum": 4,
+          "classEnum": 9
+        },
+        "textKo": null,
+        "textEn": null,
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_026",
+      "dbfId": 39495,
+      "nameKo": "왕을 지켜라!",
+      "nameEn": "Protect the King!",
+      "wing": "객실",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 3,
+          "cardTypeEnum": 5,
+          "classEnum": 10,
+          "rarityEnum": 3,
+          "collectible": 1
+        },
+        "textKo": "[x]적 하수인 하나당 <b>도발</b>\n 능력이 있는 1/1 폰을\n하나씩 소환합니다.",
+        "textEn": "For each enemy minion, summon a 1/1 Pawn with <b>Taunt</b>.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_026t",
+      "dbfId": 40501,
+      "nameKo": "폰",
+      "nameEn": "Pawn",
+      "wing": "객실",
+      "generatorParentId": "KAR_026",
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 1,
+          "attack": 1,
+          "health": 1,
+          "cardTypeEnum": 4,
+          "classEnum": 10
+        },
+        "textKo": "<b>도발</b>",
+        "textEn": "<b>Taunt</b>",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_028",
+      "dbfId": 39417,
+      "nameKo": "바보의 파멸",
+      "nameEn": "Fool's Bane",
+      "wing": "박물관",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-26",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "menagerie",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 5,
+          "attack": 3,
+          "durability": 4,
+          "cardTypeEnum": 7,
+          "classEnum": 10,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "한 턴에 여러번\n공격할 수 있습니다. 영웅을 공격할 수 없습니다.",
+        "textEn": "Unlimited attacks each turn. Can't attack heroes.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_029",
+      "dbfId": 39433,
+      "nameKo": "룬이 새겨진 알",
+      "nameEn": "Runic Egg",
+      "wing": "박물관",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-26",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "menagerie",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 1,
+          "health": 2,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "<b>죽음의 메아리:</b>\n카드를 1장 뽑습니다.",
+        "textEn": "<b>Deathrattle:</b> Draw a card.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_030",
+      "dbfId": 39206,
+      "nameKo": "저장고 거미",
+      "nameEn": "Cellar Spider",
+      "wing": "객실",
+      "generatorParentId": "KAR_030a",
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 3,
+          "attack": 1,
+          "health": 3,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "raceEnum": 20
+        },
+        "textKo": null,
+        "textEn": null,
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_030a",
+      "dbfId": 39207,
+      "nameKo": "식당 거미",
+      "nameEn": "Pantry Spider",
+      "wing": "객실",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 3,
+          "attack": 1,
+          "health": 3,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 1,
+          "raceEnum": 20,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 1/3 거미를 1마리 소환합니다.",
+        "textEn": "<b>Battlecry:</b> Summon a\n1/3 Spider.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_033",
+      "dbfId": 39210,
+      "nameKo": "용족 독서가",
+      "nameEn": "Book Wyrm",
+      "wing": "첨탑",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-09-02",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "spire",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 6,
+          "attack": 3,
+          "health": 6,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 3,
+          "raceEnum": 24,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 내 손에 용족이 있으면, 공격력이 3 이하인 적 하수인 하나를 처치합니다.",
+        "textEn": "<b>Battlecry:</b> If you're holding a Dragon, destroy an enemy minion with 3 or less Attack.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_035",
+      "dbfId": 39442,
+      "nameKo": "만찬의 사제",
+      "nameEn": "Priest of the Feast",
+      "wing": "객실",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 4,
+          "attack": 3,
+          "health": 6,
+          "cardTypeEnum": 4,
+          "classEnum": 6,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "[x]내가 주문을 시전할 때마다\n내 영웅의 생명력을\n3 회복시킵니다.",
+        "textEn": "Whenever you cast a spell, restore 3 Health to\nyour hero.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_036",
+      "dbfId": 39215,
+      "nameKo": "비전 변형물",
+      "nameEn": "Arcane Anomaly",
+      "wing": "객실",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 1,
+          "attack": 2,
+          "health": 1,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "내가 주문을 시전할 때마다 이 하수인이 생명력을 +1 얻습니다.",
+        "textEn": "Whenever you cast a spell, give this minion\n+1 Health.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_037",
+      "dbfId": 39489,
+      "nameKo": "부엉이 파수꾼",
+      "nameEn": "Avian Watcher",
+      "wing": "박물관",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-26",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "menagerie",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 5,
+          "attack": 3,
+          "health": 6,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 3,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 내 영웅에게 <b>비밀</b>이 걸려 있으면, +1/+1과 <b>도발</b>을 얻습니다.",
+        "textEn": "<b>Battlecry:</b> If you control a <b>Secret</b>, gain +1/+1\nand <b>Taunt</b>.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_041",
+      "dbfId": 39465,
+      "nameKo": "해자 잠복꾼",
+      "nameEn": "Moat Lurker",
+      "wing": "오페라",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-19",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "opera",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 6,
+          "attack": 3,
+          "health": 3,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 3,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 하수인 하나를 처치합니다.\n<b>죽음의 메아리:</b> 그 하수인을 다시 소환합니다.",
+        "textEn": "<b>Battlecry:</b> Destroy a minion. <b>Deathrattle:</b> Resummon it.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_044",
+      "dbfId": 39453,
+      "nameKo": "모로스",
+      "nameEn": "Moroes",
+      "wing": "객실",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 3,
+          "attack": 1,
+          "health": 1,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 5,
+          "collectible": 1
+        },
+        "textKo": "<b>은신</b>\n내 턴이 끝날 때,\n1/1 급사를 1명 소환합니다.",
+        "textEn": "<b>Stealth</b>\nAt the end of your turn, summon a 1/1 Steward.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_044a",
+      "dbfId": 39232,
+      "nameKo": "급사",
+      "nameEn": "Steward",
+      "wing": "객실",
+      "generatorParentId": "KAR_044",
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 1,
+          "attack": 1,
+          "health": 1,
+          "cardTypeEnum": 4,
+          "classEnum": 12
+        },
+        "textKo": null,
+        "textEn": null,
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_057",
+      "dbfId": 39439,
+      "nameKo": "상아색 나이트",
+      "nameEn": "Ivory Knight",
+      "wing": "객실",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 6,
+          "attack": 4,
+          "health": 4,
+          "cardTypeEnum": 4,
+          "classEnum": 5,
+          "rarityEnum": 3,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 주문을 하나 <b>발견</b>합니다. 그 카드의 비용만큼 내 영웅의 생명력을 회복시킵니다.",
+        "textEn": "[x]<b>Battlecry:</b> <b>Discover</b> a spell.\nRestore Health to your hero\nequal to its Cost.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_061",
+      "dbfId": 39225,
+      "nameKo": "전시 관리인",
+      "nameEn": "The Curator",
+      "wing": "박물관",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-26",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "menagerie",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 7,
+          "attack": 4,
+          "health": 6,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 5,
+          "raceEnum": 17,
+          "collectible": 1
+        },
+        "textKo": "<b>도발</b>\n<b>전투의 함성:</b> 내 덱에서 야수, 용족, 멀록을 하나씩 뽑습니다.",
+        "textEn": "<b>Taunt</b>\n<b>Battlecry:</b> Draw a Beast, Dragon, and Murloc from your deck.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_062",
+      "dbfId": 39554,
+      "nameKo": "황천의 원령 역사가",
+      "nameEn": "Netherspite Historian",
+      "wing": "첨탑",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-09-02",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "spire",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 2,
+          "attack": 1,
+          "health": 3,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 내 손에 용족이 있으면, 용족을 하나 <b>발견</b>합니다.",
+        "textEn": "<b>Battlecry:</b> If you're holding a Dragon, <b>Discover</b>\na Dragon.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_063",
+      "dbfId": 39694,
+      "nameKo": "영혼 발톱",
+      "nameEn": "Spirit Claws",
+      "wing": "첨탑",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-09-02",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "spire",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 1,
+          "attack": 1,
+          "durability": 3,
+          "cardTypeEnum": 7,
+          "classEnum": 8,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "내 <b>주문 공격력</b>이 증가한 상태일 때 공격력을 +2 얻습니다.",
+        "textEn": "[x]Has +2 Attack while you\nhave <b>Spell Damage</b>.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_065",
+      "dbfId": 39696,
+      "nameKo": "박물관 감시자",
+      "nameEn": "Menagerie Warden",
+      "wing": "박물관",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-26",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "menagerie",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 6,
+          "attack": 5,
+          "health": 5,
+          "cardTypeEnum": 4,
+          "classEnum": 2,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 아군 야수 1마리를 선택합니다. 그 야수를 복사하여 소환합니다.",
+        "textEn": "<b>Battlecry:</b> Choose a friendly Beast. Summon a_copy of it.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_069",
+      "dbfId": 39698,
+      "nameKo": "칼잡이 강도",
+      "nameEn": "Swashburglar",
+      "wing": "오페라",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-19",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "opera",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 1,
+          "attack": 1,
+          "health": 1,
+          "cardTypeEnum": 4,
+          "classEnum": 7,
+          "rarityEnum": 1,
+          "raceEnum": 23,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> <i>상대편 직업</i>의 카드 1장을 무작위로 내 손에 가져옵니다.",
+        "textEn": "<b>Battlecry:</b> Add a random class card to your hand <i>(from your opponent's class).</i>",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_070",
+      "dbfId": 39700,
+      "nameKo": "에테리얼 행상인",
+      "nameEn": "Ethereal Peddler",
+      "wing": "첨탑",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-09-02",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "spire",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 5,
+          "attack": 5,
+          "health": 6,
+          "cardTypeEnum": 4,
+          "classEnum": 7,
+          "rarityEnum": 3,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 내 손에 있는 다른 직업의 카드들의 비용이 (2) 감소합니다.",
+        "textEn": "[x]<b>Battlecry:</b> Reduce the Cost\nof cards in your hand from\nother classes by (2).",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_073",
+      "dbfId": 39712,
+      "nameKo": "혼돈의 소용돌이 차원문",
+      "nameEn": "Maelstrom Portal",
+      "wing": "객실",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 2,
+          "cardTypeEnum": 5,
+          "classEnum": 8,
+          "rarityEnum": 3,
+          "collectible": 1
+        },
+        "textKo": "모든 적 하수인에게 피해를 $1 줍니다. 비용이 1인 무작위 하수인을 하나 소환합니다.",
+        "textEn": "Deal_$1_damage to_all_enemy_minions. Summon_a_random\n1-Cost minion.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_075",
+      "dbfId": 39714,
+      "nameKo": "달숲 차원문",
+      "nameEn": "Moonglade Portal",
+      "wing": "첨탑",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-09-02",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "spire",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 6,
+          "cardTypeEnum": 5,
+          "classEnum": 2,
+          "rarityEnum": 3,
+          "collectible": 1
+        },
+        "textKo": "생명력을 6 회복시킵니다. 비용이 6인 무작위 하수인을 하나 소환합니다.",
+        "textEn": "Restore 6 Health. Summon a random\n6-Cost minion.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_076",
+      "dbfId": 39715,
+      "nameKo": "불의 땅 차원문",
+      "nameEn": "Firelands Portal",
+      "wing": "프롤로그",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 프롤로그에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 7,
+          "cardTypeEnum": 5,
+          "classEnum": 4,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "피해를 $5 줍니다. 비용이 5인 무작위 하수인을 하나 소환합니다.",
+        "textEn": "Deal $5 damage. Summon a random\n5-Cost minion.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_077",
+      "dbfId": 39716,
+      "nameKo": "실버문 차원문",
+      "nameEn": "Silvermoon Portal",
+      "wing": "오페라",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-19",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "opera",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 4,
+          "cardTypeEnum": 5,
+          "classEnum": 5,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "하수인 하나에게 +2/+2를 부여합니다. 비용이 2인 무작위 하수인을 하나 소환합니다.",
+        "textEn": "Give a minion +2/+2. Summon a random\n2-Cost minion.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_089",
+      "dbfId": 39740,
+      "nameKo": "말체자르의 임프",
+      "nameEn": "Malchezaar's Imp",
+      "wing": "첨탑",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-09-02",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "spire",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 1,
+          "attack": 1,
+          "health": 3,
+          "cardTypeEnum": 4,
+          "classEnum": 9,
+          "rarityEnum": 1,
+          "raceEnum": 15,
+          "collectible": 1
+        },
+        "textKo": "내가 카드를 버릴 때마다 카드를 1장 뽑습니다.",
+        "textEn": "Whenever you discard a card, draw a card.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_091",
+      "dbfId": 39747,
+      "nameKo": "아이언포지 차원문",
+      "nameEn": "Ironforge Portal",
+      "wing": "첨탑",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-09-02",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "spire",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 5,
+          "cardTypeEnum": 5,
+          "classEnum": 10,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "방어도를 +4 얻습니다. 비용이 4인 무작위 하수인을 하나 소환합니다.",
+        "textEn": "Gain 4 Armor.\nSummon a random\n4-Cost minion.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_092",
+      "dbfId": 39767,
+      "nameKo": "메디브의 하인",
+      "nameEn": "Medivh's Valet",
+      "wing": "첨탑",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-09-02",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "spire",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 2,
+          "attack": 2,
+          "health": 3,
+          "cardTypeEnum": 4,
+          "classEnum": 4,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 내 영웅에게 <b>비밀</b>이 걸려 있으면, 피해를 3 줍니다.",
+        "textEn": "<b>Battlecry:</b> If you control a <b>Secret</b>, deal 3 damage.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_094",
+      "dbfId": 39822,
+      "nameKo": "치명적인 포크",
+      "nameEn": "Deadly Fork",
+      "wing": "객실",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 3,
+          "attack": 3,
+          "health": 2,
+          "cardTypeEnum": 4,
+          "classEnum": 7,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "<b>죽음의 메아리:</b> 3/2 무기를 내 손으로 가져옵니다.",
+        "textEn": "<b>Deathrattle:</b> Add a 3/2 weapon to your hand.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_094a",
+      "dbfId": 39821,
+      "nameKo": "날카로운 포크",
+      "nameEn": "Sharp Fork",
+      "wing": "객실",
+      "generatorParentId": "KAR_094",
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 3,
+          "attack": 3,
+          "durability": 2,
+          "cardTypeEnum": 7,
+          "classEnum": 7
+        },
+        "textKo": null,
+        "textEn": null,
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_095",
+      "dbfId": 39839,
+      "nameKo": "동물원로봇",
+      "nameEn": "Zoobot",
+      "wing": "박물관",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-26",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "menagerie",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 3,
+          "attack": 3,
+          "health": 3,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 1,
+          "raceEnum": 17,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 무작위 아군 야수, 용족, 멀록 하나에게 +1/+1을 부여합니다.",
+        "textEn": "<b>Battlecry:</b> Give a random friendly Beast, Dragon, and Murloc +1/+1.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_096",
+      "dbfId": 39840,
+      "nameKo": "공작 말체자르",
+      "nameEn": "Prince Malchezaar",
+      "wing": "첨탑",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-09-02",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "spire",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 5,
+          "attack": 5,
+          "health": 6,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 5,
+          "raceEnum": 15,
+          "collectible": 1
+        },
+        "textKo": "게임이 시작될 때, 무작위 <b>전설</b> 하수인 다섯을 내 덱에 섞어 넣습니다.",
+        "textEn": "[x]When the game starts,\nadd 5 extra <b>Legendary</b>\nminions to your deck.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_097",
+      "dbfId": 39841,
+      "nameKo": "수호자 메디브",
+      "nameEn": "Medivh, the Guardian",
+      "wing": "첨탑",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-09-02",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "spire",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 8,
+          "attack": 7,
+          "health": 7,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 5,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 아티쉬 - 수호자의 지팡이를 장착합니다.",
+        "textEn": "<b>Battlecry:</b> Equip Atiesh, Greatstaff of the Guardian.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_097t",
+      "dbfId": 40360,
+      "nameKo": "아티쉬",
+      "nameEn": "Atiesh",
+      "wing": "첨탑",
+      "generatorParentId": "KAR_097",
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-09-02",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "spire",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 3,
+          "attack": 1,
+          "durability": 3,
+          "cardTypeEnum": 7,
+          "classEnum": 12
+        },
+        "textKo": "내 주문이 시전된 후에, 같은 비용의 무작위 하수인을 하나 소환하고 내구도를 1 잃습니다.",
+        "textEn": "[x]After you cast a spell,\nsummon a random\nminion of that Cost.\nLose 1 Durability.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_114",
+      "dbfId": 39941,
+      "nameKo": "반즈",
+      "nameEn": "Barnes",
+      "wing": "오페라",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-19",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "opera",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 4,
+          "attack": 3,
+          "health": 4,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 5,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 내 덱에서 무작위 하수인 하나를 복사하여\n 1/1 하수인으로 소환합니다.",
+        "textEn": "<b>Battlecry:</b> Summon a 1/1 copy of a random minion in your deck.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_204",
+      "dbfId": 39374,
+      "nameKo": "칠흑색 비숍",
+      "nameEn": "Onyx Bishop",
+      "wing": "오페라",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-19",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "opera",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 5,
+          "attack": 3,
+          "health": 4,
+          "cardTypeEnum": 4,
+          "classEnum": 6,
+          "rarityEnum": 3,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 이번 게임에서 죽은 아군 하수인 하나를 무작위로 소환합니다.",
+        "textEn": "<b>Battlecry:</b> Summon a friendly minion that died this game.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_205",
+      "dbfId": 39380,
+      "nameKo": "식기 골렘",
+      "nameEn": "Silverware Golem",
+      "wing": "객실",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 3,
+          "attack": 3,
+          "health": 3,
+          "cardTypeEnum": 4,
+          "classEnum": 9,
+          "rarityEnum": 3,
+          "collectible": 1
+        },
+        "textKo": "이 하수인을 버리면,\n이 하수인을 소환합니다.",
+        "textEn": "If you discard this minion, summon it.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_300",
+      "dbfId": 39350,
+      "nameKo": "마력 깃든 까마귀",
+      "nameEn": "Enchanted Raven",
+      "wing": "프롤로그",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 프롤로그에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 1,
+          "attack": 2,
+          "health": 2,
+          "cardTypeEnum": 4,
+          "classEnum": 2,
+          "rarityEnum": 1,
+          "raceEnum": 20,
+          "collectible": 1
+        },
+        "textKo": null,
+        "textEn": null,
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_702",
+      "dbfId": 39269,
+      "nameKo": "박물관 마술사",
+      "nameEn": "Menagerie Magician",
+      "wing": "박물관",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-26",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "menagerie",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 박물관에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 5,
+          "attack": 4,
+          "health": 4,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "<b>전투의 함성:</b> 무작위 아군 야수, 용족, 멀록 하나에게 +2/+2를 부여합니다.",
+        "textEn": "<b>Battlecry:</b> Give a random friendly Beast, Dragon, and Murloc +2/+2.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_710",
+      "dbfId": 39491,
+      "nameKo": "비전장인",
+      "nameEn": "Arcanosmith",
+      "wing": "객실",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 4,
+          "attack": 3,
+          "health": 2,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "[x]<b>전투의 함성:</b> <b>도발</b> 능력이\n있는 0/5 하수인을\n하나 소환합니다.",
+        "textEn": "<b>Battlecry:</b> Summon a 0/5 minion with <b>Taunt</b>.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_710m",
+      "dbfId": 39308,
+      "nameKo": "살아 움직이는 방패",
+      "nameEn": "Animated Shield",
+      "wing": "객실",
+      "generatorParentId": "KAR_710",
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-12",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "preload",
+        "launch",
+        "launch_kr",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 2,
+          "health": 5,
+          "cardTypeEnum": 4,
+          "classEnum": 12
+        },
+        "textKo": "<b>도발</b>",
+        "textEn": "<b>Taunt</b>",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_711",
+      "dbfId": 39426,
+      "nameKo": "비전 거인",
+      "nameEn": "Arcane Giant",
+      "wing": "오페라",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-08-19",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "opera",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 오페라에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 12,
+          "attack": 8,
+          "health": 8,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 4,
+          "collectible": 1
+        },
+        "textKo": "이번 게임에서 내가 시전한 주문 하나당 비용이 (1)씩 감소합니다.",
+        "textEn": "[x]Costs (1) less for each spell\nyou've cast this game.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    },
+    {
+      "id": "KAR_712",
+      "dbfId": 39313,
+      "nameKo": "보랏빛 환영술사",
+      "nameEn": "Violet Illusionist",
+      "wing": "첨탑",
+      "generatorParentId": null,
+      "ordinaryMatchAvailableNoLaterThanKst": "2016-09-02",
+      "firstUseStatus": "verified weekly ordinary availability; strictly earliest generated appearance before that wing is unresolved",
+      "availabilitySources": [
+        "spire",
+        "wings",
+        "wings_guide"
+      ],
+      "acquisitionEvidence": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+      "initialClientState": {
+        "build": "13921",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "stats": {
+          "cost": 3,
+          "attack": 4,
+          "health": 3,
+          "cardTypeEnum": 4,
+          "classEnum": 12,
+          "rarityEnum": 1,
+          "collectible": 1
+        },
+        "textKo": "내 턴 동안 내 영웅이\n<b>피해 면역</b> 상태가 됩니다.",
+        "textEn": "During your turn, your hero is <b>Immune</b>.",
+        "warning": "Client preload itself is not ordinary-match release evidence. These first client specs must be joined to the card-specific usable date; no later-wing normal-generation backdate has been proven."
+      }
+    }
+  ],
+  "verifiedNumericTribeSchoolKeywordChanges": [
+    {
+      "id": "KAR_063",
+      "dbfId": 39694,
+      "nameKo": "영혼 발톱",
+      "nameEn": "Spirit Claws",
+      "patch": "7.1",
+      "effectiveKoreanDay": "2017-03-01",
+      "sourceIds": [
+        "p71"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "cost",
+      "before": 1,
+      "after": 2,
+      "classification": "numeric_balance",
+      "archiveBuild": "17720",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/7ee343d4dead8fa8854116cd0973ba7a48682f30/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_036",
+      "dbfId": 39215,
+      "nameKo": "비전 변형물",
+      "nameEn": "Arcane Anomaly",
+      "patch": "8.0",
+      "effectiveKoreanDay": "2017-04-05",
+      "sourceIds": [
+        "p80"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "tribe",
+      "before": null,
+      "after": "ELEMENTAL",
+      "classification": "tribe_addition",
+      "archiveBuild": "18336",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/085f915af6c4374ac2a7088862390ebea44eb6c9/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_096",
+      "dbfId": 39840,
+      "nameKo": "공작 말체자르",
+      "nameEn": "Prince Malchezaar",
+      "patch": "11.0",
+      "effectiveKoreanDay": "2018-04-11",
+      "sourceIds": [
+        "p110"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "keyword",
+      "before": null,
+      "after": "START_OF_GAME",
+      "classification": "keyword_label",
+      "archiveBuild": "23966",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "note": "Original id text and tag 968 added. This names an existing start-of-game effect, not a newly granted shuffle."
+    },
+    {
+      "id": "KAR_114",
+      "dbfId": 39941,
+      "nameKo": "반즈",
+      "nameEn": "Barnes",
+      "patch": "15.0.4",
+      "effectiveKoreanDay": "2019-08-27",
+      "sourceIds": [
+        "p1504"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "cost",
+      "before": 4,
+      "after": 5,
+      "classification": "numeric_balance",
+      "archiveBuild": "33402",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/dd224aedef671a1bad6479df2a0e9cb2ea6da3cc/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_063",
+      "dbfId": 39694,
+      "nameKo": "영혼 발톱",
+      "nameEn": "Spirit Claws",
+      "patch": "20.0",
+      "effectiveKoreanDay": "2021-03-26",
+      "sourceIds": [
+        "p200"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "cost",
+      "before": 2,
+      "after": 1,
+      "classification": "numeric_reversion",
+      "archiveBuild": "77662",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_065",
+      "dbfId": 39696,
+      "nameKo": "박물관 감시자",
+      "nameEn": "Menagerie Warden",
+      "patch": "20.0",
+      "effectiveKoreanDay": "2021-03-26",
+      "sourceIds": [
+        "p200"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "cost_attack_health",
+      "before": {
+        "cost": 6,
+        "attack": 5,
+        "health": 5
+      },
+      "after": {
+        "cost": 5,
+        "attack": 4,
+        "health": 4
+      },
+      "classification": "numeric_balance",
+      "archiveBuild": "77662",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_069",
+      "dbfId": 39698,
+      "nameKo": "칼잡이 강도",
+      "nameEn": "Swashburglar",
+      "patch": "20.0",
+      "effectiveKoreanDay": "2021-03-26",
+      "sourceIds": [
+        "p200"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "generation_class",
+      "before": "opponent class",
+      "after": "another class",
+      "classification": "functional_text_change",
+      "archiveBuild": "77662",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_036",
+      "dbfId": 39215,
+      "nameKo": "비전 변형물",
+      "nameEn": "Arcane Anomaly",
+      "patch": "20.0",
+      "effectiveKoreanDay": "2021-03-26",
+      "sourceIds": [
+        "p200"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "trigger_timing",
+      "before": "Whenever you cast a spell",
+      "after": "After you cast a spell",
+      "classification": "functional_text_change",
+      "archiveBuild": "77662",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "note": "EN and KR original-ID archived text changes; no independent engine trace inspected."
+    },
+    {
+      "id": "KAR_013",
+      "dbfId": 39468,
+      "nameKo": "정화",
+      "nameEn": "Purify",
+      "patch": "20.0",
+      "effectiveKoreanDay": "2021-03-26",
+      "sourceIds": [
+        "p200"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "spellSchool",
+      "before": null,
+      "after": "HOLY",
+      "classification": "spell_school_addition",
+      "archiveBuild": "77662",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_073",
+      "dbfId": 39712,
+      "nameKo": "혼돈의 소용돌이 차원문",
+      "nameEn": "Maelstrom Portal",
+      "patch": "20.0",
+      "effectiveKoreanDay": "2021-03-26",
+      "sourceIds": [
+        "p200"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "spellSchool",
+      "before": null,
+      "after": "NATURE",
+      "classification": "spell_school_addition",
+      "archiveBuild": "77662",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_075",
+      "dbfId": 39714,
+      "nameKo": "달숲 차원문",
+      "nameEn": "Moonglade Portal",
+      "patch": "20.0",
+      "effectiveKoreanDay": "2021-03-26",
+      "sourceIds": [
+        "p200"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "spellSchool",
+      "before": null,
+      "after": "NATURE",
+      "classification": "spell_school_addition",
+      "archiveBuild": "77662",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_076",
+      "dbfId": 39715,
+      "nameKo": "불의 땅 차원문",
+      "nameEn": "Firelands Portal",
+      "patch": "20.0",
+      "effectiveKoreanDay": "2021-03-26",
+      "sourceIds": [
+        "p200"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "spellSchool",
+      "before": null,
+      "after": "FIRE",
+      "classification": "spell_school_addition",
+      "archiveBuild": "77662",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_077",
+      "dbfId": 39716,
+      "nameKo": "실버문 차원문",
+      "nameEn": "Silvermoon Portal",
+      "patch": "20.0",
+      "effectiveKoreanDay": "2021-03-26",
+      "sourceIds": [
+        "p200"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "spellSchool",
+      "before": null,
+      "after": "HOLY",
+      "classification": "spell_school_addition",
+      "archiveBuild": "77662",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_091",
+      "dbfId": 39747,
+      "nameKo": "아이언포지 차원문",
+      "nameEn": "Ironforge Portal",
+      "patch": "20.0",
+      "effectiveKoreanDay": "2021-03-26",
+      "sourceIds": [
+        "p200"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "spellSchool",
+      "before": null,
+      "after": "FIRE",
+      "classification": "spell_school_addition",
+      "archiveBuild": "77662",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_009",
+      "dbfId": 39169,
+      "nameKo": "나불대는 책",
+      "nameEn": "Babbling Book",
+      "patch": "26.0",
+      "effectiveKoreanDay": "2023-04-05",
+      "sourceIds": [
+        "p260"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "health",
+      "before": 1,
+      "after": 2,
+      "classification": "numeric_balance",
+      "archiveBuild": "170824",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_069",
+      "dbfId": 39698,
+      "nameKo": "칼잡이 강도",
+      "nameEn": "Swashburglar",
+      "patch": "26.0",
+      "effectiveKoreanDay": "2023-04-05",
+      "sourceIds": [
+        "p260"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "health",
+      "before": 1,
+      "after": 2,
+      "classification": "numeric_balance",
+      "archiveBuild": "170824",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_021",
+      "dbfId": 39190,
+      "nameKo": "사악한 마녀",
+      "nameEn": "Wicked Witchdoctor",
+      "patch": "27.2",
+      "effectiveKoreanDay": "2023-08-23",
+      "sourceIds": [
+        "p272"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "cost",
+      "before": 4,
+      "after": 3,
+      "classification": "numeric_balance",
+      "archiveBuild": "183876",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_057",
+      "dbfId": 39439,
+      "nameKo": "상아색 나이트",
+      "nameEn": "Ivory Knight",
+      "patch": "27.2",
+      "effectiveKoreanDay": "2023-08-23",
+      "sourceIds": [
+        "p272"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "cost",
+      "before": 6,
+      "after": 4,
+      "classification": "numeric_balance",
+      "archiveBuild": "183876",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_065",
+      "dbfId": 39696,
+      "nameKo": "박물관 감시자",
+      "nameEn": "Menagerie Warden",
+      "patch": "27.2",
+      "effectiveKoreanDay": "2023-08-23",
+      "sourceIds": [
+        "p272"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "attack",
+      "before": 4,
+      "after": 5,
+      "classification": "numeric_balance",
+      "archiveBuild": "183876",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_076",
+      "dbfId": 39715,
+      "nameKo": "불의 땅 차원문",
+      "nameEn": "Firelands Portal",
+      "patch": "27.2",
+      "effectiveKoreanDay": "2023-08-23",
+      "sourceIds": [
+        "p272"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "damage_and_summon_cost",
+      "before": 5,
+      "after": 6,
+      "classification": "numeric_balance",
+      "archiveBuild": "183876",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_077",
+      "dbfId": 39716,
+      "nameKo": "실버문 차원문",
+      "nameEn": "Silvermoon Portal",
+      "patch": "27.2",
+      "effectiveKoreanDay": "2023-08-23",
+      "sourceIds": [
+        "p272"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "cost",
+      "before": 4,
+      "after": 3,
+      "classification": "numeric_balance",
+      "archiveBuild": "183876",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_091",
+      "dbfId": 39747,
+      "nameKo": "아이언포지 차원문",
+      "nameEn": "Ironforge Portal",
+      "patch": "27.2",
+      "effectiveKoreanDay": "2023-08-23",
+      "sourceIds": [
+        "p272"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "cost",
+      "before": 5,
+      "after": 4,
+      "classification": "numeric_balance",
+      "archiveBuild": "183876",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_204",
+      "dbfId": 39374,
+      "nameKo": "칠흑색 비숍",
+      "nameEn": "Onyx Bishop",
+      "patch": "27.2",
+      "effectiveKoreanDay": "2023-08-23",
+      "sourceIds": [
+        "p272"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "cost",
+      "before": 5,
+      "after": 4,
+      "classification": "numeric_balance",
+      "archiveBuild": "183876",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_205",
+      "dbfId": 39380,
+      "nameKo": "식기 골렘",
+      "nameEn": "Silverware Golem",
+      "patch": "27.2",
+      "effectiveKoreanDay": "2023-08-23",
+      "sourceIds": [
+        "p272"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "health",
+      "before": 3,
+      "after": 4,
+      "classification": "numeric_balance",
+      "archiveBuild": "183876",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_061",
+      "dbfId": 39225,
+      "nameKo": "전시 관리인",
+      "nameEn": "The Curator",
+      "patch": "32.0",
+      "effectiveKoreanDay": "2025-03-19",
+      "sourceIds": [
+        "p320"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "cost",
+      "before": 7,
+      "after": 5,
+      "classification": "numeric_balance",
+      "archiveBuild": "217964",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_062",
+      "dbfId": 39554,
+      "nameKo": "황천의 원령 역사가",
+      "nameEn": "Netherspite Historian",
+      "patch": "32.0",
+      "effectiveKoreanDay": "2025-03-19",
+      "sourceIds": [
+        "p320"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "attack",
+      "before": 1,
+      "after": 2,
+      "classification": "numeric_balance",
+      "archiveBuild": "217964",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/fdad346dc49ebb5465f548a0a2b58b59edcbe087/CardDefs.xml",
+      "note": ""
+    },
+    {
+      "id": "KAR_089",
+      "dbfId": 39740,
+      "nameKo": "말체자르의 임프",
+      "nameEn": "Malchezaar's Imp",
+      "patch": "34.0.2",
+      "effectiveKoreanDay": "2025-11-14",
+      "sourceIds": [
+        "p3402",
+        "p3402_kr"
+      ],
+      "dateConfidence": "high",
+      "archiveTimestampUsedAsEffectiveDate": false,
+      "field": "cost",
+      "before": 1,
+      "after": 2,
+      "classification": "numeric_balance",
+      "archiveBuild": "231191",
+      "originalIdStateDirectlyExtracted": true,
+      "archiveSource": "https://github.com/HearthSim/hsdata/blob/1bcf802ffdd50731c53a2a06dd6e9da43caf858a/CardDefs.xml",
+      "note": ""
+    }
+  ],
+  "archivedLocalizedTextObservations": [
+    {
+      "id": "KAR_033",
+      "dbfId": 39210,
+      "nameKo": "용족 독서가",
+      "nameEn": "Book Wyrm",
+      "build": "15181",
+      "effectiveKoreanDay": "2016-10-21",
+      "patchDateSourceIds": [
+        "p62"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/9b1b489dec1f2d44be1ce5d0a0e985d888ee6553/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "name": "고룡 독서가"
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_070",
+      "dbfId": 39700,
+      "nameKo": "에테리얼 행상인",
+      "nameEn": "Ethereal Peddler",
+      "build": "15181",
+      "effectiveKoreanDay": "2016-10-21",
+      "patchDateSourceIds": [
+        "p62"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/9b1b489dec1f2d44be1ce5d0a0e985d888ee6553/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 내 손에 도적 카드가 아닌 직업 카드가 있으면, 그 카드들의 비용을 (2) 감소시킵니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_095",
+      "dbfId": 39839,
+      "nameKo": "동물원로봇",
+      "nameEn": "Zoobot",
+      "build": "15181",
+      "effectiveKoreanDay": "2016-10-21",
+      "patchDateSourceIds": [
+        "p62"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/9b1b489dec1f2d44be1ce5d0a0e985d888ee6553/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 무작위 아군<br></br>야수, 용족, 멀록 하나에게<br></br>각각 +1/+1을 부여합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_702",
+      "dbfId": 39269,
+      "nameKo": "박물관 마술사",
+      "nameEn": "Menagerie Magician",
+      "build": "15181",
+      "effectiveKoreanDay": "2016-10-21",
+      "patchDateSourceIds": [
+        "p62"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/9b1b489dec1f2d44be1ce5d0a0e985d888ee6553/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 무작위 아군<br></br>야수, 용족, 멀록 하나에게<br></br> 각각 +2/+2를 부여합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_041",
+      "dbfId": 39465,
+      "nameKo": "해자 잠복꾼",
+      "nameEn": "Moat Lurker",
+      "build": "20022",
+      "effectiveKoreanDay": "2017-07-11",
+      "patchDateSourceIds": [
+        "p84"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/e3b02346a86a379c303b0452c461d4376e7a46ef/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 하수인<br></br>하나를 처치합니다.<br></br><b>죽음의 메아리:</b> 그 하수인을<br></br>다시 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_070",
+      "dbfId": 39700,
+      "nameKo": "에테리얼 행상인",
+      "nameEn": "Ethereal Peddler",
+      "build": "20022",
+      "effectiveKoreanDay": "2017-07-11",
+      "patchDateSourceIds": [
+        "p84"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/e3b02346a86a379c303b0452c461d4376e7a46ef/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 내 손에 도적<br></br>카드가 아닌 직업 카드가<br></br>있으면, 그 카드들의 비용을<br></br>(2) 감소시킵니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_712",
+      "dbfId": 39313,
+      "nameKo": "보랏빛 환영술사",
+      "nameEn": "Violet Illusionist",
+      "build": "20022",
+      "effectiveKoreanDay": "2017-07-11",
+      "patchDateSourceIds": [
+        "p84"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/e3b02346a86a379c303b0452c461d4376e7a46ef/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "내 턴 동안 내 영웅이<br></br><b>면역</b> 상태가 됩니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_005",
+      "dbfId": 39481,
+      "nameKo": "인자한 할머니",
+      "nameEn": "Kindly Grandmother",
+      "build": "20457",
+      "effectiveKoreanDay": "2017-08-09",
+      "patchDateSourceIds": [
+        "p90"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>죽음의_메아리:</b> 3/2 커다란 나쁜 늑대를 1마리 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_009",
+      "dbfId": 39169,
+      "nameKo": "나불대는 책",
+      "nameEn": "Babbling Book",
+      "build": "20457",
+      "effectiveKoreanDay": "2017-08-09",
+      "patchDateSourceIds": [
+        "p90"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 무작위 마법사 주문 하나를 내 손으로 가져옵니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_710",
+      "dbfId": 39491,
+      "nameKo": "비전장인",
+      "nameEn": "Arcanosmith",
+      "build": "20457",
+      "effectiveKoreanDay": "2017-08-09",
+      "patchDateSourceIds": [
+        "p90"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b><br></br>0/5 <b>도발</b> 하수인을<br></br>하나 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_026",
+      "dbfId": 39495,
+      "nameKo": "왕을 지켜라!",
+      "nameEn": "Protect the King!",
+      "build": "22611",
+      "effectiveKoreanDay": "2017-12-07",
+      "patchDateSourceIds": [
+        "p100"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "적 하수인 하나당 <b>도발</b><br></br>능력이 있는 1/1 폰을<br></br>하나씩 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": true
+    },
+    {
+      "id": "KAR_114",
+      "dbfId": 39941,
+      "nameKo": "반즈",
+      "nameEn": "Barnes",
+      "build": "22611",
+      "effectiveKoreanDay": "2017-12-07",
+      "patchDateSourceIds": [
+        "p100"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 내 덱에서 무작위 하수인 하나를 복사하여<br></br>1/1 하수인으로 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": true
+    },
+    {
+      "id": "KAR_702",
+      "dbfId": 39269,
+      "nameKo": "박물관 마술사",
+      "nameEn": "Menagerie Magician",
+      "build": "22611",
+      "effectiveKoreanDay": "2017-12-07",
+      "patchDateSourceIds": [
+        "p100"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 무작위 아군<br></br>야수, 용족, 멀록 하나에게<br></br>각각 +2/+2를 부여합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": true
+    },
+    {
+      "id": "KAR_010",
+      "dbfId": 39477,
+      "nameKo": "파멸의 어둠 기사단원",
+      "nameEn": "Nightbane Templar",
+      "build": "23966",
+      "effectiveKoreanDay": "2018-04-11",
+      "patchDateSourceIds": [
+        "p110"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 내 손에 용족이 있으면, 1/1 새끼용을 2마리 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": true
+    },
+    {
+      "id": "KAR_030a",
+      "dbfId": 39207,
+      "nameKo": "식당 거미",
+      "nameEn": "Pantry Spider",
+      "build": "23966",
+      "effectiveKoreanDay": "2018-04-11",
+      "patchDateSourceIds": [
+        "p110"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의_함성:</b> 1/3 거미를 1마리 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": true
+    },
+    {
+      "id": "KAR_069",
+      "dbfId": 39698,
+      "nameKo": "칼잡이 강도",
+      "nameEn": "Swashburglar",
+      "build": "23966",
+      "effectiveKoreanDay": "2018-04-11",
+      "patchDateSourceIds": [
+        "p110"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> <i>상대편 직업</i>의 무작위 카드 1장을 내 손으로 가져옵니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": true
+    },
+    {
+      "id": "KAR_070",
+      "dbfId": 39700,
+      "nameKo": "에테리얼 행상인",
+      "nameEn": "Ethereal Peddler",
+      "build": "23966",
+      "effectiveKoreanDay": "2018-04-11",
+      "patchDateSourceIds": [
+        "p110"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 내 손에 다른<br></br>직업의 카드가 있으면,<br></br>그 카드들의 비용을 (2)<br></br>감소시킵니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": true
+    },
+    {
+      "id": "KAR_096",
+      "dbfId": 39840,
+      "nameKo": "공작 말체자르",
+      "nameEn": "Prince Malchezaar",
+      "build": "23966",
+      "effectiveKoreanDay": "2018-04-11",
+      "patchDateSourceIds": [
+        "p110"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>개전:</b> 무작위 <b>전설</b> 하수인 다섯을 내 덱에 섞어 넣습니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": true
+    },
+    {
+      "id": "KAR_204",
+      "dbfId": 39374,
+      "nameKo": "칠흑색 비숍",
+      "nameEn": "Onyx Bishop",
+      "build": "23966",
+      "effectiveKoreanDay": "2018-04-11",
+      "patchDateSourceIds": [
+        "p110"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 이번 게임에서 죽은 무작위 아군 하수인 하나를 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": true
+    },
+    {
+      "id": "KAR_004",
+      "dbfId": 39160,
+      "nameKo": "고양이 마술",
+      "nameEn": "Cat Trick",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>비밀:</b> 상대편이 주문을 시전한 후에, <b>은신</b> 능력이 있는 4/2 표범을 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_005",
+      "dbfId": 39481,
+      "nameKo": "인자한 할머니",
+      "nameEn": "Kindly Grandmother",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>죽음의_메아리:</b> 3/2 커다란 나쁜 늑대를 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_009",
+      "dbfId": 39169,
+      "nameKo": "나불대는 책",
+      "nameEn": "Babbling Book",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b><br></br>무작위 마법사 주문을<br></br>내 손으로 가져옵니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_013",
+      "dbfId": 39468,
+      "nameKo": "정화",
+      "nameEn": "Purify",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "아군 하수인을 <b>침묵</b>시킵니다.<br></br>카드를 뽑습니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_021",
+      "dbfId": 39190,
+      "nameKo": "사악한 마녀",
+      "nameEn": "Wicked Witchdoctor",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "내가 주문을 시전할 때마다 무작위 기본 토템을 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_025",
+      "dbfId": 39197,
+      "nameKo": "카라 카잠!",
+      "nameEn": "Kara Kazham!",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "1/1 양초, 2/2 빗자루,<br></br>3/3 찻주전자를<br></br>소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_029",
+      "dbfId": 39433,
+      "nameKo": "룬이 새겨진 알",
+      "nameEn": "Runic Egg",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>죽음의 메아리:</b><br></br>카드를 뽑습니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_030a",
+      "dbfId": 39207,
+      "nameKo": "식당 거미",
+      "nameEn": "Pantry Spider",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의_함성:</b> 1/3 거미를 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_033",
+      "dbfId": 39210,
+      "nameKo": "용족 독서가",
+      "nameEn": "Book Wyrm",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 내 손에 용족이 있으면, 공격력이 3 이하인 적 하수인을 처치합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_041",
+      "dbfId": 39465,
+      "nameKo": "해자 잠복꾼",
+      "nameEn": "Moat Lurker",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b><br></br>하수인을 처치합니다.<br></br><b>죽음의_메아리:</b> 그 하수인을<br></br>다시 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_044",
+      "dbfId": 39453,
+      "nameKo": "모로스",
+      "nameEn": "Moroes",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>은신</b>, 내 턴이 끝날 때, 1/1 급사를 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_057",
+      "dbfId": 39439,
+      "nameKo": "상아색 나이트",
+      "nameEn": "Ivory Knight",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b><br></br>주문을 <b>발견</b>합니다. 그 카드의 비용만큼 내 영웅의 생명력을 회복시킵니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_061",
+      "dbfId": 39225,
+      "nameKo": "전시 관리인",
+      "nameEn": "The Curator",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>내 덱에서 야수, 용족,<br></br>멀록을 뽑습니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_062",
+      "dbfId": 39554,
+      "nameKo": "황천의 원령 역사가",
+      "nameEn": "Netherspite Historian",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>용족을 <b>발견</b>합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_065",
+      "dbfId": 39696,
+      "nameKo": "박물관 감시자",
+      "nameEn": "Menagerie Warden",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 아군 야수를 선택합니다. 그 야수를 복사하여 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_069",
+      "dbfId": 39698,
+      "nameKo": "칼잡이 강도",
+      "nameEn": "Swashburglar",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> <i>상대편<br></br>직업</i>의 무작위 카드를<br></br>내 손으로 가져옵니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_073",
+      "dbfId": 39712,
+      "nameKo": "혼돈의 소용돌이 차원문",
+      "nameEn": "Maelstrom Portal",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "모든 적 하수인에게 피해를 1 줍니다.<br></br>비용이 1인 무작위 하수인을 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_075",
+      "dbfId": 39714,
+      "nameKo": "달숲 차원문",
+      "nameEn": "Moonglade Portal",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "생명력을 6 회복시킵니다. 비용이 6인 무작위 하수인을 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_076",
+      "dbfId": 39715,
+      "nameKo": "불의 땅 차원문",
+      "nameEn": "Firelands Portal",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "피해를 5 줍니다.<br></br>비용이 5인 무작위<br></br>하수인을 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_077",
+      "dbfId": 39716,
+      "nameKo": "실버문 차원문",
+      "nameEn": "Silvermoon Portal",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "하수인에게 +2/+2를 부여합니다. 비용이 2인 무작위 하수인을 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_089",
+      "dbfId": 39740,
+      "nameKo": "말체자르의 임프",
+      "nameEn": "Malchezaar's Imp",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "내가 카드를 버릴 때마다 카드를 뽑습니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_091",
+      "dbfId": 39747,
+      "nameKo": "아이언포지 차원문",
+      "nameEn": "Ironforge Portal",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "방어도를 +4 얻습니다.<br></br>비용이 4인 무작위<br></br>하수인을 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_095",
+      "dbfId": 39839,
+      "nameKo": "동물원로봇",
+      "nameEn": "Zoobot",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 무작위 아군 야수, 용족, 멀록에게 각각 +1/+1을 부여합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_097t",
+      "dbfId": 40360,
+      "nameKo": "아티쉬",
+      "nameEn": "Atiesh",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "내 주문이 시전된 후에, 같은 비용의 무작위 하수인을 소환하고 내구도를 1 잃습니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_114",
+      "dbfId": 39941,
+      "nameKo": "반즈",
+      "nameEn": "Barnes",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 내 덱에서 무작위 하수인을 복사하여 1/1 하수인으로 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_204",
+      "dbfId": 39374,
+      "nameKo": "칠흑색 비숍",
+      "nameEn": "Onyx Bishop",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b><br></br>이번 게임에서 죽은 무작위 아군 하수인을 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_702",
+      "dbfId": 39269,
+      "nameKo": "박물관 마술사",
+      "nameEn": "Menagerie Magician",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 무작위 아군 야수, 용족, 멀록에게 각각 +2/+2를 부여합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_710",
+      "dbfId": 39491,
+      "nameKo": "비전장인",
+      "nameEn": "Arcanosmith",
+      "build": "26757",
+      "effectiveKoreanDay": "2018-10-03",
+      "patchDateSourceIds": [
+        "p122"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/60ceb7f7842724699adb79bee462d870b841de09/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 0/5 <b>도발</b> 하수인을 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_063",
+      "dbfId": 39694,
+      "nameKo": "영혼 발톱",
+      "nameEn": "Spirit Claws",
+      "build": "29933",
+      "effectiveKoreanDay": "2019-04-05",
+      "patchDateSourceIds": [
+        "p140"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/ac324ef2563b800a8427758e1f47367007ce41e1/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "내 <b>주문 공격력</b>이 증가한 상태면 공격력을<br></br>+2 얻습니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_037",
+      "dbfId": 39489,
+      "nameKo": "부엉이 파수꾼",
+      "nameEn": "Avian Watcher",
+      "build": "32708",
+      "effectiveKoreanDay": "2019-08-02",
+      "patchDateSourceIds": [
+        "p150"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/adedd63ac6a9181d379fcf320648fa4c7fb9ebf2/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b><br></br>내 전장에 <b>비밀</b>이<br></br>있으면, +1/+1과<br></br><b>도발</b>을 얻습니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_092",
+      "dbfId": 39767,
+      "nameKo": "메디브의 하인",
+      "nameEn": "Medivh's Valet",
+      "build": "32708",
+      "effectiveKoreanDay": "2019-08-02",
+      "patchDateSourceIds": [
+        "p150"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/adedd63ac6a9181d379fcf320648fa4c7fb9ebf2/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b><br></br>내 전장에 <b>비밀</b>이 있으면,<br></br>피해를 3 줍니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_097t",
+      "dbfId": 40360,
+      "nameKo": "아티쉬",
+      "nameEn": "Atiesh",
+      "build": "58213",
+      "effectiveKoreanDay": "2020-09-09",
+      "patchDateSourceIds": [
+        "p182"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/eda4d1fccf073b30a65a966fa0ce8f9b78a56de1/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "내가 주문을 시전한 후에,<br></br>같은 비용의 무작위<br></br>하수인을 소환하고<br></br>내구도를 1 잃습니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_036",
+      "dbfId": 39215,
+      "nameKo": "비전 변형물",
+      "nameEn": "Arcane Anomaly",
+      "build": "77662",
+      "effectiveKoreanDay": "2021-03-26",
+      "patchDateSourceIds": [
+        "p200"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "내가 주문을 시전한 후에, 이 하수인이 생명력을 +1 얻습니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": true
+    },
+    {
+      "id": "KAR_069",
+      "dbfId": 39698,
+      "nameKo": "칼잡이 강도",
+      "nameEn": "Swashburglar",
+      "build": "77662",
+      "effectiveKoreanDay": "2021-03-26",
+      "patchDateSourceIds": [
+        "p200"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 다른 직업의<br></br>무작위 카드를<br></br>내 손으로 가져옵니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": true
+    },
+    {
+      "id": "KAR_076",
+      "dbfId": 39715,
+      "nameKo": "불의 땅 차원문",
+      "nameEn": "Firelands Portal",
+      "build": "183876",
+      "effectiveKoreanDay": "2023-08-23",
+      "patchDateSourceIds": [
+        "p272"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "피해를 6 줍니다.<br></br>비용이 6인 무작위<br></br>하수인을 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": true
+    },
+    {
+      "id": "KAR_204",
+      "dbfId": 39374,
+      "nameKo": "칠흑색 비숍",
+      "nameEn": "Onyx Bishop",
+      "build": "183876",
+      "effectiveKoreanDay": "2023-08-23",
+      "patchDateSourceIds": [
+        "p272"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성:</b> 이번 게임에서 죽은 무작위 아군 하수인을 소환합니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": true
+    },
+    {
+      "id": "KAR_061",
+      "dbfId": 39225,
+      "nameKo": "전시 관리인",
+      "nameEn": "The Curator",
+      "build": "237510",
+      "effectiveKoreanDay": "2026-03-11",
+      "patchDateSourceIds": [
+        "p350"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/a770d899b7ea12594f2edfc7d097f6ee0a858eb8/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>도발</b>, <b>전투의 함성:</b><br></br>야수, 용족, 멀록을 뽑습니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": true
+    },
+    {
+      "id": "KAR_061",
+      "dbfId": 39225,
+      "nameKo": "전시 관리인",
+      "nameEn": "The Curator",
+      "build": "254477",
+      "effectiveKoreanDay": "2026-10-14",
+      "patchDateSourceIds": [
+        "p370"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/7fce0fa55971169c7dc17915e689f6e525419fb1/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>도발</b>, <b>전투의 함성</b>:<br></br>야수, 용족, 멀록을 뽑습니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    },
+    {
+      "id": "KAR_069",
+      "dbfId": 39698,
+      "nameKo": "칼잡이 강도",
+      "nameEn": "Swashburglar",
+      "build": "254477",
+      "effectiveKoreanDay": "2026-10-14",
+      "patchDateSourceIds": [
+        "p370"
+      ],
+      "originalIdArchiveSource": "https://github.com/HearthSim/hsdata/blob/7fce0fa55971169c7dc17915e689f6e525419fb1/CardDefs.xml",
+      "observedNewDisplayFields": {
+        "text": "<b>전투의 함성</b>: 다른 직업의<br></br>무작위 카드를<br></br>내 손으로 가져옵니다."
+      },
+      "evidenceClass": "Exact original-ID archived text plus independently checked patch-day anchor; official patch need not name this localization edit.",
+      "independentSelectedXmlReextraction": false
+    }
+  ],
+  "functionalChanges": [
+    {
+      "id": "KAR_712",
+      "dbfId": 39313,
+      "nameKo": "보랏빛 환영술사",
+      "nameEn": "Violet Illusionist",
+      "effectiveKoreanDay": "2017-04-05",
+      "patch": "8.0",
+      "description": "Immune heroes can play health-cost cards even when that cost is above current health. Applies to Violet Illusionist immunity through the general rule.",
+      "sourceIds": [
+        "p80"
+      ],
+      "classification": "functional_rule_or_bugfix_separate_from_card_specs",
+      "confidence": "high general rule; exact card application inferred from its original immunity text",
+      "limits": "No first-match raw game log or replay was inspected."
+    },
+    {
+      "id": "KAR_070",
+      "dbfId": 39700,
+      "nameKo": "에테리얼 행상인",
+      "nameEn": "Ethereal Peddler",
+      "effectiveKoreanDay": "2018-04-11",
+      "patch": "11.0",
+      "description": "Ethereal Peddler cost reduction no longer persists through cards replaced by Lilian Voss or Golden Kobold.",
+      "sourceIds": [
+        "p110"
+      ],
+      "classification": "functional_rule_or_bugfix_separate_from_card_specs",
+      "confidence": "high",
+      "limits": "No first-match raw game log or replay was inspected."
+    },
+    {
+      "id": "KAR_114",
+      "dbfId": 39941,
+      "nameKo": "반즈",
+      "nameEn": "Barnes",
+      "effectiveKoreanDay": "2018-08-03",
+      "patch": "12.0",
+      "description": "Deck-to-battlefield copied minions retain enchantments. Applies to Barnes copies under the general copying-rules update.",
+      "sourceIds": [
+        "copy_rules",
+        "p120"
+      ],
+      "classification": "functional_rule_or_bugfix_separate_from_card_specs",
+      "confidence": "high general rule; Barnes-specific effect corroborated by card history, no engine script inspected",
+      "limits": "No first-match raw game log or replay was inspected."
+    },
+    {
+      "id": "KAR_114",
+      "dbfId": 39941,
+      "nameKo": "반즈",
+      "nameEn": "Barnes",
+      "effectiveKoreanDay": "2019-08-02",
+      "patch": "15.0",
+      "description": "With Crystal Core active, Barnes now summons its specified 1/1 copy rather than a 4/4. Official patch explicitly uses Barnes as the example.",
+      "sourceIds": [
+        "p150"
+      ],
+      "classification": "functional_rule_or_bugfix_separate_from_card_specs",
+      "confidence": "high",
+      "limits": "No first-match raw game log or replay was inspected."
+    },
+    {
+      "id": "KAR_204",
+      "dbfId": 39374,
+      "nameKo": "칠흑색 비숍",
+      "nameEn": "Onyx Bishop",
+      "effectiveKoreanDay": "2019-08-02",
+      "patch": "15.0",
+      "description": "Onyx Bishop resurrects the minion to its own right, instead of at the far right end of the board.",
+      "sourceIds": [
+        "p150"
+      ],
+      "classification": "functional_rule_or_bugfix_separate_from_card_specs",
+      "confidence": "high",
+      "limits": "No first-match raw game log or replay was inspected."
+    },
+    {
+      "id": "KAR_712",
+      "dbfId": 39313,
+      "nameKo": "보랏빛 환영술사",
+      "nameEn": "Violet Illusionist",
+      "effectiveKoreanDay": "2023-04-05",
+      "patch": "26.0",
+      "description": "Health or Armor costs no longer count as damage; immunity does not prevent payment. Applies to Violet Illusionist through the general immunity rule.",
+      "sourceIds": [
+        "p260"
+      ],
+      "classification": "functional_rule_or_bugfix_separate_from_card_specs",
+      "confidence": "high general rule; exact card application inferred from its original immunity text",
+      "limits": "No first-match raw game log or replay was inspected."
+    },
+    {
+      "id": "KAR_041",
+      "dbfId": 39465,
+      "nameKo": "해자 잠복꾼",
+      "nameEn": "Moat Lurker",
+      "effectiveKoreanDay": "2023-07-29",
+      "patch": "27.0.1",
+      "description": "Fixed occasional re-summoning of the targeted minion on the wrong side of the board.",
+      "sourceIds": [
+        "moat_hotfix",
+        "moat_raw"
+      ],
+      "classification": "functional_rule_or_bugfix_separate_from_card_specs",
+      "confidence": "high official-announcement KST day; rollout completion not timestamped",
+      "limits": "First staff post says rolling out now. Creation 2023-07-28T 17:00:20.721Z=July 29 02:00:20 KST; edit 2023-07-28T 22:02:21.276Z=July 29 07:02:21 KST. This is active-rollout announcement day, not proof every server completed at that exact time."
+    }
+  ],
+  "rawAndUncertainObservations": [
+    {
+      "id": "KAR_097t",
+      "dbfId": 40360,
+      "nameKo": "아티쉬",
+      "build": "22611",
+      "associatedPatchDay": "2017-12-07",
+      "observation": "ELITE enum 114 absent in initial 13921 and present 1 in 22611. This is not by itself proof of a rarity-stat or visible frame change.",
+      "sources": [
+        "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+        "https://hearthstone.blizzard.com/ko-kr/news/21274279/12-7"
+      ],
+      "disposition": "Retain as raw-only uncertain display interpretation; do not add a confirmed balance event.",
+      "imagesInspected": false
+    },
+    {
+      "ids": [
+        "KAR_028",
+        "KAR_063",
+        "KAR_094a",
+        "KAR_097t"
+      ],
+      "build": "217964",
+      "observation": "Weapon durability representation moves from enum 187 to health enum 45; decode by card type. Do not call unchanged durability a balance change."
+    },
+    {
+      "ids": [
+        "KAR_035",
+        "KAR_075"
+      ],
+      "observation": "Healing numeric-marker changes and line wrapping/markup should be separated from numeric gameplay changes."
+    },
+    {
+      "id": "KAR_021",
+      "observation": "Potential basic-Totem generation pool changes in 20.0 and 29.0 were considered. Hero-power wording alone does not prove the exact original generator pool, so no new pool event is asserted."
+    },
+    {
+      "id": "KAR_041",
+      "observation": "A reported earlier 2016 copy/deathrattle hotfix needs a contemporary exact-date source before inclusion; not resolved here."
+    },
+    {
+      "ids": [
+        "KAR_005",
+        "KAR_005a",
+        "KAR_037",
+        "KAR_061",
+        "KAR_711"
+      ],
+      "observation": "Do not infer tribes from artwork or lore.2018 copying/tribe explainer keeps Grandmother and Wolf as Beast, Curator as Mech, and does not turn Arcane Giant or Avian Watcher into Elementals."
+    }
+  ],
+  "identityWarnings": [
+    "KAR_030 is the noncollectible Cellar Spider; KAR_030a is collectible Pantry Spider. Suffix heuristics are invalid.",
+    "KAR_010a Whelp 39692 is not an identically named Classic Whelp.",
+    "KAR_097t Atiesh 40360 is not the adventure/bossKARA_13_26 Atiesh 41569 or later reprint identities.",
+    "The 3 Kara Kazham tokens are matched by exact ID, stats and corresponding parent text, not solely prefix. Their direct engine generation edge was not inspected."
+  ],
+  "limitations": [
+    "No card images, video frames, raw ordinary-match gameplay logs or archived engine scripts were visually/semantically inspected in this report. Article image filenames and alt text do not count as image inspection.",
+    "Thirteen selected complete client archives were independently re-extracted for 57 original entities each. The wider localization transition inventory was cross-referenced, not claimed to be independently re-parsed in every intervening build here.",
+    "Client XML determines exact identity and observed state, not when server-side generation or access became enabled.",
+    "Localized wording can be unannounced. Its patch day is anchored independently, but a named official change statement may be absent.",
+    "Server-side bug fixes can occur between client archives. Functional events listed here are supported examples, not an exhaustive proof that none are missing.",
+    "Some secondary pages were inspected via indexed search text when direct page access failed. No unavailable image was treated as seen."
+  ]
+}

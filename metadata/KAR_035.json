@@ -1,0 +1,244 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "KAR_035",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2016-08-12",
+    "status": "verified",
+    "meaning": "First ordinary-match availability on Korean launch day.",
+    "wing": "객실",
+    "originalIdEvidence": "KAR_035",
+    "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+    "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+    "dateSources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+      "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+      "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+    ]
+  },
+  "availabilityScope": "Korean ordinary constructed-match use, including generated exact original entities. Preload, reveal and PvE do not count. Later-wing earliest-generation dates remain qualified.",
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "All57 original identities, initial numbers, Korean archive text and card types checked in launch archive. Noncollectible rarity, earlier-than-wing generation and unverified wording effective dates remain explicitly qualified.",
+  "sourceCommit": "537ecd58630a527af3dc2c8aef4badecd9d33972",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "KAR_035",
+      "dbfId": 39442,
+      "name": "만찬의 사제",
+      "type": "MINION",
+      "cardClass": "PRIEST",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 4,
+      "text": "[x]내가 주문을 시전할 때마다\n내 영웅의 생명력을\n#3 회복시킵니다.",
+      "attack": 3,
+      "health": 6,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "세계 정상급 치즈 케이크군요!",
+      "spellSchool": "",
+      "portrait": "HS8-094_M.psd:c28383ee5cef26d408b5452261c43307",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 6
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/KAR_035.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS8-094_M.psd:c28383ee5cef26d408b5452261c43307",
+      "goldenMaterial": "KAR_035_PremiumCard.mat:7023df4d9da8f8743b7bf31090728bb6",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "KAR_035",
+    "dbfId": 39442,
+    "name": "만찬의 사제",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "[x]내가 주문을 시전할 때마다\n내 영웅의 생명력을\n#3 회복시킵니다.",
+    "attack": 3,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "세계 정상급 치즈 케이크군요!",
+    "spellSchool": "",
+    "portrait": "HS8-094_M.psd:c28383ee5cef26d408b5452261c43307",
+    "set": "KARA",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 6
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/KAR_035.png"
+  },
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "historicalEvidence": [
+    {
+      "date": "2016-08-12",
+      "build": "6.0.0.13921",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "fields": [
+        "attack",
+        "cardClass",
+        "classes",
+        "collectible",
+        "cost",
+        "dbfId",
+        "health",
+        "id",
+        "mechanics",
+        "name",
+        "rarity",
+        "text",
+        "type"
+      ],
+      "availabilityStatus": "verified"
+    }
+  ],
+  "undatedEvidence": [],
+  "keywordAbilityEvidence": {
+    "source": "tools/karazhan-ability-policy.json"
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": []
+  },
+  "behaviorEvidence": "tools/karazhan-behavior-audit.json",
+  "sourceHistory": "tools/original-date-first-history.json"
+}

@@ -1,1 +1,17 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_006","dbfId":39492,"name":"망토 두른 여사냥꾼","type":"MINION","cardClass":"HUNTER","rarity":"COMMON","collectible":true,"cost":3,"text":"내 <b>비밀</b>의 비용이\n(0)이 됩니다.","attack":3,"health":4,"durability":0,"armor":0,"flavor":"이제 머리를 직접 말아보세요!","spellSchool":"","portrait":"HS8-077_D.psd:81b7edfdf73b9a54c91e061c4453e850","set":"KARA","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":3},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":219,"name":"비밀","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/KAR_006.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-077_D.psd:81b7edfdf73b9a54c91e061c4453e850","goldenMaterial":"KAR_006_PremiumCard.mat:79c648d91bcb04d4aa6d91d0ccb6b123","goldenAnimation":""}}
+{
+  "2016-08-12": {
+    "id": "KAR_006",
+    "dbfId": 39492,
+    "name": "망토 두른 여사냥꾼",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "classes": [],
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "내 <b>비밀</b>의 비용이<br></br>(0)이 됩니다.",
+    "attack": 3,
+    "health": 4,
+    "mechanics": []
+  }
+}

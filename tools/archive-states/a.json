@@ -1,0 +1,187 @@
+{
+  "a1b7a9bf8abed905ea1f": {
+    "Tag": {
+      "45": "1",
+      "47": "1",
+      "48": "1",
+      "183": "23",
+      "199": "4",
+      "202": "4",
+      "203": "3",
+      "218": "1",
+      "321": "1",
+      "1413": "58573"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39169,
+    "name": "나불대는 책",
+    "rawText": "[x]<b>전투의 함성:</b>\n무작위 마법사 주문을\n내 손으로 가져옵니다.",
+    "enText": "<b>Battlecry:</b> Add a random Mage spell to your hand."
+  },
+  "a2bcb9018c1c4cab6301": {
+    "Tag": {
+      "45": "2",
+      "47": "1",
+      "48": "1",
+      "183": "23",
+      "199": "7",
+      "200": "23",
+      "201": "3",
+      "202": "4",
+      "203": "1",
+      "218": "1",
+      "251": "1",
+      "321": "1",
+      "4533": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39698,
+    "name": "칼잡이 강도",
+    "rawText": "[x]<b>전투의 함성</b>:& 다른 직업의\n무작위 카드를\n내 손으로 가져옵니다.",
+    "enText": "<b>Battlecry:</b>& Add a random card from another class to_your hand."
+  },
+  "a2c2ca64ef5c637fb959": {
+    "Tag": {
+      "45": "6",
+      "47": "3",
+      "48": "6",
+      "183": "23",
+      "199": "12",
+      "200": "24",
+      "202": "4",
+      "203": "3",
+      "218": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39210,
+    "name": "고룡 독서가",
+    "rawText": "<b>전투의 함성:</b> 내 손에 용족이 있으면, 공격력이 3 이하인 적 하수인 하나를 처치합니다.",
+    "enText": "<b>Battlecry:</b> If you're holding a Dragon, destroy an enemy minion with 3 or less Attack."
+  },
+  "a48d69a5c802a6d8e44f": {
+    "Tag": {
+      "45": "4",
+      "47": "3",
+      "48": "5",
+      "183": "23",
+      "199": "6",
+      "202": "4",
+      "203": "3",
+      "218": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39374,
+    "name": "칠흑색 비숍",
+    "rawText": "<b>전투의 함성:</b> 이번 게임에서 죽은 아군 하수인 하나를 무작위로 소환합니다.",
+    "enText": "<b>Battlecry:</b> Summon a friendly minion that died this game."
+  },
+  "a64bd5d02f80a04619f6": {
+    "Tag": {
+      "45": "3",
+      "47": "3",
+      "48": "3",
+      "183": "23",
+      "199": "12",
+      "200": "17",
+      "202": "4",
+      "203": "1",
+      "218": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39839,
+    "name": "동물원로봇",
+    "rawText": "<b>전투의 함성:</b> 무작위 아군 야수, 용족, 멀록 하나에게 +1/+1을 부여합니다.",
+    "enText": "<b>Battlecry:</b> Give a random friendly Beast, Dragon, and Murloc +1/+1."
+  },
+  "a8578b1f5acf8e18d34b": {
+    "Tag": {
+      "48": "7",
+      "183": "23",
+      "199": "4",
+      "202": "5",
+      "203": "1",
+      "321": "1",
+      "1635": "2"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39715,
+    "name": "불의 땅 차원문",
+    "rawText": "피해를 $5 줍니다.\n비용이 5인 무작위\n하수인을 소환합니다.",
+    "enText": "Deal $5 damage. Summon a random\n5-Cost minion."
+  },
+  "aa56d27349ac9059d7f0": {
+    "Tag": {
+      "45": "8",
+      "47": "8",
+      "48": "12",
+      "183": "23",
+      "199": "12",
+      "202": "4",
+      "203": "4",
+      "321": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39426,
+    "name": "비전 거인",
+    "rawText": "이번 게임에서 내가 시전한 주문 하나당 비용이 (1)씩 감소합니다.",
+    "enText": "[x]Costs (1) less for each spell\nyou've cast this game."
+  },
+  "adbcea051628f2292129": {
+    "Tag": {
+      "45": "3",
+      "47": "3",
+      "48": "3",
+      "183": "23",
+      "199": "12",
+      "200": "17",
+      "202": "4",
+      "203": "1",
+      "218": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {},
+    "dbfId": 39839,
+    "name": "동물원로봇",
+    "rawText": "[x]<b>전투의 함성:</b> 무작위 아군\n야수, 용족, 멀록 하나에게\n각각 +1/+1을 부여합니다.",
+    "enText": "<b>Battlecry:</b> Give a random friendly Beast, Dragon, and Murloc +1/+1."
+  },
+  "af58afc53af4f1c2a099": {
+    "Tag": {
+      "48": "2",
+      "183": "23",
+      "199": "6",
+      "202": "5",
+      "203": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {
+      "339": "1"
+    },
+    "dbfId": 39468,
+    "name": "정화",
+    "rawText": "아군 하수인을 <b>침묵</b>시킵니다.\n카드를 뽑습니다.",
+    "enText": "<b>Silence</b> a friendly minion. Draw a card."
+  },
+  "afe6243ccaf105508f98": {
+    "Tag": {
+      "47": "1",
+      "48": "2",
+      "183": "23",
+      "187": "3",
+      "199": "8",
+      "202": "7",
+      "203": "1",
+      "321": "1"
+    },
+    "ReferencedTag": {
+      "192": "1"
+    },
+    "dbfId": 39694,
+    "name": "영혼 발톱",
+    "rawText": "내 <b>주문 공격력</b>이 증가한 상태일 때 공격력을 +2 얻습니다.",
+    "enText": "[x]Has +2 Attack while you\nhave <b>Spell Damage</b>."
+  }
+}

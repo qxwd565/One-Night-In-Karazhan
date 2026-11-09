@@ -1,0 +1,31 @@
+{
+  "result": "pass",
+  "builds": 234,
+  "identitiesPerBuild": 57,
+  "cardObservations": 13338,
+  "numericAssertions": 35802,
+  "numericSourcePresenceChecked": true,
+  "omittedZeroTags": {
+    "ids": [
+      "KAR_029",
+      "KAR_710m"
+    ],
+    "field": "attack",
+    "meaning": "Actual minions have implicit zero ATK in XML; card type and pinned zero-stat catalog confirm genuine attack0, unlike absent spell combat stats."
+  },
+  "displayBoundaryBuilds": 19,
+  "rawBoundaryBuilds": 30,
+  "latestUpstreamHead": "31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+  "allOriginalsInLaunchArchive": true,
+  "weaponStorageChange": {
+    "build": "32.0.0.217964",
+    "ids": [
+      "KAR_028",
+      "KAR_063",
+      "KAR_094a",
+      "KAR_097t"
+    ],
+    "meaning": "DURABILITY187 moved to HEALTH45; projected actual durability is unchanged. Not a gameplay change."
+  },
+  "limits": "234 selected archived builds are not every live build. Exact tags and raw strings are retained in hash-verified shared pools; live Korean dates come from separate sources."
+}

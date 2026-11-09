@@ -1,0 +1,263 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "KAR_070",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2016-09-02",
+    "status": "estimated",
+    "meaning": "Verified usable-no-later-than bound from global wing unlock; earlier ordinary-match generation not established, so strict earliest date remains unresolved.",
+    "wing": "첨탑",
+    "originalIdEvidence": "KAR_070",
+    "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 첨탑에서 잠금 해제",
+    "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+    "dateSources": [
+      "https://m.inven.co.kr/webzine/wznews.php?idx=163246&l=139442&p=43&site=hs"
+    ]
+  },
+  "availabilityScope": "Korean ordinary constructed-match use, including generated exact original entities. Preload, reveal and PvE do not count. Later-wing earliest-generation dates remain qualified.",
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "All57 original identities, initial numbers, Korean archive text and card types checked in launch archive. Noncollectible rarity, earlier-than-wing generation and unverified wording effective dates remain explicitly qualified.",
+  "sourceCommit": "537ecd58630a527af3dc2c8aef4badecd9d33972",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "KAR_070",
+      "dbfId": 39700,
+      "name": "에테리얼 행상인",
+      "type": "MINION",
+      "cardClass": "ROGUE",
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 5,
+      "text": "[x]<b>전투의 함성:</b> 내 손에 다른\n직업의 카드가 있으면,\n그 카드들의 비용을 (2)\n감소시킵니다.",
+      "attack": 5,
+      "health": 6,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "이 라그나로스가 \"진짜 정품\"이라고요?",
+      "spellSchool": "",
+      "portrait": "HS8-158_M.psd:39e9f5ce867b0a34abe299086c5c3cd1",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/KAR_070.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS8-158_M.psd:39e9f5ce867b0a34abe299086c5c3cd1",
+      "goldenMaterial": "KAR_070_PremiumCard.mat:5ba0ff61a7ecdc94aaff77e2973bf1cb",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "KAR_070",
+    "dbfId": 39700,
+    "name": "에테리얼 행상인",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "[x]<b>전투의 함성:</b> 내 손에 다른\n직업의 카드가 있으면,\n그 카드들의 비용을 (2)\n감소시킵니다.",
+    "attack": 5,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "이 라그나로스가 \"진짜 정품\"이라고요?",
+    "spellSchool": "",
+    "portrait": "HS8-158_M.psd:39e9f5ce867b0a34abe299086c5c3cd1",
+    "set": "KARA",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/KAR_070.png"
+  },
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "historicalEvidence": [
+    {
+      "date": "2016-09-02",
+      "build": "6.0.0.13921",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "fields": [
+        "attack",
+        "cardClass",
+        "classes",
+        "collectible",
+        "cost",
+        "dbfId",
+        "health",
+        "id",
+        "mechanics",
+        "name",
+        "rarity",
+        "text",
+        "type"
+      ],
+      "availabilityStatus": "estimated"
+    },
+    {
+      "date": "2016-10-21",
+      "build": "6.2.0.15181",
+      "source": "https://github.com/HearthSim/hsdata/blob/9b1b489dec1f2d44be1ce5d0a0e985d888ee6553/CardDefs.xml",
+      "dateSource": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20328179"
+      ],
+      "fields": [
+        "text"
+      ],
+      "kind": "bug_fix",
+      "dateConfidence": "high"
+    },
+    {
+      "date": "2017-07-11",
+      "build": "20022",
+      "source": "https://github.com/HearthSim/hsdata/blob/e3b02346a86a379c303b0452c461d4376e7a46ef/CardDefs.xml",
+      "dateSource": [
+        "https://news.blizzard.com/ko-kr/article/20904301/2017-7-11"
+      ],
+      "fields": [
+        "text"
+      ],
+      "kind": "card_change",
+      "dateConfidence": "high"
+    },
+    {
+      "date": "2018-04-11",
+      "build": "11.0.0.23966",
+      "source": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "dateSource": [
+        "https://hearthstone.blizzard.com/ko-kr/news/21694420/update-11-0-april-10-enter-the-witchwood/"
+      ],
+      "fields": [
+        "text"
+      ],
+      "kind": "keyword_wording",
+      "dateConfidence": "high"
+    }
+  ],
+  "undatedEvidence": [],
+  "keywordAbilityEvidence": {
+    "source": "tools/karazhan-ability-policy.json"
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "BATTLECRY"
+    ]
+  },
+  "behaviorEvidence": "tools/karazhan-behavior-audit.json",
+  "sourceHistory": "tools/original-date-first-history.json"
+}

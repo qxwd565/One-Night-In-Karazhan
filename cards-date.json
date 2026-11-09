@@ -1,0 +1,3763 @@
+{
+  "schema": 1,
+  "set": "One Night In Karazhan",
+  "cards": [
+    {
+      "flavor": "대신귀 여운고 양이를 드리겠 습니다",
+      "portrait": "HS8-085_M.psd:4dabb6246206e8241910e08fc0f97704",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 191,
+          "name": "은신",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 219,
+          "name": "비밀",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 39173
+        }
+      ],
+      "art": "art/KAR_004.png",
+      "id": "KAR_004",
+      "dbfId": 39160,
+      "name": "고양이 마술",
+      "type": "SPELL",
+      "cardClass": "HUNTER",
+      "classes": [],
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 2,
+      "text": "<b>비밀:</b> 상대편이 주문을 시전한 후에, <b>은신</b> 능력이 있는 4/2 표범을 소환합니다.",
+      "mechanics": [
+        "SECRET"
+      ],
+      "releasedAt": "2016-08-26",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "",
+      "portrait": "HS8-088_M.psd:f543fddde1e663d4196446f23e2e5b62",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 191,
+          "name": "은신",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 6
+        },
+        {
+          "id": 268,
+          "name": "게임 태그 268",
+          "value": 2
+        },
+        {
+          "id": 1584,
+          "name": "게임 태그 1584",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_004a.png",
+      "id": "KAR_004a",
+      "dbfId": 39173,
+      "name": "모자 쓴 고양이",
+      "type": "MINION",
+      "cardClass": "HUNTER",
+      "classes": [],
+      "rarity": null,
+      "collectible": false,
+      "cost": 3,
+      "text": "<b>은신</b>",
+      "attack": 4,
+      "health": 2,
+      "races": [
+        "BEAST"
+      ],
+      "race": "야수",
+      "mechanics": [
+        "STEALTH"
+      ],
+      "releasedAt": "2016-08-26",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "\"우와... 할머니는 침을 정말 많이 흘리시는군요.\"",
+      "portrait": "HS8-002_D.psd:39670a820334b4f41b3e396a487d8528",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 39161
+        }
+      ],
+      "art": "art/KAR_005.png",
+      "id": "KAR_005",
+      "dbfId": 39481,
+      "name": "인자한 할머니",
+      "type": "MINION",
+      "cardClass": "HUNTER",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 2,
+      "text": "<b>죽음의_메아리:</b> 3/2 커다란 나쁜 늑대를 소환합니다.",
+      "attack": 1,
+      "health": 1,
+      "races": [
+        "BEAST"
+      ],
+      "race": "야수",
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2016-08-19",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "",
+      "portrait": "HS8-003_D.psd:b87e4ebbabf0f5849acd79cb0002772c",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 1440,
+          "name": "선술집 단계",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_005a.png",
+      "id": "KAR_005a",
+      "dbfId": 39161,
+      "name": "커다란 나쁜 늑대",
+      "type": "MINION",
+      "cardClass": "HUNTER",
+      "classes": [],
+      "rarity": null,
+      "collectible": false,
+      "cost": 2,
+      "text": "",
+      "attack": 3,
+      "health": 2,
+      "races": [
+        "BEAST"
+      ],
+      "race": "야수",
+      "mechanics": [],
+      "releasedAt": "2016-08-19",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "이제 머리를 직접 말아보세요!",
+      "portrait": "HS8-077_D.psd:81b7edfdf73b9a54c91e061c4453e850",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 219,
+          "name": "비밀",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_006.png",
+      "id": "KAR_006",
+      "dbfId": 39492,
+      "name": "망토 두른 여사냥꾼",
+      "type": "MINION",
+      "cardClass": "HUNTER",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 3,
+      "text": "내 <b>비밀</b>의 비용이<br></br>(0)이 됩니다.",
+      "attack": 3,
+      "health": 4,
+      "mechanics": [],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "가장 좋아하는 책은 가시덤불 골짜기의 푸른 언덕입니다. 하루 종일 그 책에 대해 떠들더라고요.",
+      "portrait": "HS8-088_M.psd:4e2145c443f519042a998016cb5afe04",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_009.png",
+      "id": "KAR_009",
+      "dbfId": 39169,
+      "name": "나불대는 책",
+      "type": "MINION",
+      "cardClass": "MAGE",
+      "classes": [],
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 1,
+      "text": "<b>전투의 함성:</b><br></br>무작위 마법사 주문을<br></br>내 손으로 가져옵니다.",
+      "attack": 1,
+      "health": 2,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-08-26",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "원래는 아르카나고스의 기사단원이었지만 주인의 이름이 바뀌면서 기사단의 이름도 바뀐 경우입니다.",
+      "portrait": "HS8-090_M.psd:ad1fd4abf9beb4a4aa4b44f71c6d2f5b",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 39692
+        }
+      ],
+      "art": "art/KAR_010.png",
+      "id": "KAR_010",
+      "dbfId": 39477,
+      "name": "파멸의 어둠 기사단원",
+      "type": "MINION",
+      "cardClass": "PALADIN",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 3,
+      "text": "<b>전투의 함성:</b> 내 손에 용족이 있으면, 1/1 새끼용을 2마리 소환합니다.",
+      "attack": 2,
+      "health": 3,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-08-26",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "",
+      "portrait": "HS8-076_D.psd:89b988bd97a22af478ab6fbb41aa20c0",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 24
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 2355,
+          "name": "WHELP",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_010a.png",
+      "id": "KAR_010a",
+      "dbfId": 39692,
+      "name": "새끼용",
+      "type": "MINION",
+      "cardClass": "PALADIN",
+      "classes": [],
+      "rarity": null,
+      "collectible": false,
+      "cost": 1,
+      "text": "",
+      "attack": 1,
+      "health": 1,
+      "races": [
+        "DRAGON"
+      ],
+      "race": "용족",
+      "mechanics": [],
+      "releasedAt": "2016-08-26",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "아아, 가여운 안녕로봇이여! 그 익살맞은 몸짓, 그 세련된 맵시!",
+      "portrait": "HS8-114_M.psd:f6282bca47f22fa4a90c578d87617b53",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_011.png",
+      "id": "KAR_011",
+      "dbfId": 39476,
+      "name": "거만한 연기자",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 2,
+      "text": "<b>도발</b>",
+      "attack": 3,
+      "health": 2,
+      "mechanics": [
+        "TAUNT"
+      ],
+      "releasedAt": "2016-08-19",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "따뜻한 물에서 뽀득뽀득 씻기는 것보다 효과가 더 좋습니다!",
+      "portrait": "HS8-093_S.psd:970306ef023984455b745586ae45b42f",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 339,
+          "name": "침묵",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 5
+        }
+      ],
+      "art": "art/KAR_013.png",
+      "id": "KAR_013",
+      "dbfId": 39468,
+      "name": "정화",
+      "type": "SPELL",
+      "cardClass": "PRIEST",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 2,
+      "text": "아군 하수인을 <b>침묵</b>시킵니다.<br></br>카드를 뽑습니다.",
+      "mechanics": [],
+      "spellSchool": "HOLY",
+      "releasedAt": "2016-08-26",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "피해를 4 주면 처치할 수 있습니다. 머리 위에 집채를 떨어뜨리는 것도 한 방법입니다.",
+      "portrait": "HS8-100_M.psd:e8bc968b7d3938c4ca15838a58addcd9",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_021.png",
+      "id": "KAR_021",
+      "dbfId": 39190,
+      "name": "사악한 마녀",
+      "type": "MINION",
+      "cardClass": "SHAMAN",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 3,
+      "text": "내가 주문을 시전할 때마다 무작위 기본 토템을 소환합니다.",
+      "attack": 3,
+      "health": 4,
+      "mechanics": [],
+      "releasedAt": "2016-08-19",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "카드가에게 식사 준비를 하라고 시키면 이렇게 된답니다.",
+      "portrait": "HS8-104_S.psd:2affefd6db80af44f8058746f7dc2258",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_025.png",
+      "id": "KAR_025",
+      "dbfId": 39197,
+      "name": "카라 카잠!",
+      "type": "SPELL",
+      "cardClass": "WARLOCK",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 5,
+      "text": "1/1 양초, 2/2 빗자루,<br></br>3/3 찻주전자를<br></br>소환합니다.",
+      "mechanics": [],
+      "releasedAt": "2016-08-19",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "",
+      "portrait": "HS8-105_M.psd:56a7974dd167643408455fb4f66dd9aa",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "art": "art/KAR_025a.png",
+      "id": "KAR_025a",
+      "dbfId": 39199,
+      "name": "양초",
+      "type": "MINION",
+      "cardClass": "WARLOCK",
+      "classes": [],
+      "rarity": null,
+      "collectible": false,
+      "cost": 1,
+      "text": "",
+      "attack": 1,
+      "health": 1,
+      "mechanics": [],
+      "releasedAt": "2016-08-19",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "",
+      "portrait": "HS8-106_M.psd:980c3001be9bcf04e8afb40ba1f071c9",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "art": "art/KAR_025b.png",
+      "id": "KAR_025b",
+      "dbfId": 39198,
+      "name": "빗자루",
+      "type": "MINION",
+      "cardClass": "WARLOCK",
+      "classes": [],
+      "rarity": null,
+      "collectible": false,
+      "cost": 2,
+      "text": "",
+      "attack": 2,
+      "health": 2,
+      "mechanics": [],
+      "releasedAt": "2016-08-19",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "",
+      "portrait": "HS8-107_M.psd:c06e997a0c5fad04da66874506aab5ae",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "art": "art/KAR_025c.png",
+      "id": "KAR_025c",
+      "dbfId": 39200,
+      "name": "찻주전자",
+      "type": "MINION",
+      "cardClass": "WARLOCK",
+      "classes": [],
+      "rarity": null,
+      "collectible": false,
+      "cost": 3,
+      "text": "",
+      "attack": 3,
+      "health": 3,
+      "mechanics": [],
+      "releasedAt": "2016-08-19",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "폰들을 풀어라!",
+      "portrait": "HS8-062_S.psd:2f4c6458eae010f40a81c2fcc8348448",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 40501
+        }
+      ],
+      "art": "art/KAR_026.png",
+      "id": "KAR_026",
+      "dbfId": 39495,
+      "name": "왕을 지켜라!",
+      "type": "SPELL",
+      "cardClass": "WARRIOR",
+      "classes": [],
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 3,
+      "text": "적 하수인 하나당 <b>도발</b><br></br>능력이 있는 1/1 폰을<br></br>하나씩 소환합니다.",
+      "mechanics": [],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "",
+      "portrait": "HS8-056A_M.psd:37b1fd0dc45723b4fbd020f5ccfd2a45",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "art": "art/KAR_026t.png",
+      "id": "KAR_026t",
+      "dbfId": 40501,
+      "name": "폰",
+      "type": "MINION",
+      "cardClass": "WARRIOR",
+      "classes": [],
+      "rarity": null,
+      "collectible": false,
+      "cost": 1,
+      "text": "<b>도발</b>",
+      "attack": 1,
+      "health": 1,
+      "mechanics": [
+        "TAUNT"
+      ],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "일시적으로 얼음울음이 된 기분을 느낄 수 있습니다.",
+      "portrait": "HS8-109_W.psd:882beb0a05895144dab4782371cbf9f8",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_028.png",
+      "id": "KAR_028",
+      "dbfId": 39417,
+      "name": "바보의 파멸",
+      "type": "WEAPON",
+      "cardClass": "WARRIOR",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 5,
+      "text": "한 턴에 여러번<br></br>공격할 수 있습니다. 영웅을 공격할 수 없습니다.",
+      "attack": 3,
+      "durability": 4,
+      "mechanics": [],
+      "releasedAt": "2016-08-26",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "오믈렛을 만들어도 룬이 새겨져 있습니다!",
+      "portrait": "HS8-117_M.psd:19232e065ce404e41827f574f806b9b0",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_029.png",
+      "id": "KAR_029",
+      "dbfId": 39433,
+      "name": "룬이 새겨진 알",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 1,
+      "text": "<b>죽음의 메아리:</b><br></br>카드를 뽑습니다.",
+      "attack": 0,
+      "health": 2,
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2016-08-26",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "",
+      "portrait": "HS8-004_D.psd:2ce2dd549ee3f4c4dbc7d2b60fd85691",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "art": "art/KAR_030.png",
+      "id": "KAR_030",
+      "dbfId": 39206,
+      "name": "저장고 거미",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": null,
+      "collectible": false,
+      "cost": 3,
+      "text": "",
+      "attack": 1,
+      "health": 3,
+      "races": [
+        "BEAST"
+      ],
+      "race": "야수",
+      "mechanics": [],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "솔직히 말해, 꽤 귀여운 한쌍입니다.",
+      "portrait": "HS8-005_D.psd:36b6dcda47ad84c4fa6c503d5933527d",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 39206
+        }
+      ],
+      "art": "art/KAR_030a.png",
+      "id": "KAR_030a",
+      "dbfId": 39207,
+      "name": "식당 거미",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 3,
+      "text": "<b>전투의_함성:</b> 1/3 거미를 소환합니다.",
+      "attack": 1,
+      "health": 3,
+      "races": [
+        "BEAST"
+      ],
+      "race": "야수",
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "\"호빗\"이나 \"그렌델\" 같은 고전 비극을 즐겨 읽습니다.",
+      "portrait": "HS8-111_M.psd:e19e6cf689c19c546862a4a4e883704b",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 24
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_033.png",
+      "id": "KAR_033",
+      "dbfId": 39210,
+      "name": "고룡 독서가",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 6,
+      "text": "<b>전투의 함성:</b> 내 손에 용족이 있으면, 공격력이 3 이하인 적 하수인을 처치합니다.",
+      "attack": 3,
+      "health": 6,
+      "races": [
+        "DRAGON"
+      ],
+      "race": "용족",
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-09-02",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "세계 정상급 치즈 케이크군요!",
+      "portrait": "HS8-094_M.psd:c28383ee5cef26d408b5452261c43307",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 6
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_035.png",
+      "id": "KAR_035",
+      "dbfId": 39442,
+      "name": "만찬의 사제",
+      "type": "MINION",
+      "cardClass": "PRIEST",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 4,
+      "text": "내가 주문을 시전할 때마다<br></br>내 영웅의 생명력을<br></br>3 회복시킵니다.",
+      "attack": 3,
+      "health": 6,
+      "mechanics": [],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "마나 지룡과 함께 마력을 나눠먹습니다.",
+      "portrait": "HS8-112_M.psd:311d36dd617bab540ab0ccbea76dc8ad",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 18
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 6
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_036.png",
+      "id": "KAR_036",
+      "dbfId": 39215,
+      "name": "비전 변형물",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 1,
+      "text": "내가 주문을 시전한 후에, 이 하수인이 생명력을 +1 얻습니다.",
+      "attack": 2,
+      "health": 1,
+      "mechanics": [],
+      "races": [
+        "ELEMENTAL"
+      ],
+      "race": "정령",
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "자매품으로 올빼미 파수꾼도 있습니다. 무엇이 다르냐고요? 음...",
+      "portrait": "HS8-115_M.psd:11d7acf50536c9441915b00ae676d816",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 219,
+          "name": "비밀",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_037.png",
+      "id": "KAR_037",
+      "dbfId": 39489,
+      "name": "부엉이 파수꾼",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 5,
+      "text": "<b>전투의 함성:</b><br></br>내 전장에 <b>비밀</b>이<br></br>있으면, +1/+1과<br></br><b>도발</b>을 얻습니다.",
+      "attack": 3,
+      "health": 6,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-08-26",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "해자에서 불쑥 나타나며 사람들을 놀래키는 걸 즐깁니다.",
+      "portrait": "HS8-120_M.psd:a0d635cb1d257944882b32d9d3e7dbed",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_041.png",
+      "id": "KAR_041",
+      "dbfId": 39465,
+      "name": "해자 잠복꾼",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 6,
+      "text": "<b>전투의 함성:</b><br></br>하수인을 처치합니다.<br></br><b>죽음의_메아리:</b> 그 하수인을<br></br>다시 소환합니다.",
+      "attack": 3,
+      "health": 3,
+      "mechanics": [
+        "BATTLECRY",
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2016-08-19",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "모로스는 수많은 급사들을 관리하지만 결국 풍선을 부는 건 자신이라고 하더군요.",
+      "portrait": "HS8-008_D.psd:38454a2067afa1644beea90847f461b8",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 191,
+          "name": "은신",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 39232
+        }
+      ],
+      "art": "art/KAR_044.png",
+      "id": "KAR_044",
+      "dbfId": 39453,
+      "name": "모로스",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "LEGENDARY",
+      "collectible": true,
+      "cost": 3,
+      "text": "<b>은신</b>, 내 턴이 끝날 때, 1/1 급사를 소환합니다.",
+      "attack": 1,
+      "health": 1,
+      "mechanics": [
+        "STEALTH"
+      ],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "",
+      "portrait": "HS8-121_M.psd:1ed0e3c99fc69b746bb0ce837be31d84",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 7
+        }
+      ],
+      "art": "art/KAR_044a.png",
+      "id": "KAR_044a",
+      "dbfId": 39232,
+      "name": "급사",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": null,
+      "collectible": false,
+      "cost": 1,
+      "text": "",
+      "attack": 1,
+      "health": 1,
+      "mechanics": [],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "절대로 \"말\"이라고 부르지 마세요.",
+      "portrait": "HS8-092_M.psd:d23eebaf36efb3d47b2a82729fdbafc6",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "USE_DISCOVER_VISUALS",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_057.png",
+      "id": "KAR_057",
+      "dbfId": 39439,
+      "name": "상아색 나이트",
+      "type": "MINION",
+      "cardClass": "PALADIN",
+      "classes": [],
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 4,
+      "text": "<b>전투의 함성:</b><br></br>주문을 <b>발견</b>합니다. 그 카드의 비용만큼 내 영웅의 생명력을 회복시킵니다.",
+      "attack": 4,
+      "health": 4,
+      "mechanics": [
+        "BATTLECRY",
+        "DISCOVER"
+      ],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "야수에, 용족에, 멀록까지! 세상에!",
+      "portrait": "HS8-078_D.psd:5a4ad4c9794d3494f80cdeea73951fdc",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 17
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2589,
+          "name": "간판 카드 존재",
+          "value": 1
+        },
+        {
+          "id": 4533,
+          "name": "CRAFTABLE_OUTPUT_POWER",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_061.png",
+      "id": "KAR_061",
+      "dbfId": 39225,
+      "name": "전시 관리인",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "LEGENDARY",
+      "collectible": true,
+      "cost": 5,
+      "text": "<b>도발</b>, <b>전투의 함성</b>:<br></br>야수, 용족, 멀록을 뽑습니다.",
+      "attack": 4,
+      "health": 6,
+      "races": [
+        "MECHANICAL"
+      ],
+      "race": "기계",
+      "mechanics": [
+        "BATTLECRY",
+        "TAUNT"
+      ],
+      "releasedAt": "2016-08-26",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "수많은 사람들에 대한 역사를 모두 알고 있습니다. 대부분은 녹색 광선을 막지 않아 세상을 떠난 사람들이지만요.",
+      "portrait": "HS8-113_M.psd:cb2eeca13d24fd840bac31d76a21944b",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "USE_DISCOVER_VISUALS",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_062.png",
+      "id": "KAR_062",
+      "dbfId": 39554,
+      "name": "황천의 원령 역사가",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 2,
+      "text": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>용족을 <b>발견</b>합니다.",
+      "attack": 2,
+      "health": 3,
+      "mechanics": [
+        "BATTLECRY",
+        "DISCOVER"
+      ],
+      "releasedAt": "2016-09-02",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "영혼 엄지 손가락은 어디있는 거죠? 이러면 '좋아요'를 누를 수 없잖습니까!",
+      "portrait": "HS8-102_D.psd:e1c7998f1d64ef14cbc8dbc56fcade44",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 192,
+          "name": "주문 공격력",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_063.png",
+      "id": "KAR_063",
+      "dbfId": 39694,
+      "name": "영혼 발톱",
+      "type": "WEAPON",
+      "cardClass": "SHAMAN",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 1,
+      "text": "내 <b>주문 공격력</b>이 증가한 상태면 공격력을<br></br>+2 얻습니다.",
+      "attack": 1,
+      "durability": 3,
+      "mechanics": [],
+      "releasedAt": "2016-09-02",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "제발 허락해 주세요! 제가 <i>매일</i>마다 우리도 청소해주고 밥도 잘 줄게요!",
+      "portrait": "HS8-084_M.psd:84678e0011c622248a07f86bc5533997",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_065.png",
+      "id": "KAR_065",
+      "dbfId": 39696,
+      "name": "박물관 감시자",
+      "type": "MINION",
+      "cardClass": "DRUID",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 5,
+      "text": "<b>전투의 함성:</b> 아군 야수를 선택합니다. 그 야수를 복사하여 소환합니다.",
+      "attack": 5,
+      "health": 4,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-08-26",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "목숨을 버리면 네 직업의 카드는 살려주마.",
+      "portrait": "HS8-097_M.psd:7ec00ea8f4652874b89c1858bbc4e033",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 23
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 4533,
+          "name": "CRAFTABLE_OUTPUT_POWER",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_069.png",
+      "id": "KAR_069",
+      "dbfId": 39698,
+      "name": "칼잡이 강도",
+      "type": "MINION",
+      "cardClass": "ROGUE",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 1,
+      "text": "<b>전투의 함성</b>: 다른 직업의<br></br>무작위 카드를<br></br>내 손으로 가져옵니다.",
+      "attack": 1,
+      "health": 2,
+      "races": [
+        "PIRATE"
+      ],
+      "race": "해적",
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-08-19",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "이 라그나로스가 \"진짜 정품\"이라고요?",
+      "portrait": "HS8-158_M.psd:39e9f5ce867b0a34abe299086c5c3cd1",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_070.png",
+      "id": "KAR_070",
+      "dbfId": 39700,
+      "name": "에테리얼 행상인",
+      "type": "MINION",
+      "cardClass": "ROGUE",
+      "classes": [],
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 5,
+      "text": "<b>전투의 함성:</b> 내 손에 다른<br></br>직업의 카드가 있으면,<br></br>그 카드들의 비용을 (2)<br></br>감소시킵니다.",
+      "attack": 5,
+      "health": 6,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-09-02",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "아주 유명한 휴양지라고 광고합니다. 그런데 왜 선불을 고집할까요.",
+      "portrait": "HS8-101_S.psd:10915722ff68df64aa52964d7ba57707",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 4
+        }
+      ],
+      "art": "art/KAR_073.png",
+      "id": "KAR_073",
+      "dbfId": 39712,
+      "name": "혼돈의 소용돌이 차원문",
+      "type": "SPELL",
+      "cardClass": "SHAMAN",
+      "classes": [],
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 2,
+      "text": "모든 적 하수인에게 피해를 1 줍니다.<br></br>비용이 1인 무작위 하수인을 소환합니다.",
+      "mechanics": [],
+      "spellSchool": "NATURE",
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "달숲에서 열리는 파티는 정말 특별하답니다. 이따금씩 곰이 출몰하거든요.",
+      "portrait": "HS8-083_S.psd:6721597bd0421bc46b92310e77c63c65",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 4
+        }
+      ],
+      "art": "art/KAR_075.png",
+      "id": "KAR_075",
+      "dbfId": 39714,
+      "name": "달숲 차원문",
+      "type": "SPELL",
+      "cardClass": "DRUID",
+      "classes": [],
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 6,
+      "text": "생명력을 6 회복시킵니다. 비용이 6인 무작위 하수인을 소환합니다.",
+      "mechanics": [],
+      "spellSchool": "NATURE",
+      "releasedAt": "2016-09-02",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "불의 땅으로 오세요! 심연의 구렁보다 <i>훨씬</i> 아름다운 곳이랍니다!",
+      "portrait": "HS8-089_S.psd:fb92344501df69d489b7d86c86637c98",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 2
+        }
+      ],
+      "art": "art/KAR_076.png",
+      "id": "KAR_076",
+      "dbfId": 39715,
+      "name": "불의 땅 차원문",
+      "type": "SPELL",
+      "cardClass": "MAGE",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 7,
+      "text": "피해를 6 줍니다.<br></br>비용이 6인 무작위<br></br>하수인을 소환합니다.",
+      "mechanics": [],
+      "spellSchool": "FIRE",
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "밀하우스 마나스톰이 왜 실버문에 있을까요?",
+      "portrait": "HS8-091_S.psd:b9b31547a932c4a47b3dc3136df53385",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 5
+        }
+      ],
+      "art": "art/KAR_077.png",
+      "id": "KAR_077",
+      "dbfId": 39716,
+      "name": "실버문 차원문",
+      "type": "SPELL",
+      "cardClass": "PALADIN",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 3,
+      "text": "하수인에게 +2/+2를 부여합니다. 비용이 2인 무작위 하수인을 소환합니다.",
+      "mechanics": [],
+      "spellSchool": "HOLY",
+      "releasedAt": "2016-08-19",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "말체자르에게는 도비라는 임프 심부름꾼이 있었습니다. 하지만 아주 비극적인 사고가 있었죠.",
+      "portrait": "HS8-007_D.psd:5399749eb71aedd4da2adc53f4300a8a",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 15
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1965,
+          "name": "IMP",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_089.png",
+      "id": "KAR_089",
+      "dbfId": 39740,
+      "name": "말체자르의 임프",
+      "type": "MINION",
+      "cardClass": "WARLOCK",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 2,
+      "text": "내가 카드를 버릴 때마다 카드를 뽑습니다.",
+      "attack": 1,
+      "health": 3,
+      "races": [
+        "DEMON"
+      ],
+      "race": "악마",
+      "mechanics": [],
+      "releasedAt": "2016-09-02",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "철로 된 제련소에서 철을 제련하는 아름다운 아이언포지로 오세요!",
+      "portrait": "HS8-108_D.psd:46f4aa442e631fb44be634e05f24a026",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 2
+        }
+      ],
+      "art": "art/KAR_091.png",
+      "id": "KAR_091",
+      "dbfId": 39747,
+      "name": "아이언포지 차원문",
+      "type": "SPELL",
+      "cardClass": "WARRIOR",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 4,
+      "text": "방어도를 +4 얻습니다.<br></br>비용이 4인 무작위<br></br>하수인을 소환합니다.",
+      "mechanics": [],
+      "spellSchool": "FIRE",
+      "releasedAt": "2016-09-02",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "\"메디브 님, 말씀하신대로 불타는 풍선을 가져왔습니다.\"",
+      "portrait": "HS8-087_M.psd:504db1399ec49e843b29cb11cf27a37d",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 219,
+          "name": "비밀",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_092.png",
+      "id": "KAR_092",
+      "dbfId": 39767,
+      "name": "메디브의 하인",
+      "type": "MINION",
+      "cardClass": "MAGE",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 2,
+      "text": "<b>전투의 함성:</b><br></br>내 전장에 <b>비밀</b>이 있으면,<br></br>피해를 3 줍니다.",
+      "attack": 2,
+      "health": 3,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-09-02",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "올바른 순서를 원한다면 치명적인 포크를 메인 코스용 포크보다 먼저 두되 샐러드 포크보다는 나중에 둬야 합니다.",
+      "portrait": "HS8-098_M.psd:010b638b1e382be4aadd846afe2052ba",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 39821
+        }
+      ],
+      "art": "art/KAR_094.png",
+      "id": "KAR_094",
+      "dbfId": 39822,
+      "name": "치명적인 포크",
+      "type": "MINION",
+      "cardClass": "ROGUE",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 3,
+      "text": "<b>죽음의 메아리:</b> 3/2 무기를 내 손으로 가져옵니다.",
+      "attack": 3,
+      "health": 2,
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "",
+      "portrait": "HS8-099_W.psd:fec2af28ed2001b49b250effbdc95b84",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "art": "art/KAR_094a.png",
+      "id": "KAR_094a",
+      "dbfId": 39821,
+      "name": "날카로운 포크",
+      "type": "WEAPON",
+      "cardClass": "ROGUE",
+      "classes": [],
+      "rarity": null,
+      "collectible": false,
+      "cost": 3,
+      "text": "",
+      "attack": 3,
+      "durability": 2,
+      "mechanics": [],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "멀록은 왜 없냐고요? 이 사진을 찍고 있었거든요.",
+      "portrait": "HS8-161_D.psd:685c8ba165e455c44bfc25a12432dd83",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 17
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1429,
+          "name": "전장 황금 하수인 ID",
+          "value": 59489
+        },
+        {
+          "id": 1440,
+          "name": "선술집 단계",
+          "value": 2
+        }
+      ],
+      "art": "art/KAR_095.png",
+      "id": "KAR_095",
+      "dbfId": 39839,
+      "name": "동물원로봇",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 3,
+      "text": "<b>전투의 함성:</b> 무작위 아군 야수, 용족, 멀록에게 각각 +1/+1을 부여합니다.",
+      "attack": 3,
+      "health": 3,
+      "races": [
+        "MECHANICAL"
+      ],
+      "race": "기계",
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-08-26",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "벼룩시장에서 피의 울음소리를 구해서 정말 기뻐하더군요! 그게 모조품이라는 사실을 알기 전까지는 말이죠.",
+      "portrait": "HS8-131_D.psd:49618efde5b878f4282c90b1f2ee7959",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 15
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 968,
+          "name": "START_OF_GAME_KEYWORD",
+          "value": 1
+        },
+        {
+          "id": 2936,
+          "name": "게임 태그 2936",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_096.png",
+      "id": "KAR_096",
+      "dbfId": 39840,
+      "name": "공작 말체자르",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "LEGENDARY",
+      "collectible": true,
+      "cost": 5,
+      "text": "<b>개전:</b> 무작위 <b>전설</b> 하수인 다섯을 내 덱에 섞어 넣습니다.",
+      "attack": 5,
+      "health": 6,
+      "races": [
+        "DEMON"
+      ],
+      "race": "악마",
+      "mechanics": [
+        "START_OF_GAME"
+      ],
+      "releasedAt": "2016-09-02",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "지금도 유쾌하지만, 오크들이 초대되면 파티가 더욱 재밌어질 겁니다!",
+      "portrait": "HS8-012_M.psd:d0313ab8012aabd4c8de9fe9f14d2628",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 7
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 8
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 40360
+        }
+      ],
+      "art": "art/KAR_097.png",
+      "id": "KAR_097",
+      "dbfId": 39841,
+      "name": "수호자 메디브",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "LEGENDARY",
+      "collectible": true,
+      "cost": 8,
+      "text": "<b>전투의 함성:</b> 아티쉬 - 수호자의 지팡이를 장착합니다.",
+      "attack": 7,
+      "health": 7,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-09-02",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "",
+      "portrait": "HS8-157_W.psd:647fa5741abcbca42b4d454999583deb",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "art": "art/KAR_097t.png",
+      "id": "KAR_097t",
+      "dbfId": 40360,
+      "name": "아티쉬",
+      "type": "WEAPON",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": null,
+      "collectible": false,
+      "cost": 3,
+      "text": "내가 주문을 시전한 후에,<br></br>같은 비용의 무작위<br></br>하수인을 소환하고<br></br>내구도를 1 잃습니다.",
+      "attack": 1,
+      "durability": 3,
+      "mechanics": [],
+      "releasedAt": "2016-09-02",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "원래는 모든 역할을 전부 본인이 연기했습니다. 그러다가 모로스가 그의 교란의 보주를 압수했죠.",
+      "portrait": "HS8-130_M.tif:81dd1f68fe1f42142976ccdc92085fa2",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2589,
+          "name": "간판 카드 존재",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_114.png",
+      "id": "KAR_114",
+      "dbfId": 39941,
+      "name": "반즈",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "LEGENDARY",
+      "collectible": true,
+      "cost": 5,
+      "text": "<b>전투의 함성:</b> 내 덱에서 무작위 하수인을 복사하여 1/1 하수인으로 소환합니다.",
+      "attack": 3,
+      "health": 4,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-08-19",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "B4는 들르기엔 괜찮은 곳이지만 살 만한 곳은 못됩니다.",
+      "portrait": "HS8-095_M.psd:36d7c6f401d955149a1f5bd7f9bc0391",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_204.png",
+      "id": "KAR_204",
+      "dbfId": 39374,
+      "name": "칠흑색 비숍",
+      "type": "MINION",
+      "cardClass": "PRIEST",
+      "classes": [],
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 4,
+      "text": "<b>전투의 함성:</b> 이번 게임에서 죽은 무작위 아군 하수인을 소환합니다.",
+      "attack": 3,
+      "health": 4,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-08-19",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "스위스 국방부의 연구소에서 비밀리에 만들어졌습니다.",
+      "portrait": "HS8-103_M.psd:850fb72d321d526429da693fc00689ff",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 335,
+          "name": "게임 태그 335",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_205.png",
+      "id": "KAR_205",
+      "dbfId": 39380,
+      "name": "식기 골렘",
+      "type": "MINION",
+      "cardClass": "WARLOCK",
+      "classes": [],
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 3,
+      "text": "이 하수인을 버리면,<br></br>이 하수인을 소환합니다.",
+      "attack": 3,
+      "health": 4,
+      "mechanics": [],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "곡물을 가져와라! 내겐 곡물이 필요하다!",
+      "portrait": "HS8-001_D.psd:07ca18ab866508a47b6e76aa2fcbfa1c",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_300.png",
+      "id": "KAR_300",
+      "dbfId": 39350,
+      "name": "마력 깃든 까마귀",
+      "type": "MINION",
+      "cardClass": "DRUID",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 1,
+      "text": "",
+      "attack": 2,
+      "health": 2,
+      "races": [
+        "BEAST"
+      ],
+      "race": "야수",
+      "mechanics": [],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "이건 비밀인데, 카라잔의 재정 상황에 악화되면 박물관 마술사가 가장 먼저 정리 해고될 겁니다.",
+      "portrait": "HS8-118_M.psd:a0b8aa9b7e040cf4f98c3cbe35450f41",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1429,
+          "name": "전장 황금 하수인 ID",
+          "value": 59510
+        },
+        {
+          "id": 1440,
+          "name": "선술집 단계",
+          "value": 4
+        }
+      ],
+      "art": "art/KAR_702.png",
+      "id": "KAR_702",
+      "dbfId": 39269,
+      "name": "박물관 마술사",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 5,
+      "text": "<b>전투의 함성:</b> 무작위 아군 야수, 용족, 멀록에게 각각 +2/+2를 부여합니다.",
+      "attack": 4,
+      "health": 4,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-08-26",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "사실은 그저 대장장이일 뿐인데 호칭이 인상적이면 의뢰가 더 많이 들어온다고 하더군요.",
+      "portrait": "HS8-030_D.psd:b078e561b7bb8904a837b0ce5fcb8134",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 39308
+        }
+      ],
+      "art": "art/KAR_710.png",
+      "id": "KAR_710",
+      "dbfId": 39491,
+      "name": "비전장인",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 4,
+      "text": "<b>전투의 함성:</b> 0/5 <b>도발</b> 하수인을 소환합니다.",
+      "attack": 3,
+      "health": 2,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "",
+      "portrait": "HS8-031_D.psd:8eec06669159e50458d67408c85d72c0",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "art": "art/KAR_710m.png",
+      "id": "KAR_710m",
+      "dbfId": 39308,
+      "name": "살아 움직이는 방패",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": null,
+      "collectible": false,
+      "cost": 2,
+      "text": "<b>도발</b>",
+      "attack": 0,
+      "health": 5,
+      "mechanics": [
+        "TAUNT"
+      ],
+      "releasedAt": "2016-08-12",
+      "releaseStatus": "verified"
+    },
+    {
+      "flavor": "카라잔의 지맥에 끌려 여기까지 왔다고 합니다. 사실은 모로스의 요리 솜씨에 반한 것이지만요.",
+      "portrait": "HS8-119_M.psd:c09ae8a13dc3276499e497ec2d328fcd",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 8
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 12
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_711.png",
+      "id": "KAR_711",
+      "dbfId": 39426,
+      "name": "비전 거인",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "EPIC",
+      "collectible": true,
+      "cost": 12,
+      "text": "이번 게임에서 내가 시전한 주문 하나당 비용이 (1)씩 감소합니다.",
+      "attack": 8,
+      "health": 8,
+      "mechanics": [],
+      "releasedAt": "2016-08-19",
+      "releaseStatus": "estimated"
+    },
+    {
+      "flavor": "개명을 한 이후로 아주 만족스러운 삶을 살고 있다고 하네요.",
+      "portrait": "HS8-029_D.psd:bebd04eb9d1ed804a88d3e630ffaabda",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 240,
+          "name": "면역",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "지속 효과",
+          "value": 1
+        }
+      ],
+      "art": "art/KAR_712.png",
+      "id": "KAR_712",
+      "dbfId": 39313,
+      "name": "보랏빛 환영술사",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 3,
+      "text": "내 턴 동안 내 영웅이<br></br><b>면역</b> 상태가 됩니다.",
+      "attack": 4,
+      "health": 3,
+      "mechanics": [],
+      "releasedAt": "2016-09-02",
+      "releaseStatus": "estimated"
+    }
+  ]
+}

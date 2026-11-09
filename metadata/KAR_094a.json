@@ -1,0 +1,201 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "KAR_094a",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2016-08-12",
+    "status": "verified",
+    "meaning": "First ordinary-match availability on Korean launch day.",
+    "wing": "객실",
+    "originalIdEvidence": "KAR_094",
+    "koreanUnlockQuote": "한여름 밤의 카라잔 모험의 객실에서 잠금 해제",
+    "source": "https://github.com/HearthSim/hsdata/blob/a1918ddc9710464419c983c1039094c5f35df984/CardDefs.xml",
+    "dateSources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+      "https://hearthstone.blizzard.com/ko-kr/news/20228505",
+      "https://www.inven.co.kr/webzine/news/?news=162000&vtype=pc"
+    ]
+  },
+  "availabilityScope": "Korean ordinary constructed-match use, including generated exact original entities. Preload, reveal and PvE do not count. Later-wing earliest-generation dates remain qualified.",
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "All57 original identities, initial numbers, Korean archive text and card types checked in launch archive. Noncollectible rarity, earlier-than-wing generation and unverified wording effective dates remain explicitly qualified.",
+  "sourceCommit": "537ecd58630a527af3dc2c8aef4badecd9d33972",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "KAR_094a",
+      "dbfId": 39821,
+      "name": "날카로운 포크",
+      "type": "WEAPON",
+      "cardClass": "ROGUE",
+      "rarity": null,
+      "collectible": false,
+      "cost": 3,
+      "text": "",
+      "attack": 3,
+      "health": 2,
+      "durability": 2,
+      "armor": 0,
+      "flavor": "",
+      "spellSchool": "",
+      "portrait": "HS8-099_W.psd:fec2af28ed2001b49b250effbdc95b84",
+      "set": "KARA",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/KAR_094a.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS8-099_W.psd:fec2af28ed2001b49b250effbdc95b84",
+      "goldenMaterial": "KAR_094a_PremiumCard.mat:0ef4a34d51f261c4ca7db6e7681adb1f",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "KAR_094a",
+    "dbfId": 39821,
+    "name": "날카로운 포크",
+    "type": "WEAPON",
+    "cardClass": "ROGUE",
+    "rarity": null,
+    "collectible": false,
+    "cost": 3,
+    "text": "",
+    "attack": 3,
+    "health": 2,
+    "durability": 2,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS8-099_W.psd:fec2af28ed2001b49b250effbdc95b84",
+    "set": "KARA",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/KAR_094a.png"
+  },
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "durability",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "flavor",
+    "health",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "historicalEvidence": [
+    {
+      "date": "2016-08-12",
+      "build": "6.0.0.13921",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "fields": [
+        "attack",
+        "cardClass",
+        "classes",
+        "collectible",
+        "cost",
+        "dbfId",
+        "durability",
+        "id",
+        "mechanics",
+        "name",
+        "rarity",
+        "text",
+        "type"
+      ],
+      "availabilityStatus": "verified"
+    }
+  ],
+  "undatedEvidence": [],
+  "keywordAbilityEvidence": {
+    "source": "tools/karazhan-ability-policy.json"
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": []
+  },
+  "behaviorEvidence": "tools/karazhan-behavior-audit.json",
+  "sourceHistory": "tools/original-date-first-history.json",
+  "fieldUncertainty": {
+    "rarity": {
+      "status": "unresolved-historical-display",
+      "retainedValue": null,
+      "meaning": "Pinned exporter value retained. Raw archive rarity tags and absence remain observations, not proof of dated visible rarity change."
+    }
+  }
+}

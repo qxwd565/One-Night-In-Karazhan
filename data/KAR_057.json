@@ -1,1 +1,26 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"KAR_057","dbfId":39439,"name":"상아색 나이트","type":"MINION","cardClass":"PALADIN","rarity":"RARE","collectible":true,"cost":4,"text":"<b>전투의 함성:</b>\n주문을 <b>발견</b>합니다. 그 카드의 비용만큼 내 영웅의 생명력을 회복시킵니다.","attack":4,"health":4,"durability":0,"armor":0,"flavor":"절대로 \"말\"이라고 부르지 마세요.","spellSchool":"","portrait":"HS8-092_M.psd:d23eebaf36efb3d47b2a82729fdbafc6","set":"KARA","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":4},{"id":199,"name":"직업","value":5},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1},{"id":415,"name":"발견","value":1},{"id":1342,"name":"USE_DISCOVER_VISUALS","value":1}],"races":[],"race":"","classes":[],"art":"art/KAR_057.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS8-092_M.psd:d23eebaf36efb3d47b2a82729fdbafc6","goldenMaterial":"KAR_057_PremiumCard.mat:d84a87f8b7a1d6e4f9eca7522aac0517","goldenAnimation":""}}
+{
+  "2016-08-12": {
+    "id": "KAR_057",
+    "dbfId": 39439,
+    "name": "상아색 나이트",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "classes": [],
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>전투의 함성:</b> 주문을 하나 <b>발견</b>합니다. 그 카드의 비용만큼 내 영웅의 생명력을 회복시킵니다.",
+    "attack": 4,
+    "health": 4,
+    "mechanics": [
+      "BATTLECRY",
+      "DISCOVER"
+    ]
+  },
+  "2018-10-03": {
+    "text": "<b>전투의 함성:</b><br></br>주문을 <b>발견</b>합니다. 그 카드의 비용만큼 내 영웅의 생명력을 회복시킵니다."
+  },
+  "2023-08-23": {
+    "cost": 4
+  }
+}
